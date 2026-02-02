@@ -1,0 +1,15 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": [
+    "Tubiao Bot"
+  ],
+  "tags": [
+    "string",
+    "type",
+    "float",
+    "单精度浮点"
+  ],
+  "categories": [
+    "ui"
+  ]
+}

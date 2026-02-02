@@ -1,0 +1,23 @@
+/**
+ * @license lucide-react v0.0.1 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+
+import createLucideIcon from '../createLucideIcon.js';
+
+const __iconNode = [
+  [
+    "path",
+    {
+      d: "M2 0.5C2.27614 0.5 2.5 0.723858 2.5 1H9.5C9.5 0.723858 9.72386 0.5 10 0.5H11C11.2761 0.5 11.5 0.723858 11.5 1V2C11.5 2.27614 11.2761 2.5 11 2.5V9.5C11.2761 9.5 11.5 9.72386 11.5 10V11C11.5 11.2761 11.2761 11.5 11 11.5H10C9.72386 11.5 9.5 11.2761 9.5 11H2.5C2.5 11.2761 2.27614 11.5 2 11.5H1C0.723858 11.5 0.5 11.2761 0.5 11V10C0.5 9.72386 0.723858 9.5 1 9.5V2.5C0.723858 2.5 0.5 2.27614 0.5 2V1C0.5 0.723858 0.723858 0.5 1 0.5H2ZM2.49023 2.10059C2.44371 2.32855 2.24171 2.5 2 2.5V9.5L2.10059 9.50977C2.32855 9.55629 2.5 9.75829 2.5 10H9.5C9.5 9.72386 9.72386 9.5 10 9.5V2.5C9.72386 2.5 9.5 2.27614 9.5 2H2.5L2.49023 2.10059ZM4 9H3V8H4V9ZM7 3C7.55228 3 8 3.44772 8 4V8H9V9H5V8H7V4H6V3H7Z",
+      fill: "#666666",
+      key: "d0ocay"
+    }
+  ]
+];
+const StringTypeBigDeciaml = createLucideIcon("string-type-big-deciaml", __iconNode);
+
+export { __iconNode, StringTypeBigDeciaml as default };
+//# sourceMappingURL=string-type-big-deciaml.js.map

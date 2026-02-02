@@ -8,7 +8,7 @@ describe('Using DynamicIcon Component', () => {
     let container: RenderResult['container'];
 
     await act(async () => {
-      const result = render(<DynamicIcon name="smile" />);
+      const result = render(<DynamicIcon name="search" />);
 
       container = result.container;
     });
@@ -23,7 +23,7 @@ describe('Using DynamicIcon Component', () => {
     let container: RenderResult['container'];
 
     await act(async () => {
-      const result = render(<DynamicIcon name="home" />);
+      const result = render(<DynamicIcon name="edit" />);
 
       container = result.container;
     });
@@ -35,7 +35,7 @@ describe('Using DynamicIcon Component', () => {
   });
 
   it('should render icon and match snapshot', async () => {
-    const { container } = render(<DynamicIcon name="circle" />);
+    const { container } = render(<DynamicIcon name="delete" />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
@@ -43,7 +43,7 @@ describe('Using DynamicIcon Component', () => {
   it('should adjust the style based', async () => {
     const { container } = render(
       <DynamicIcon
-        name="circle"
+        name="delete"
         size={48}
         stroke="red"
         absoluteStrokeWidth

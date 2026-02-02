@@ -1,0 +1,14 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": [
+    "Tubiao Bot"
+  ],
+  "tags": [
+    "tool",
+    "maintenance",
+    "维修"
+  ],
+  "categories": [
+    "ui"
+  ]
+}

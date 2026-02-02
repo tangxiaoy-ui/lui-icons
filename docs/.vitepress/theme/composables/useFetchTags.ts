@@ -1,12 +1,14 @@
-import { useFetch } from '@vueuse/core';
+import { ref } from 'vue';
+import iconTags from '../../data/iconTagsIndex.json';
 
-const useFetchTags = () =>
-  useFetch<Record<string, string[]>>(
-    `${import.meta.env.DEV ? 'http://localhost:3000' : ''}/api/tags`,
-    {
-      immediate:
-        typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('search'),
-    },
-  ).json();
+const useFetchTags = () => {
+  return {
+    data: ref(iconTags),
+    isFinished: ref(true),
+    error: ref(null),
+    statusCode: ref(200),
+    execute: () => {},
+  };
+};
 
 export default useFetchTags;

@@ -1,0 +1,932 @@
+{
+  "annotate-cc": [
+    "annotate",
+    "c",
+    "cc"
+  ],
+  "annotate-sign": [
+    "annotate",
+    "sign"
+  ],
+  "arrow-double-left": [
+    "arrow",
+    "double",
+    "left",
+    "箭头左",
+    "double-arrow"
+  ],
+  "arrow-double-right": [
+    "arrow",
+    "double",
+    "right",
+    "arrow-right",
+    "double-arrow"
+  ],
+  "arrow-down": [
+    "arrow",
+    "down",
+    "arrow-down"
+  ],
+  "arrow-left": [
+    "arrow",
+    "left",
+    "箭头左"
+  ],
+  "arrow-right": [
+    "arrow",
+    "right",
+    "arrow-right"
+  ],
+  "arrow-up": [
+    "arrow",
+    "up",
+    "arrow-up"
+  ],
+  "batch-add": [
+    "batch",
+    "add",
+    "plus",
+    "multiple",
+    "create"
+  ],
+  "batch-delete": [
+    "batch",
+    "delete",
+    "remove",
+    "multiple",
+    "trash"
+  ],
+  "book-mark": [
+    "book",
+    "mark",
+    "bookmark"
+  ],
+  "btn-add": [
+    "button",
+    "add",
+    "plus",
+    "create",
+    "new"
+  ],
+  "btn-change": [
+    "button",
+    "change",
+    "swap",
+    "replace",
+    "switch"
+  ],
+  "btn-delete": [
+    "button",
+    "delete",
+    "remove",
+    "trash",
+    "bin"
+  ],
+  "btn-fold": [
+    "button",
+    "fold",
+    "collapse",
+    "up",
+    "arrow"
+  ],
+  "btn-more": [
+    "button",
+    "more",
+    "options",
+    "dots"
+  ],
+  "btn-play": [
+    "button",
+    "play",
+    "start",
+    "media"
+  ],
+  "btn-unfold": [
+    "button",
+    "unfold",
+    "expand",
+    "down",
+    "arrow"
+  ],
+  "bug": [
+    "bug",
+    "defect"
+  ],
+  "calendar": [
+    "calendar",
+    "schedule",
+    "duty"
+  ],
+  "change": [
+    "change",
+    "refresh",
+    "swap",
+    "replace"
+  ],
+  "chart-histogram": [
+    "chart",
+    "histogram",
+    "控件类",
+    "柱状"
+  ],
+  "checkin": [
+    "checkin",
+    "register",
+    "check-in"
+  ],
+  "cloud": [
+    "cloud",
+    "weather"
+  ],
+  "collection": [
+    "collection",
+    "star",
+    "favorite"
+  ],
+  "confirm": [
+    "confirm",
+    "person",
+    "个人确认"
+  ],
+  "copy": [
+    "copy",
+    "duplicate",
+    "clone",
+    "files"
+  ],
+  "cross": [
+    "cross",
+    "fail",
+    "close",
+    "error"
+  ],
+  "data-export": [
+    "data",
+    "export",
+    "data-export"
+  ],
+  "data-import": [
+    "data",
+    "import",
+    "data-import"
+  ],
+  "data-permission": [
+    "data",
+    "permission",
+    "data-permission"
+  ],
+  "data-switch": [
+    "data",
+    "switch",
+    "data-switch"
+  ],
+  "data": [
+    "data"
+  ],
+  "date-time": [
+    "date",
+    "time",
+    "日期时间"
+  ],
+  "delete": [
+    "delete",
+    "remove",
+    "trash",
+    "bin",
+    "x"
+  ],
+  "dialogue": [
+    "dialogue",
+    "chat",
+    "沟通",
+    "回复"
+  ],
+  "diamond": [
+    "diamond",
+    "essence"
+  ],
+  "direction-right-up": [
+    "direction",
+    "right",
+    "up",
+    "top-right",
+    "jump"
+  ],
+  "download": [
+    "download",
+    "save",
+    "arrow",
+    "down"
+  ],
+  "earth": [
+    "earth",
+    "language"
+  ],
+  "earthset": [
+    "earthset",
+    "earth",
+    "设置语言"
+  ],
+  "edit": [
+    "edit",
+    "pencil",
+    "write",
+    "modify"
+  ],
+  "emoticon-discouraged": [
+    "emoticon",
+    "discouraged",
+    "disappointed"
+  ],
+  "emoticon": [
+    "emoticon",
+    "smile"
+  ],
+  "entrust": [
+    "entrust",
+    "borrow",
+    "borrow-all"
+  ],
+  "erase": [
+    "erase",
+    "clear",
+    "rubber",
+    "delete"
+  ],
+  "exchange-ud": [
+    "exchange",
+    "swap",
+    "up",
+    "down",
+    "arrow"
+  ],
+  "exchange-udinverted-order": [
+    "exchange",
+    "swap",
+    "order",
+    "inverted"
+  ],
+  "exchange-udorder": [
+    "exchange",
+    "swap",
+    "order",
+    "sort"
+  ],
+  "exclamatory-triangle": [
+    "exclamatory",
+    "triangle",
+    "exclamation",
+    "warning",
+    "alert",
+    "risk"
+  ],
+  "exclamatory": [
+    "exclamatory",
+    "exclamation",
+    "warning",
+    "alert"
+  ],
+  "experiment": [
+    "experiment",
+    "research"
+  ],
+  "extport": [
+    "export",
+    "output",
+    "arrow",
+    "share"
+  ],
+  "file-add": [
+    "file",
+    "add",
+    "document",
+    "file-add"
+  ],
+  "file-pending": [
+    "file",
+    "pending",
+    "document",
+    "file-pending"
+  ],
+  "file-processed": [
+    "file",
+    "processed",
+    "document",
+    "file-processed"
+  ],
+  "file": [
+    "file",
+    "document"
+  ],
+  "fire": [
+    "fire",
+    "hot",
+    "recommend"
+  ],
+  "fixed-position": [
+    "fixed",
+    "position",
+    "location"
+  ],
+  "folder-open": [
+    "folder",
+    "open"
+  ],
+  "folder": [
+    "folder",
+    "file-item"
+  ],
+  "full-screen-exit": [
+    "fullscreen",
+    "exit",
+    "minimize",
+    "shrink"
+  ],
+  "full-screen": [
+    "fullscreen",
+    "expand",
+    "maximize",
+    "view"
+  ],
+  "funnel": [
+    "funnel",
+    "filter",
+    "sort",
+    "pipe"
+  ],
+  "half-screen-exit": [
+    "half",
+    "screen",
+    "exit",
+    "split",
+    "view"
+  ],
+  "half-screen": [
+    "half",
+    "screen",
+    "split",
+    "view",
+    "layout"
+  ],
+  "heart": [
+    "heart",
+    "favorite",
+    "like"
+  ],
+  "hide-passowrd": [
+    "hide",
+    "passowrd",
+    "eye",
+    "eye-off",
+    "hide-password"
+  ],
+  "hide": [
+    "hide"
+  ],
+  "home-page": [
+    "home",
+    "page",
+    "家"
+  ],
+  "import": [
+    "import",
+    "input",
+    "arrow",
+    "load"
+  ],
+  "information": [
+    "information",
+    "info"
+  ],
+  "input": [
+    "input",
+    "enter",
+    "arrow",
+    "login"
+  ],
+  "keys": [
+    "keys",
+    "permission",
+    "密钥"
+  ],
+  "label": [
+    "label",
+    "tag"
+  ],
+  "lampbulb": [
+    "lampbulb",
+    "lightbulb",
+    "idea",
+    "thought"
+  ],
+  "left-open": [
+    "left",
+    "open",
+    "sidebar",
+    "expand",
+    "arrow"
+  ],
+  "left-packup": [
+    "left",
+    "packup",
+    "collapse",
+    "sidebar",
+    "arrow"
+  ],
+  "level-children": [
+    "level",
+    "children",
+    "child-level"
+  ],
+  "level-parent": [
+    "level",
+    "parent",
+    "parent-level"
+  ],
+  "level-same": [
+    "level",
+    "same",
+    "same-level"
+  ],
+  "like": [
+    "like",
+    "拇指",
+    "喜欢",
+    "赞赏"
+  ],
+  "loading": [
+    "loading"
+  ],
+  "lock": [
+    "lock",
+    "locked",
+    "permission"
+  ],
+  "logo-dingding": [
+    "logo",
+    "dingding",
+    "钉钉"
+  ],
+  "logo-feishu": [
+    "logo",
+    "feishu",
+    "飞书"
+  ],
+  "logo-k-k": [
+    "logo",
+    "k",
+    "KK"
+  ],
+  "logo-q-q": [
+    "logo",
+    "q",
+    "QQ"
+  ],
+  "logo-wechat": [
+    "logo",
+    "wechat",
+    "微信"
+  ],
+  "logout": [
+    "logout",
+    "exit",
+    "signout",
+    "arrow"
+  ],
+  "meeting-room": [
+    "meeting",
+    "room",
+    "meeting-room",
+    "项目看板"
+  ],
+  "menu-list-select": [
+    "menu",
+    "list",
+    "select",
+    "check",
+    "choice"
+  ],
+  "menu-list": [
+    "menu",
+    "list",
+    "hamburger",
+    "navigation"
+  ],
+  "message-add": [
+    "message",
+    "add",
+    "append-comment",
+    "append",
+    "comment"
+  ],
+  "message": [
+    "message",
+    "chat",
+    "comment"
+  ],
+  "more-hor": [
+    "more",
+    "horizontal",
+    "dots",
+    "options"
+  ],
+  "more-ver": [
+    "more",
+    "vertical",
+    "dots",
+    "options"
+  ],
+  "none": [
+    "none",
+    "empty",
+    "disabled",
+    "cancel"
+  ],
+  "output": [
+    "output",
+    "exit",
+    "leave",
+    "arrow"
+  ],
+  "page-code": [
+    "page",
+    "code",
+    "webpage",
+    "code-panel"
+  ],
+  "page": [
+    "page",
+    "编辑类",
+    "webpage",
+    "页面模版"
+  ],
+  "palette": [
+    "palette"
+  ],
+  "parameter-setting": [
+    "parameter",
+    "setting",
+    "sliders",
+    "controls"
+  ],
+  "paste": [
+    "paste",
+    "clipboard",
+    "copy",
+    "insert"
+  ],
+  "pause": [
+    "pause",
+    "stop",
+    "media",
+    "control"
+  ],
+  "pc": [
+    "pc",
+    "device",
+    "computer"
+  ],
+  "picture": [
+    "picture",
+    "image",
+    "photo"
+  ],
+  "place": [
+    "place",
+    "地点"
+  ],
+  "play": [
+    "play",
+    "start",
+    "media",
+    "control"
+  ],
+  "pound": [
+    "pound",
+    "hashtag",
+    "integer"
+  ],
+  "process": [
+    "process",
+    "编辑类",
+    "我的流程"
+  ],
+  "question": [
+    "question",
+    "question",
+    "help"
+  ],
+  "quote-small": [
+    "quote",
+    "mark",
+    "text",
+    "citation"
+  ],
+  "quote": [
+    "quote",
+    "mark",
+    "text",
+    "citation"
+  ],
+  "refresh": [
+    "refresh",
+    "reload",
+    "sync",
+    "arrow"
+  ],
+  "release": [
+    "release",
+    "publish",
+    "send",
+    "paper",
+    "plane"
+  ],
+  "restoredefault": [
+    "restoredefault",
+    "restore-default"
+  ],
+  "ruler": [
+    "ruler",
+    "尺",
+    "直尺",
+    "size",
+    "大小"
+  ],
+  "save": [
+    "save",
+    "disk",
+    "floppy",
+    "store"
+  ],
+  "seal": [
+    "seal",
+    "stamp",
+    "official-seal",
+    "audit",
+    "approve"
+  ],
+  "search": [
+    "search",
+    "find",
+    "magnify",
+    "glass"
+  ],
+  "setting": [
+    "setting",
+    "settings"
+  ],
+  "short": [
+    "short",
+    "short-integer"
+  ],
+  "shutdown": [
+    "shutdown",
+    "power",
+    "off",
+    "turn",
+    "off"
+  ],
+  "sign-cross": [
+    "sign",
+    "cross",
+    "fail",
+    "close",
+    "error"
+  ],
+  "sign-equal": [
+    "sign",
+    "equal",
+    "math",
+    "calculate"
+  ],
+  "sign-exclamatory": [
+    "sign",
+    "exclamatory",
+    "感叹号",
+    "warning",
+    "error",
+    "alert"
+  ],
+  "sign-minus": [
+    "sign",
+    "minus",
+    "subtract",
+    "remove"
+  ],
+  "sign-plus": [
+    "sign",
+    "plus",
+    "add",
+    "create"
+  ],
+  "sign-pound": [
+    "sign",
+    "pound",
+    "hashtag",
+    "tag"
+  ],
+  "sign-tick": [
+    "sign",
+    "tick",
+    "success",
+    "check",
+    "complete"
+  ],
+  "signin": [
+    "signin",
+    "login",
+    "enter",
+    "user",
+    "arrow"
+  ],
+  "sort-drag": [
+    "sort",
+    "drag",
+    "move",
+    "handle",
+    "grip"
+  ],
+  "sort-filter-down": [
+    "sort",
+    "filter",
+    "down",
+    "descending",
+    "arrow"
+  ],
+  "sort-filter-up": [
+    "sort",
+    "filter",
+    "up",
+    "ascending",
+    "arrow"
+  ],
+  "sort-inverted-order": [
+    "sort",
+    "order",
+    "inverted",
+    "descending"
+  ],
+  "sort-order": [
+    "sort",
+    "order",
+    "ascending",
+    "list"
+  ],
+  "sort": [
+    "arrow",
+    "direction",
+    "sort",
+    "order"
+  ],
+  "stop": [
+    "stop",
+    "halt",
+    "media",
+    "square"
+  ],
+  "string-type-big-deciaml": [
+    "string",
+    "type",
+    "big",
+    "deciaml",
+    "大小数"
+  ],
+  "string-type-blob": [
+    "string",
+    "type",
+    "blob"
+  ],
+  "string-type-double": [
+    "string",
+    "type",
+    "double"
+  ],
+  "string-type-float": [
+    "string",
+    "type",
+    "float",
+    "单精度浮点"
+  ],
+  "string-type-long": [
+    "string",
+    "type",
+    "long",
+    "long-integer"
+  ],
+  "successful-translation": [
+    "successful",
+    "translation 1",
+    "多语言切换",
+    "翻译成功"
+  ],
+  "tick-unselected": [
+    "tick",
+    "unselected",
+    "unchecked"
+  ],
+  "tick": [
+    "tick",
+    "success",
+    "check",
+    "complete"
+  ],
+  "time": [
+    "time",
+    "record",
+    "history"
+  ],
+  "timing": [
+    "timing",
+    "定时器"
+  ],
+  "tool": [
+    "tool",
+    "maintenance",
+    "维修"
+  ],
+  "towards-down": [
+    "towards",
+    "down",
+    "direction"
+  ],
+  "towards-left": [
+    "towards",
+    "left",
+    "direction"
+  ],
+  "towards-right": [
+    "towards",
+    "right",
+    "direction"
+  ],
+  "towards-up": [
+    "towards",
+    "up",
+    "direction"
+  ],
+  "trajectory": [
+    "trajectory",
+    "path"
+  ],
+  "translation-ok": [
+    "translation",
+    "ok 1",
+    "多语言切换"
+  ],
+  "translation": [
+    "translation",
+    "多语言"
+  ],
+  "unlike": [
+    "unlike",
+    "拇指",
+    "不喜欢",
+    "踩"
+  ],
+  "unlock": [
+    "unlock",
+    "lock",
+    "permission"
+  ],
+  "upload": [
+    "upload",
+    "cloud",
+    "arrow",
+    "up"
+  ],
+  "use": [
+    "use",
+    "check",
+    "tick",
+    "apply",
+    "success"
+  ],
+  "user-c-c-list": [
+    "user",
+    "c",
+    "list",
+    "person",
+    "抄送人"
+  ],
+  "user-executor": [
+    "user",
+    "executor",
+    "person"
+  ],
+  "user-group": [
+    "user",
+    "group",
+    "person",
+    "member"
+  ],
+  "user": [
+    "user",
+    "person"
+  ],
+  "view": [
+    "view",
+    "eye",
+    "display",
+    "browse"
+  ]
+}

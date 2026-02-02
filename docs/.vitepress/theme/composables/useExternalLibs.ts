@@ -31,8 +31,9 @@ export function useExternalLibs(): ExternalLibContext {
         if (savedIconNodes[lib]) {
           newExternalIconNodes[lib] = savedIconNodes[lib];
         } else {
-          const response = await fetch(externalLibIconNodesAPI[lib]);
-          const iconNodes = await response.json();
+          // const response = await fetch(externalLibIconNodesAPI[lib]);
+          // const iconNodes = await response.json();
+          const iconNodes = {};
 
           if (iconNodes) {
             newExternalIconNodes[lib] = Object.values(iconNodes).map((iconEntity: IconEntity) => ({

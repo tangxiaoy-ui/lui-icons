@@ -7,6 +7,7 @@ const useSearchInput = () => {
   const searchQueryDebounced = useDebounce<string>(searchQuery, 200);
 
   watch(searchQueryDebounced, (searchString) => {
+    if (typeof window === 'undefined') return;
     const newUrl = new URL(window.location.href);
 
     if (searchString === '') {

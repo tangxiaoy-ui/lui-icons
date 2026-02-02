@@ -1,0 +1,572 @@
+{
+  "annotate-cc": [
+    "ui"
+  ],
+  "annotate-sign": [
+    "ui"
+  ],
+  "arrow-double-left": [
+    "arrows"
+  ],
+  "arrow-double-right": [
+    "arrows"
+  ],
+  "arrow-down": [
+    "arrows"
+  ],
+  "arrow-left": [
+    "arrows"
+  ],
+  "arrow-right": [
+    "arrows"
+  ],
+  "arrow-up": [
+    "arrows"
+  ],
+  "batch-add": [
+    "ui",
+    "actions"
+  ],
+  "batch-delete": [
+    "ui",
+    "actions"
+  ],
+  "book-mark": [
+    "ui"
+  ],
+  "btn-add": [
+    "ui",
+    "actions"
+  ],
+  "btn-change": [
+    "ui",
+    "actions"
+  ],
+  "btn-delete": [
+    "ui",
+    "actions"
+  ],
+  "btn-fold": [
+    "ui",
+    "arrows"
+  ],
+  "btn-more": [
+    "ui",
+    "layout"
+  ],
+  "btn-play": [
+    "media",
+    "actions"
+  ],
+  "btn-unfold": [
+    "ui",
+    "arrows"
+  ],
+  "bug": [
+    "ui"
+  ],
+  "calendar": [
+    "ui"
+  ],
+  "change": [
+    "actions"
+  ],
+  "chart-histogram": [
+    "ui"
+  ],
+  "checkin": [
+    "ui"
+  ],
+  "cloud": [
+    "ui"
+  ],
+  "collection": [
+    "ui"
+  ],
+  "confirm": [
+    "ui"
+  ],
+  "copy": [
+    "actions",
+    "files"
+  ],
+  "cross": [
+    "ui",
+    "security",
+    "actions"
+  ],
+  "data-export": [
+    "ui"
+  ],
+  "data-import": [
+    "ui"
+  ],
+  "data-permission": [
+    "ui"
+  ],
+  "data-switch": [
+    "ui"
+  ],
+  "data": [
+    "ui"
+  ],
+  "date-time": [
+    "ui"
+  ],
+  "delete": [
+    "actions",
+    "ui"
+  ],
+  "dialogue": [
+    "ui"
+  ],
+  "diamond": [
+    "ui"
+  ],
+  "direction-right-up": [
+    "arrows"
+  ],
+  "download": [
+    "actions",
+    "arrows"
+  ],
+  "earth": [
+    "ui"
+  ],
+  "earthset": [
+    "ui"
+  ],
+  "edit": [
+    "actions",
+    "editor"
+  ],
+  "emoticon-discouraged": [
+    "ui"
+  ],
+  "emoticon": [
+    "ui"
+  ],
+  "entrust": [
+    "ui"
+  ],
+  "erase": [
+    "actions",
+    "editor"
+  ],
+  "exchange-ud": [
+    "arrows",
+    "actions"
+  ],
+  "exchange-udinverted-order": [
+    "arrows",
+    "actions"
+  ],
+  "exchange-udorder": [
+    "arrows",
+    "actions"
+  ],
+  "exclamatory-triangle": [
+    "ui",
+    "security"
+  ],
+  "exclamatory": [
+    "ui",
+    "security"
+  ],
+  "experiment": [
+    "ui"
+  ],
+  "extport": [
+    "actions",
+    "files"
+  ],
+  "file-add": [
+    "ui",
+    "actions"
+  ],
+  "file-pending": [
+    "ui"
+  ],
+  "file-processed": [
+    "ui"
+  ],
+  "file": [
+    "ui"
+  ],
+  "fire": [
+    "ui"
+  ],
+  "fixed-position": [
+    "ui"
+  ],
+  "folder-open": [
+    "ui"
+  ],
+  "folder": [
+    "ui"
+  ],
+  "full-screen-exit": [
+    "ui",
+    "layout"
+  ],
+  "full-screen": [
+    "ui",
+    "layout"
+  ],
+  "funnel": [
+    "ui",
+    "layout"
+  ],
+  "half-screen-exit": [
+    "ui",
+    "layout"
+  ],
+  "half-screen": [
+    "ui",
+    "layout"
+  ],
+  "heart": [
+    "ui"
+  ],
+  "hide-passowrd": [
+    "ui"
+  ],
+  "hide": [
+    "ui"
+  ],
+  "home-page": [
+    "ui"
+  ],
+  "import": [
+    "actions",
+    "files"
+  ],
+  "information": [
+    "ui",
+    "security"
+  ],
+  "input": [
+    "actions",
+    "ui"
+  ],
+  "keys": [
+    "ui"
+  ],
+  "label": [
+    "ui"
+  ],
+  "lampbulb": [
+    "ui"
+  ],
+  "left-open": [
+    "layout",
+    "arrows"
+  ],
+  "left-packup": [
+    "layout",
+    "arrows"
+  ],
+  "level-children": [
+    "ui"
+  ],
+  "level-parent": [
+    "ui"
+  ],
+  "level-same": [
+    "ui"
+  ],
+  "like": [
+    "ui"
+  ],
+  "loading": [
+    "ui",
+    "actions"
+  ],
+  "lock": [
+    "ui"
+  ],
+  "logo-dingding": [
+    "ui"
+  ],
+  "logo-feishu": [
+    "ui"
+  ],
+  "logo-k-k": [
+    "ui"
+  ],
+  "logo-q-q": [
+    "ui"
+  ],
+  "logo-wechat": [
+    "ui"
+  ],
+  "logout": [
+    "ui",
+    "actions"
+  ],
+  "meeting-room": [
+    "ui"
+  ],
+  "menu-list-select": [
+    "ui",
+    "layout"
+  ],
+  "menu-list": [
+    "ui",
+    "layout"
+  ],
+  "message-add": [
+    "ui",
+    "actions"
+  ],
+  "message": [
+    "ui"
+  ],
+  "more-hor": [
+    "ui",
+    "layout"
+  ],
+  "more-ver": [
+    "ui",
+    "layout"
+  ],
+  "none": [
+    "ui"
+  ],
+  "output": [
+    "actions",
+    "ui"
+  ],
+  "page-code": [
+    "ui"
+  ],
+  "page": [
+    "ui"
+  ],
+  "palette": [
+    "ui"
+  ],
+  "parameter-setting": [
+    "ui",
+    "editor"
+  ],
+  "paste": [
+    "actions",
+    "editor"
+  ],
+  "pause": [
+    "media",
+    "actions"
+  ],
+  "pc": [
+    "ui"
+  ],
+  "picture": [
+    "ui"
+  ],
+  "place": [
+    "ui"
+  ],
+  "play": [
+    "media",
+    "actions"
+  ],
+  "pound": [
+    "ui"
+  ],
+  "process": [
+    "ui"
+  ],
+  "question": [
+    "ui",
+    "security"
+  ],
+  "quote-small": [
+    "editor",
+    "communication"
+  ],
+  "quote": [
+    "editor",
+    "communication"
+  ],
+  "refresh": [
+    "actions",
+    "arrows"
+  ],
+  "release": [
+    "actions",
+    "communication"
+  ],
+  "restoredefault": [
+    "ui"
+  ],
+  "ruler": [
+    "ui"
+  ],
+  "save": [
+    "actions",
+    "files"
+  ],
+  "seal": [
+    "ui"
+  ],
+  "search": [
+    "ui",
+    "actions"
+  ],
+  "setting": [
+    "ui"
+  ],
+  "short": [
+    "ui"
+  ],
+  "shutdown": [
+    "ui",
+    "devices"
+  ],
+  "sign-cross": [
+    "ui",
+    "security",
+    "actions"
+  ],
+  "sign-equal": [
+    "editor",
+    "shapes"
+  ],
+  "sign-exclamatory": [
+    "ui",
+    "security"
+  ],
+  "sign-minus": [
+    "editor",
+    "shapes"
+  ],
+  "sign-plus": [
+    "editor",
+    "shapes"
+  ],
+  "sign-pound": [
+    "ui"
+  ],
+  "sign-tick": [
+    "ui",
+    "security",
+    "actions"
+  ],
+  "signin": [
+    "ui",
+    "actions"
+  ],
+  "sort-drag": [
+    "ui",
+    "actions"
+  ],
+  "sort-filter-down": [
+    "arrows",
+    "layout"
+  ],
+  "sort-filter-up": [
+    "arrows",
+    "layout"
+  ],
+  "sort-inverted-order": [
+    "layout",
+    "arrows"
+  ],
+  "sort-order": [
+    "layout"
+  ],
+  "sort": [
+    "arrows",
+    "layout"
+  ],
+  "stop": [
+    "media",
+    "actions"
+  ],
+  "string-type-big-deciaml": [
+    "ui"
+  ],
+  "string-type-blob": [
+    "ui"
+  ],
+  "string-type-double": [
+    "ui"
+  ],
+  "string-type-float": [
+    "ui"
+  ],
+  "string-type-long": [
+    "ui"
+  ],
+  "successful-translation": [
+    "ui"
+  ],
+  "tick-unselected": [
+    "ui"
+  ],
+  "tick": [
+    "ui",
+    "security",
+    "actions"
+  ],
+  "time": [
+    "ui"
+  ],
+  "timing": [
+    "ui"
+  ],
+  "tool": [
+    "ui"
+  ],
+  "towards-down": [
+    "arrows"
+  ],
+  "towards-left": [
+    "arrows"
+  ],
+  "towards-right": [
+    "arrows"
+  ],
+  "towards-up": [
+    "arrows"
+  ],
+  "trajectory": [
+    "ui"
+  ],
+  "translation-ok": [
+    "ui"
+  ],
+  "translation": [
+    "ui"
+  ],
+  "unlike": [
+    "ui"
+  ],
+  "unlock": [
+    "ui"
+  ],
+  "upload": [
+    "actions",
+    "files"
+  ],
+  "use": [
+    "ui",
+    "actions"
+  ],
+  "user-c-c-list": [
+    "ui"
+  ],
+  "user-executor": [
+    "ui"
+  ],
+  "user-group": [
+    "ui"
+  ],
+  "user": [
+    "ui"
+  ],
+  "view": [
+    "ui"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": [
+    "Tubiao Bot"
+  ],
+  "tags": [
+    "file",
+    "pending",
+    "document",
+    "file-pending"
+  ],
+  "categories": [
+    "ui"
+  ]
+}

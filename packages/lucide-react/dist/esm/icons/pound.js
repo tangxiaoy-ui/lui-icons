@@ -1,0 +1,23 @@
+/**
+ * @license lucide-react v0.0.1 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+
+import createLucideIcon from '../createLucideIcon.js';
+
+const __iconNode = [
+  [
+    "path",
+    {
+      d: "M6 0C9.31371 0 12 2.68629 12 6C12 9.31371 9.31371 12 6 12C2.68629 12 0 9.31371 0 6C0 2.68629 2.68629 0 6 0ZM6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11C8.76142 11 11 8.76142 11 6C11 3.23858 8.76142 1 6 1ZM8.49512 2.57031L8.29102 4H9V5H8.14844L7.8623 7H8.5V8H7.71973L7.49512 9.57031L6.50488 9.42969L6.70898 8H4.71973L4.49512 9.57031L3.50488 9.42969L3.70898 8H3V7H3.85156L4.1377 5H3.5V4H4.28027L4.50488 2.42969L5.49512 2.57031L5.29102 4H7.28027L7.50488 2.42969L8.49512 2.57031ZM4.8623 7H6.85156L7.1377 5H5.14844L4.8623 7Z",
+      fill: "#666666",
+      key: "15o6h9"
+    }
+  ]
+];
+const Pound = createLucideIcon("pound", __iconNode);
+
+export { __iconNode, Pound as default };
+//# sourceMappingURL=pound.js.map

@@ -1,12 +1,14 @@
-import { useFetch } from '@vueuse/core';
+import { ref } from 'vue';
+import iconCategories from '../../data/iconCategoriesIndex.json';
 
-const useFetchCategories = () =>
-  useFetch<Record<string, string[]>>(
-    `${import.meta.env.DEV ? 'http://localhost:3000' : ''}/api/categories`,
-    {
-      immediate:
-        typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('search'),
-    },
-  ).json();
+const useFetchCategories = () => {
+  return {
+    data: ref(iconCategories),
+    isFinished: ref(true),
+    error: ref(null),
+    statusCode: ref(200),
+    execute: () => {},
+  };
+};
 
 export default useFetchCategories;

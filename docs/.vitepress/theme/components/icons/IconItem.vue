@@ -62,7 +62,7 @@ async function navigateToIcon(event) {
   }
 }
 
-const DiamondIcon = createLucideIcon('Diamond', diamond)
+const DiamondIcon = createLucideIcon('Diamond', diamond as any)
 </script>
 
 <template>

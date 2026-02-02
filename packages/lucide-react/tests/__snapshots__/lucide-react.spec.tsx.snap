@@ -10,23 +10,12 @@ exports[`Using lucide icon components > should adjust the size, stroke color and
      stroke-width="4"
      stroke-linecap="round"
      stroke-linejoin="round"
-     class="lucide lucide-grid3x3 lucide-grid-3x3"
+     class="lucide lucide-search"
      aria-hidden="true"
 >
-  <rect width="18"
-        height="18"
-        x="3"
-        y="3"
-        rx="2"
+  <path d="M5 0C7.76142 0 10 2.23858 10 5C10 6.20064 9.57644 7.30213 8.87109 8.16406L11.8535 11.1465L11.1465 11.8535L8.16406 8.87109C7.30213 9.57644 6.20064 10 5 10C2.23858 10 0 7.76142 0 5C0 2.23858 2.23858 0 5 0ZM5 1C2.79086 1 1 2.79086 1 5C1 7.20914 2.79086 9 5 9C7.20914 9 9 7.20914 9 5C9 2.79086 7.20914 1 5 1Z"
+        fill="#666666"
   >
-  </rect>
-  <path d="M3 9h18">
-  </path>
-  <path d="M3 15h18">
-  </path>
-  <path d="M9 3v18">
-  </path>
-  <path d="M15 3v18">
   </path>
 </svg>
 `;
@@ -41,23 +30,12 @@ exports[`Using lucide icon components > should not scale the strokeWidth when ab
      stroke-width="1"
      stroke-linecap="round"
      stroke-linejoin="round"
-     class="lucide lucide-grid3x3 lucide-grid-3x3"
+     class="lucide lucide-search"
      aria-hidden="true"
 >
-  <rect width="18"
-        height="18"
-        x="3"
-        y="3"
-        rx="2"
+  <path d="M5 0C7.76142 0 10 2.23858 10 5C10 6.20064 9.57644 7.30213 8.87109 8.16406L11.8535 11.1465L11.1465 11.8535L8.16406 8.87109C7.30213 9.57644 6.20064 10 5 10C2.23858 10 0 7.76142 0 5C0 2.23858 2.23858 0 5 0ZM5 1C2.79086 1 1 2.79086 1 5C1 7.20914 2.79086 9 5 9C7.20914 9 9 7.20914 9 5C9 2.79086 7.20914 1 5 1Z"
+        fill="#666666"
   >
-  </rect>
-  <path d="M3 9h18">
-  </path>
-  <path d="M3 15h18">
-  </path>
-  <path d="M9 3v18">
-  </path>
-  <path d="M15 3v18">
   </path>
 </svg>
 `;
@@ -72,23 +50,12 @@ exports[`Using lucide icon components > should render an component 1`] = `
      stroke-width="2"
      stroke-linecap="round"
      stroke-linejoin="round"
-     class="lucide lucide-grid3x3 lucide-grid-3x3"
+     class="lucide lucide-search"
      aria-hidden="true"
 >
-  <rect width="18"
-        height="18"
-        x="3"
-        y="3"
-        rx="2"
+  <path d="M5 0C7.76142 0 10 2.23858 10 5C10 6.20064 9.57644 7.30213 8.87109 8.16406L11.8535 11.1465L11.1465 11.8535L8.16406 8.87109C7.30213 9.57644 6.20064 10 5 10C2.23858 10 0 7.76142 0 5C0 2.23858 2.23858 0 5 0ZM5 1C2.79086 1 1 2.79086 1 5C1 7.20914 2.79086 9 5 9C7.20914 9 9 7.20914 9 5C9 2.79086 7.20914 1 5 1Z"
+        fill="#666666"
   >
-  </rect>
-  <path d="M3 9h18">
-  </path>
-  <path d="M3 15h18">
-  </path>
-  <path d="M9 3v18">
-  </path>
-  <path d="M15 3v18">
   </path>
 </svg>
 `;

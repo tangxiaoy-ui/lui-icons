@@ -3,8 +3,8 @@ import { useData } from 'vitepress';
 import { useSessionStorage } from '@vueuse/core';
 import IconButton from '../base/IconButton.vue';
 import VPDocAsideCarbonAds from 'vitepress/dist/client/theme-default/components/VPDocAsideCarbonAds.vue';
-import { x } from '../../../data/iconNodes';
-import Icon from 'lucide-vue-next/src/Icon';
+import { cross } from '../../../data/iconNodes';
+import LucideIcon from '../base/LucideIcon.vue';
 import { onMounted, ref } from 'vue';
 
 const { theme } = useData();
@@ -17,6 +17,7 @@ defineProps<{
 
 onMounted(() => {
   setTimeout(() => {
+    // @ts-ignore
     if (window?._carbonads == null) {
       carbonLoaded.value = false;
     }
@@ -37,8 +38,8 @@ onMounted(() => {
       @click="showAd = false"
       class="hide-button"
     >
-      <Icon
-        :iconNode="x"
+      <LucideIcon
+        :iconNode="cross as any"
         :size="20"
         absoluteStrokeWidth
       />

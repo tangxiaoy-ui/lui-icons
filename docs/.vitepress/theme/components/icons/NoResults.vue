@@ -1,26 +1,10 @@
 <script setup lang="ts">
 import { ref, onMounted, computed, markRaw, shallowReadonly, watch } from 'vue';
 import {
-  bird,
-  squirrel,
-  rabbit,
-  ghost,
-  castle,
-  drama,
-  dog,
-  cat,
-  wandSparkles,
-  save,
-  snowflake,
-  cake,
-  fish,
-  turtle,
-  rat,
-  worm,
-  testTubeDiagonal,
-  sword,
+  search,
+  cross,
 } from '../../../data/iconNodes';
-import createLucideIcon from 'lucide-vue-next/src/createLucideIcon';
+import LucideIcon from '../base/LucideIcon.vue';
 import { useEventListener } from '@vueuse/core';
 import VPButton from 'vitepress/dist/client/theme-default/components/VPButton.vue';
 import { IconNode } from '../../types';
@@ -39,98 +23,98 @@ interface Placeholder {
   finePrint?: string;
 }
 
-const brandPlaceholders: Placeholder[] = shallowReadonly([
+const brandPlaceholders: readonly Placeholder[] = shallowReadonly([
   {
     title: 'Boooo! What a scary brand logo!',
     message:
-      '[name] and its friends often haunt this search box, but you won’t ever find them here.',
-    icon: markRaw(ghost),
+      '[name] and its friends often haunt this search box, but you won\'t ever find them here.',
+    icon: markRaw(cross as any),
   },
   {
     title: 'Thank You Mario!',
     message: 'But [name] is in another castle!',
-    icon: markRaw(castle),
+    icon: markRaw(cross as any),
   },
   {
     title: '[name] did audition for our icon set',
-    message: '...but didn’t make the callback.',
-    icon: markRaw(drama),
+    message: '...but didn\'t make the callback.',
+    icon: markRaw(cross as any),
   },
   {
     title: 'Such Search. Very [name].',
     message: 'Much not here. So Wow.',
-    icon: markRaw(dog),
+    icon: markRaw(cross as any),
   },
   {
     title: 'I Can Has [name]?',
     message: 'No [name] for you in here.',
-    icon: markRaw(cat),
+    icon: markRaw(cross as any),
   },
   {
     title: 'Loading [name]...',
     message: 'Fatal error: our cartridge contains only open-source pixels.',
-    icon: markRaw(save),
+    icon: markRaw(cross as any),
   },
   {
     title: '[name] Shall Not Pass',
     message: 'Do not look to its coming at first light of any day.',
-    icon: markRaw(wandSparkles),
+    icon: markRaw(cross as any),
   },
   {
     title: 'Winter is coming',
-    message: 'But [name] sure isn’t.',
-    icon: markRaw(snowflake),
+    message: 'But [name] sure isn\'t.',
+    icon: markRaw(cross as any),
   },
   {
     title: 'The cake is a lie',
     message: 'And so is the promise of an icon for [name] at Lucide.',
-    icon: markRaw(cake),
+    icon: markRaw(cross as any),
   },
   {
-    title: 'It’s not a bug',
+    title: 'It\'s not a bug',
     message: 'Having no [name] icon around is a feature.',
-    icon: markRaw(worm),
+    icon: markRaw(cross as any),
   },
   {
     title: 'The lab exploded',
     message: 'We tried mixing [name] with open-source icons.',
-    icon: markRaw(testTubeDiagonal),
+    icon: markRaw(cross as any),
   },
   {
-    title: 'It’s Dangerous to Go Alone',
-    message: 'Take this icon instead — it’s not [name], but it might help.',
-    icon: markRaw(sword),
+    title: 'It\'s Dangerous to Go Alone',
+    message: 'Take this icon instead — it\'s not [name], but it might help.',
+    icon: markRaw(cross as any),
   },
 ]);
 
-const notFoundPlaceholders: Omit<Placeholder, 'title'>[] = shallowReadonly([
+const notFoundPlaceholders: readonly Omit<Placeholder, 'title'>[] = shallowReadonly([
   {
-    message: 'We’ve looked for this icon for a bird’s eye view, but could not find it.',
-    icon: markRaw(bird),
+    message: 'We\'ve looked for this icon for a bird\'s eye view, but could not find it.',
+    icon: markRaw(search as any),
   },
   {
     message: 'We checked every tree. Only acorns, no results.',
-    icon: markRaw(squirrel),
+    icon: markRaw(search as any),
   },
   {
-    message: 'You’ve gone too deep into the rabbit hole — this icon doesn’t exist.',
-    icon: markRaw(rabbit),
+    message: 'You\'ve gone too deep into the rabbit hole — this icon doesn\'t exist.',
+    icon: markRaw(search as any),
   },
   {
     message: 'This icon seems to have slipped through the net.',
-    icon: markRaw(fish),
+    icon: markRaw(search as any),
   },
   {
-    message: 'This icon might exist in the future… but it hasn’t arrived yet.',
-    icon: markRaw(turtle),
+    message: 'This icon might exist in the future… but it hasn\'t arrived yet.',
+    icon: markRaw(search as any),
   },
   {
     message: 'Rats! This icon seems to have slipped through the cracks.',
-    icon: markRaw(rat),
+    icon: markRaw(search as any),
   },
 ]);
 
-function randomItem<T>(arr: T[]): T {
+function randomItem<T>(arr: readonly T[]): T {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
@@ -147,15 +131,14 @@ watch(
             'Lucide does not accept brand logos, and we do not plan to add them in the future. This is due to a combination of legal restrictions, design consistency concerns, and practical maintenance reasons.',
         }
       : {
-          title: `No results for “[name]”`,
+          title: `No results for "[name]"`,
           finePrint:
-            'This icon doesn’t seem to exist… yet. Try searching similar terms, browsing existing requests, or opening a new one.',
+            'This icon doesn\'t seem to exist… yet. Try searching similar terms, browsing existing requests, or opening a new one.',
           ...randomItem(notFoundPlaceholders),
         };
   },
   { immediate: true },
 );
-const iconComponent = computed(() => createLucideIcon('placeholder', placeholder.value.icon));
 const flip = ref(false);
 
 onMounted(() => {
@@ -171,12 +154,11 @@ onMounted(() => {
 
 <template>
   <div class="no-results">
-    <component
-      :is="iconComponent"
+    <LucideIcon
       class="placeholder-icon"
       ref="placeholderIcon"
       :class="{ flip }"
-      :strokeWidth="1"
+      :iconNode="placeholder.icon"
     />
     <h2 class="no-results-text">{{ placeholder.title.replace('[name]', searchQuery) }}</h2>
     <p class="no-results-message">

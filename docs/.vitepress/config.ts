@@ -158,7 +158,7 @@ export default defineConfig({
       dark: '/logo.dark.svg',
     },
     nav: [
-      { text: 'Icons', link: '/icons/' },
+      { text: 'Icons', link: '/icons' },
       { text: 'Guide', link: '/guide/' },
       { text: 'Packages', link: '/packages' },
       { text: 'Showcase', link: '/showcase' },

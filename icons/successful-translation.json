@@ -1,0 +1,15 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": [
+    "Tubiao Bot"
+  ],
+  "tags": [
+    "successful",
+    "translation 1",
+    "多语言切换",
+    "翻译成功"
+  ],
+  "categories": [
+    "ui"
+  ]
+}

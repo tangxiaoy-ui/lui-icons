@@ -12,8 +12,8 @@ export interface InputProps {
 
 <script setup lang="ts">
 import { ref, onMounted, nextTick, watch } from 'vue';
-import Icon from 'lucide-vue-next/src/Icon';
-import { x } from '../../../data/iconNodes';
+import { cross } from '../../../data/iconNodes';
+import LucideIcon from './LucideIcon.vue';
 import IconButton from './IconButton.vue';
 
 const props = withDefaults(defineProps<InputProps>(), {
@@ -35,9 +35,12 @@ const updateShortcutSpacing = () => {
   });
 };
 
-const isMac = /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform);
+const isMac = ref(false);
 
-onMounted(updateShortcutSpacing);
+onMounted(() => {
+  isMac.value = /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform);
+  updateShortcutSpacing();
+});
 watch(() => props.shortcut, updateShortcutSpacing);
 
 function onClear() {
@@ -68,7 +71,7 @@ defineExpose({
       ref="input"
       :value="modelValue"
       v-bind="$attrs"
-      @input="$emit('update:modelValue', $event.target.value)"
+      @input="$emit('update:modelValue', ($event.target as HTMLInputElement).value)"
     />
     <IconButton
       @click="onClear"
@@ -77,8 +80,8 @@ defineExpose({
       aria-label="Clear input"
       :style="{ right: isMac ? '50px' : '68px' }"
     >
-      <Icon
-        :iconNode="x"
+      <LucideIcon
+        :iconNode="cross as any"
         :size="20"
       />
     </IconButton>

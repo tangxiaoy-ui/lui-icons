@@ -1,0 +1,13 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": [
+    "Tubiao Bot"
+  ],
+  "tags": [
+    "place",
+    "地点"
+  ],
+  "categories": [
+    "ui"
+  ]
+}

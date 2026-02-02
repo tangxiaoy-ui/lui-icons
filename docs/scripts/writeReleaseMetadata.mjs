@@ -30,7 +30,7 @@ if (!fs.existsSync(releaseMetaDataDirectory)) {
 }
 
 const fetchAllReleases = async () => {
-  await git.fetch('https://github.com/lucide-icons/lucide.git', '--tags');
+  // await git.fetch('https://github.com/lucide-icons/lucide.git', '--tags');
 
   return Promise.all(
     (await git.tag(['-l']))

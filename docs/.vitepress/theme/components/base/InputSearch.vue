@@ -44,7 +44,7 @@ const value = computed({
     class="input-wrapper"
   >
     <template #icon>
-      <Icon
+      <LucideIcon
         :iconNode="search"
         class="search-icon"
       />

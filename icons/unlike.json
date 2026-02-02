@@ -1,0 +1,15 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": [
+    "Tubiao Bot"
+  ],
+  "tags": [
+    "unlike",
+    "拇指",
+    "不喜欢",
+    "踩"
+  ],
+  "categories": [
+    "ui"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": [
+    "Tubiao Bot"
+  ],
+  "tags": [
+    "entrust",
+    "borrow",
+    "borrow-all"
+  ],
+  "categories": [
+    "ui"
+  ]
+}

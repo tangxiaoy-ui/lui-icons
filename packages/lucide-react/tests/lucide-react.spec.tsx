@@ -1,17 +1,17 @@
 import { describe, it, expect } from 'vitest';
 import { render, cleanup } from '@testing-library/react';
-import { Pen, Edit2, Grid, Droplet } from '../src/lucide-react';
+import { Edit, Folder, Search, Delete } from '../src/lucide-react';
 import defaultAttributes from '../src/defaultAttributes';
 
 describe('Using lucide icon components', () => {
   it('should render an component', () => {
-    const { container } = render(<Grid />);
+    const { container } = render(<Search />);
 
     expect(container.innerHTML).toMatchSnapshot();
   });
 
   it('should render the icon with default attributes', () => {
-    const { container } = render(<Grid />);
+    const { container } = render(<Search />);
 
     const SVGElement = container.firstElementChild;
 
@@ -28,7 +28,7 @@ describe('Using lucide icon components', () => {
 
   it('should adjust the size, stroke color and stroke width', () => {
     const { container } = render(
-      <Grid
+      <Search
         size={48}
         stroke="red"
         strokeWidth={4}
@@ -47,7 +47,7 @@ describe('Using lucide icon components', () => {
 
   it('should render the alias icon', () => {
     const { container } = render(
-      <Pen
+      <Edit
         size={48}
         stroke="red"
         strokeWidth={4}
@@ -59,7 +59,7 @@ describe('Using lucide icon components', () => {
     cleanup();
 
     const { container: Edit2Container } = render(
-      <Edit2
+      <Edit
         size={48}
         stroke="red"
         strokeWidth={4}
@@ -71,7 +71,7 @@ describe('Using lucide icon components', () => {
 
   it('should not scale the strokeWidth when absoluteStrokeWidth is set', () => {
     const { container, getByTestId } = render(
-      <Grid
+      <Search
         size={48}
         stroke="red"
         absoluteStrokeWidth
@@ -90,10 +90,10 @@ describe('Using lucide icon components', () => {
 
   it('should apply all classNames to the element', () => {
     const testClass = 'my-class';
-    const { container } = render(<Droplet className={testClass} />);
+    const { container } = render(<Delete className={testClass} />);
 
     expect(container.firstChild).toHaveClass(testClass);
     expect(container.firstChild).toHaveClass('lucide');
-    expect(container.firstChild).toHaveClass('lucide-droplet');
+    expect(container.firstChild).toHaveClass('lucide-delete');
   });
 });

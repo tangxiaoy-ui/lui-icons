@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import type { IconEntity } from '../../types'
 import { computed } from 'vue'
-import createLucideIcon from 'lucide-vue-next/src/createLucideIcon';
+import LucideIcon from '../base/LucideIcon.vue';
 import IconButton from '../base/IconButton.vue';
 import IconContributors from './IconContributors.vue';
 import IconPreview from './IconPreview.vue';
-import { x, expand } from '../../../data/iconNodes'
+import { cross, fullScreen } from '../../../data/iconNodes'
 import { useRouter } from 'vitepress';
 import IconInfo from './IconInfo.vue';
 import Badge from '../base/Badge.vue';
@@ -52,9 +52,6 @@ function releaseTagLink(version) {
 function onClose() {
   emit('close')
 }
-
-const CloseIcon = createLucideIcon('Close', x)
-const Expand = createLucideIcon('Expand', expand)
 </script>
 
 <template>
@@ -68,10 +65,10 @@ const Expand = createLucideIcon('Expand', expand)
             :href="releaseTagLink(icon.createdRelease.version)"
           >v{{ icon.createdRelease.version }}</Badge>
           <IconButton  @click="go(icon.externalLibrary ? `/icons/${icon.externalLibrary}/${icon.name}` : `/icons/${icon.name}`)">
-            <component :is="Expand" />
+            <LucideIcon :iconNode="fullScreen" />
           </IconButton>
           <IconButton  @click="onClose">
-            <component :is="CloseIcon" />
+            <LucideIcon :iconNode="cross" />
           </IconButton>
         </nav>
         <IconPreview

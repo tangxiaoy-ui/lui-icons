@@ -1,0 +1,32 @@
+/**
+ * @license lucide-react v0.0.1 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+
+import createLucideIcon from '../createLucideIcon.js';
+
+const __iconNode = [
+  [
+    "path",
+    {
+      opacity: "0.25",
+      d: "M3.99998 1V9.89645C3.99998 10.3107 3.66419 10.6464 3.24998 10.6464C3.09085 10.6464 2.93693 10.5959 2.80972 10.5036L2.71965 10.4268L0.646423 8.35355L1.35353 7.64645L2.99998 9.293V1H3.99998Z",
+      fill: "#666666",
+      key: "1jj6dk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.26986 1.11435C8.55914 0.873281 8.97629 0.886897 9.24897 1.13044L9.32617 1.21038L11.3841 3.67991L10.6159 4.32009L9 2.382V10.5H8V1.69051C8 1.46793 8.09887 1.25684 8.26986 1.11435Z",
+      fill: "#666666",
+      key: "5y5fwf"
+    }
+  ]
+];
+const ExchangeUdinvertedOrder = createLucideIcon("exchange-udinverted-order", __iconNode);
+
+export { __iconNode, ExchangeUdinvertedOrder as default };
+//# sourceMappingURL=exchange-udinverted-order.js.map

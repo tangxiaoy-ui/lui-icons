@@ -1,0 +1,15 @@
+{
+  "$schema": "../icon.schema.json",
+  "contributors": [
+    "Tubiao Bot"
+  ],
+  "tags": [
+    "page",
+    "编辑类",
+    "webpage",
+    "页面模版"
+  ],
+  "categories": [
+    "ui"
+  ]
+}

@@ -1,0 +1,23 @@
+/**
+ * @license lucide-react v0.0.1 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+
+import createLucideIcon from '../createLucideIcon.js';
+
+const __iconNode = [
+  [
+    "path",
+    {
+      d: "M11.1465 2.14645L11.8536 2.85355L5.56067 9.14645C5.01149 9.69562 4.14243 9.72994 3.55327 9.24942L3.43935 9.14645L0.146454 5.85355L0.853561 5.14645L4.14645 8.43934C4.32002 8.61291 4.58944 8.63219 4.78431 8.49719L4.85356 8.43934L11.1465 2.14645Z",
+      fill: "#666666",
+      key: "e0gouq"
+    }
+  ]
+];
+const SignTick = createLucideIcon("sign-tick", __iconNode);
+
+export { __iconNode, SignTick as default };
+//# sourceMappingURL=sign-tick.js.map

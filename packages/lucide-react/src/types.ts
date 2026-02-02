@@ -13,7 +13,8 @@ type SVGElementType =
   | 'path'
   | 'polygon'
   | 'polyline'
-  | 'rect';
+  | 'rect'
+  | 'defs';
 
 export type IconNode = [elementName: SVGElementType, attrs: Record<string, string>][];
 

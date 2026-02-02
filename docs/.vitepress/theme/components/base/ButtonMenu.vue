@@ -7,8 +7,6 @@ import {
   ListboxOptions,
   ListboxOption,
 } from '@headlessui/vue'
-import createLucideIcon from 'lucide-vue-next/src/createLucideIcon'
-import { chevronUp }  from '../../../data/iconNodes'
 import { useStorage } from '@vueuse/core'
 
 interface Props {
@@ -37,7 +35,6 @@ const selectionOptionAction = computed(() => props.options.find(option => option
 function onClick(event) {
   selectionOptionAction.value()
 
-
   emit('click', event)
 }
 
@@ -50,8 +47,6 @@ function onOptionClick(event, option) {
 
   emit('optionClick', event)
 }
-
-const ChevronUp = createLucideIcon('ChevronUp', chevronUp)
 </script>
 
 <template>

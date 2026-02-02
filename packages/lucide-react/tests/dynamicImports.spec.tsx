@@ -23,15 +23,15 @@ describe('Using dynamicImports', () => {
 
     const { container, getByLabelText } = render(
       <Icon
-        aria-label="smile"
-        name="smile"
+        aria-label="search"
+        name="search"
         size={48}
         stroke="red"
         absoluteStrokeWidth
       />,
     );
 
-    await waitFor(() => getByLabelText('smile'));
+    await waitFor(() => getByLabelText('search'));
 
     expect(container.innerHTML).toMatchSnapshot();
   });

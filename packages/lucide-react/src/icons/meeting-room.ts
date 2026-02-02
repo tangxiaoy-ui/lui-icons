@@ -1,0 +1,28 @@
+import createLucideIcon from '../createLucideIcon';
+import { IconNode } from '../types';
+
+export const __iconNode: IconNode = [
+  [
+    'path',
+    {
+      d: 'M11 1C11.5523 1 12 1.44772 12 2V8C12 8.55228 11.5523 9 11 9H6.90137L9.27734 10.584L8.72266 11.416L6.05566 9.6377C6.03327 9.62277 6.00588 9.61807 5.98047 9.62305L5.94434 9.6377L3.27734 11.416L2.72266 10.584L5.09863 9H1C0.447715 9 0 8.55228 0 8V2C0 1.44772 0.447715 1 1 1H11ZM1 8H11V2H1V8ZM9.29492 4.4043L7.06738 6.02832C6.82274 6.20671 6.50125 6.23001 6.23633 6.09668L6.13965 6.03906L4.82715 5.12793L3.32031 6.38379L2.67969 5.61621L4.30469 4.26172C4.5504 4.05721 4.89081 4.02071 5.1709 4.15918L5.27246 4.21973L6.5918 5.13574L8.70508 3.5957L9.29492 4.4043Z',
+      fill: '#666666',
+      key: '1p40lp',
+    },
+  ],
+];
+
+/**
+ * @component @name MeetingRoom
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTEgMUMxMS41NTIzIDEgMTIgMS40NDc3MiAxMiAyVjhDMTIgOC41NTIyOCAxMS41NTIzIDkgMTEgOUg2LjkwMTM3TDkuMjc3MzQgMTAuNTg0TDguNzIyNjYgMTEuNDE2TDYuMDU1NjYgOS42Mzc3QzYuMDMzMjcgOS42MjI3NyA2LjAwNTg4IDkuNjE4MDcgNS45ODA0NyA5LjYyMzA1TDUuOTQ0MzQgOS42Mzc3TDMuMjc3MzQgMTEuNDE2TDIuNzIyNjYgMTAuNTg0TDUuMDk4NjMgOUgxQzAuNDQ3NzE1IDkgMCA4LjU1MjI4IDAgOFYyQzAgMS40NDc3MiAwLjQ0NzcxNSAxIDEgMUgxMVpNMSA4SDExVjJIMVY4Wk05LjI5NDkyIDQuNDA0M0w3LjA2NzM4IDYuMDI4MzJDNi44MjI3NCA2LjIwNjcxIDYuNTAxMjUgNi4yMzAwMSA2LjIzNjMzIDYuMDk2NjhMNi4xMzk2NSA2LjAzOTA2TDQuODI3MTUgNS4xMjc5M0wzLjMyMDMxIDYuMzgzNzlMMi42Nzk2OSA1LjYxNjIxTDQuMzA0NjkgNC4yNjE3MkM0LjU1MDQgNC4wNTcyMSA0Ljg5MDgxIDQuMDIwNzEgNS4xNzA5IDQuMTU5MThMNS4yNzI0NiA0LjIxOTczTDYuNTkxOCA1LjEzNTc0TDguNzA1MDggMy41OTU3TDkuMjk0OTIgNC40MDQzWiIgZmlsbD0iIzY2NjY2NiIvPgo8L3N2Zz4K) - https://lucide.dev/icons/meeting-room
+ * @see https://lucide.dev/guide/packages/lucide-react - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {JSX.Element} JSX Element
+ *
+ */
+const MeetingRoom = createLucideIcon('meeting-room', __iconNode);
+
+export default MeetingRoom;
