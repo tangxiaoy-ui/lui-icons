@@ -6,15 +6,18 @@
 
 Monorepo containing:
 
-- **lucide-react** (React)
-- **lucide-vue-next** (Vue 3)
-- **lucide-solid** (SolidJS)
-- **lucide-svelte** (Svelte)
-- **lucide-angular** (Angular)
-- **lucide-preact** (Preact)
-- **@lucide/astro** (Astro)
-- **lucide-static** (Static assets)
-- **lucide** (Vanilla JS)
+- **lui-icon-react** (React)
+- **lui-icon-vue-next** (Vue 3)
+- **lui-icon-vue** (Vue 2)
+- **lui-icon-solid** (SolidJS)
+- **@lui-icon/svelte** (Svelte)
+- **lui-icon-svelte-legacy** (Svelte legacy)
+- **lui-icon-angular** (Angular)
+- **lui-icon-preact** (Preact)
+- **@lui-icon/astro** (Astro)
+- **lui-icon-static** (Static assets)
+- **lui-icon** (Vanilla JS)
+- **@lui-icon/shared** (Shared utilities)
 
 ## Build & Test Commands
 
@@ -43,10 +46,10 @@ _Run these from the root directory using filters:_
 
 ```bash
 # Build specific package
-pnpm lucide-react build
+pnpm lui-icon-react build
 
 # Test specific package
-pnpm lucide-react test
+pnpm lui-icon-react test
 ```
 
 ### Single Test Execution
@@ -55,7 +58,7 @@ _Useful for debugging specific components or icons._
 
 ```bash
 # 1. Navigate to package
-cd packages/lucide-react
+cd packages/lui-icon-react
 
 # 2. Run specific test file
 pnpm vitest run tests/Icon.spec.tsx
@@ -110,7 +113,7 @@ Organize imports by: Framework -> Workspace/External -> Local.
 import { createElement, forwardRef } from 'react';
 
 // 2. Workspace Packages
-import { mergeClasses } from '@lucide/shared';
+import { mergeClasses } from '@lui-icon/shared';
 
 // 3. Local Imports
 import { IconNode, LucideProps } from './types';
@@ -143,7 +146,7 @@ Tests use **Vitest** with **jsdom** and **@testing-library**.
 ```typescript
 import { describe, it, expect } from 'vitest';
 import { render } from '@testing-library/react';
-import { Search } from '../src/lucide-react';
+import { Search } from '../src/lui-icon-react';
 
 describe('Icon Component', () => {
   it('renders correctly', () => {
@@ -170,21 +173,31 @@ describe('Icon Component', () => {
 - **Accessibility**:
   - Icons automatically get `aria-hidden="true"` unless `aria-label`, `aria-labelledby`, or `role` is provided via props.
 
+## Hierarchical Documentation
+
+This project uses hierarchical AGENTS.md files:
+
+- **[Root AGENTS.md](./AGENTS.md)** - This file: Project overview, conventions, workflows
+- **[packages/AGENTS.md](./packages/AGENTS.md)** - Framework package development
+- **[tools/build-icons/AGENTS.md](./tools/build-icons/AGENTS.md)** - Icon generation engine
+- **[scripts/AGENTS.md](./scripts/AGENTS.md)** - Utility scripts and workflows
+- **[docs/AGENTS.md](./docs/AGENTS.md)** - Documentation site development
+
 ## File Structure
 
 ```
 tubiao/
 ├── icons/                    # Source SVG files (Single Source of Truth)
 ├── packages/
-│   ├── lucide-react/        # React package
+│   ├── lui-icon-react/      # React package
 │   │   ├── src/icons/       # Generated components
 │   │   └── tests/           # Component tests
-│   ├── lucide-vue-next/     # Vue 3 package
-│   ├── shared/              # Shared utilities (@lucide/shared)
+│   ├── lui-icon-vue-next/   # Vue 3 package
+│   ├── @lui-icon/shared/    # Shared utilities
 │   └── ...
 ├── tools/
-│   └── build-icons/         # CLI tool for generating icons
-├── scripts/                  # Maintenance scripts (optimize, generate)
+│   └── build-icons/         # CLI tool for generating icons (see AGENTS.md)
+├── scripts/                  # Maintenance scripts (see AGENTS.md)
 └── .eslintrc.js              # Global lint config
 ```
 
@@ -203,5 +216,5 @@ tubiao/
 ### Debugging a Build Failure
 
 1.  Check `package.json` scripts to see what `pnpm build` does (usually `pnpm -r build`).
-2.  Isolate the failing package (e.g., `pnpm lucide-react build`).
+2.  Isolate the failing package (e.g., `pnpm lui-icon-react build`).
 3.  Run `pnpm typecheck` in that package to catch TS errors.
