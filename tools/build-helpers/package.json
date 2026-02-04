@@ -1,8 +1,8 @@
 {
-  "name": "@lucide/helpers",
+  "name": "@lui-icon/helpers",
   "private": true,
   "version": "1.0.0",
-  "description": "A internal used package with helpers.",
+  "description": "A internal used package with helpers for LUI-icon.",
   "main": "helpers.ts",
   "types": "helpers.ts",
   "author": "",

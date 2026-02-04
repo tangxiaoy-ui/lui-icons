@@ -1,5 +1,5 @@
 import path from 'path';
-import { resetFile, appendFile } from '@lucide/helpers';
+import { resetFile, appendFile } from '@lui-icon/helpers';
 import type { IconMetadata } from '../types.ts';
 import type { INode } from 'svgson';
 

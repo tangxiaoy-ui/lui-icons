@@ -1,0 +1,39 @@
+<script lang="ts">/**
+ * @license @lui-icon/svelte v0.1.0 - ISC
+ *
+ * ISC License
+ *
+ * Copyright (c) 2024, Tubiao Contributors
+ *
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ *
+ */
+import Icon from '../Icon.svelte';
+let props = $props();
+const iconNode = [["path", { "d": "M10.5 1C11.3284 1 12 1.67157 12 2.5V9.5C12 10.3284 11.3284 11 10.5 11H1.5C0.671573 11 0 10.3284 0 9.5V2.5C0 1.67157 0.671573 1 1.5 1H10.5ZM1 9.5C1 9.77614 1.22386 10 1.5 10H10.5C10.7761 10 11 9.77614 11 9.5V4H1V9.5ZM4 9H3V5H4V9ZM1.5 2C1.22386 2 1 2.22386 1 2.5V3H11V2.5C11 2.22386 10.7761 2 10.5 2H1.5Z", "fill": "#666666" }]];
+/**
+ * @component @name Page
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTAuNSAxQzExLjMyODQgMSAxMiAxLjY3MTU3IDEyIDIuNVY5LjVDMTIgMTAuMzI4NCAxMS4zMjg0IDExIDEwLjUgMTFIMS41QzAuNjcxNTczIDExIDAgMTAuMzI4NCAwIDkuNVYyLjVDMCAxLjY3MTU3IDAuNjcxNTczIDEgMS41IDFIMTAuNVpNMSA5LjVDMSA5Ljc3NjE0IDEuMjIzODYgMTAgMS41IDEwSDEwLjVDMTAuNzc2MSAxMCAxMSA5Ljc3NjE0IDExIDkuNVY0SDFWOS41Wk00IDlIM1Y1SDRWOVpNMS41IDJDMS4yMjM4NiAyIDEgMi4yMjM4NiAxIDIuNVYzSDExVjIuNUMxMSAyLjIyMzg2IDEwLjc3NjEgMiAxMC41IDJIMS41WiIgZmlsbD0iIzY2NjY2NiIvPgo8L3N2Zz4K) - https://lucide.dev/icons/page
+ * @see https://lucide.dev/guide/packages/lucide-svelte - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Svelte component
+ *
+ */
+</script>
+
+<Icon name="page" {...props} iconNode={iconNode}>
+  {@render props.children?.()}
+</Icon>

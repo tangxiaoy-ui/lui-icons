@@ -1,0 +1,45 @@
+<script lang="ts">
+/**
+ * @license @lui-icon/svelte v0.1.0 - ISC
+ *
+ * ISC License
+ * 
+ * Copyright (c) 2024, Tubiao Contributors
+ * 
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ * 
+ */
+
+import Icon from '../Icon.svelte';
+import type { IconNode, IconProps } from '../types.js';
+
+let props: IconProps = $props();
+
+const iconNode: IconNode = [["path",{"d":"M10.5 1C11.3284 1 12 1.67157 12 2.5V8.5C12 9.32843 11.3284 10 10.5 10H4.70605L3.19531 11.5117C2.94932 11.7577 2.56553 11.7827 2.29199 11.5859L2.20508 11.5117C2.07401 11.3806 2.00011 11.203 2 11.0176V10H1.5C0.720327 10 0.0795521 9.40515 0.00683594 8.64453L0 8.5V2.5C0 1.67157 0.671573 1 1.5 1H10.5ZM1.5 2C1.22386 2 1 2.22386 1 2.5V8.5C1 8.77614 1.22386 9 1.5 9H2.2998C2.6864 9 3 9.3136 3 9.7002V10.292L4.08789 9.20508C4.1929 9.10007 4.32783 9.03187 4.47266 9.00879L4.58301 9H10.5C10.7761 9 11 8.77614 11 8.5V2.5C11 2.22386 10.7761 2 10.5 2H1.5ZM6.5 5H8.5V6H6.5V8H5.5V6H3.5V5H5.5V3H6.5V5Z","fill":"#666666"}]];
+
+/**
+ * @component @name MessageAdd
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTAuNSAxQzExLjMyODQgMSAxMiAxLjY3MTU3IDEyIDIuNVY4LjVDMTIgOS4zMjg0MyAxMS4zMjg0IDEwIDEwLjUgMTBINC43MDYwNUwzLjE5NTMxIDExLjUxMTdDMi45NDkzMiAxMS43NTc3IDIuNTY1NTMgMTEuNzgyNyAyLjI5MTk5IDExLjU4NTlMMi4yMDUwOCAxMS41MTE3QzIuMDc0MDEgMTEuMzgwNiAyLjAwMDExIDExLjIwMyAyIDExLjAxNzZWMTBIMS41QzAuNzIwMzI3IDEwIDAuMDc5NTUyMSA5LjQwNTE1IDAuMDA2ODM1OTQgOC42NDQ1M0wwIDguNVYyLjVDMCAxLjY3MTU3IDAuNjcxNTczIDEgMS41IDFIMTAuNVpNMS41IDJDMS4yMjM4NiAyIDEgMi4yMjM4NiAxIDIuNVY4LjVDMSA4Ljc3NjE0IDEuMjIzODYgOSAxLjUgOUgyLjI5OThDMi42ODY0IDkgMyA5LjMxMzYgMyA5LjcwMDJWMTAuMjkyTDQuMDg3ODkgOS4yMDUwOEM0LjE5MjkgOS4xMDAwNyA0LjMyNzgzIDkuMDMxODcgNC40NzI2NiA5LjAwODc5TDQuNTgzMDEgOUgxMC41QzEwLjc3NjEgOSAxMSA4Ljc3NjE0IDExIDguNVYyLjVDMTEgMi4yMjM4NiAxMC43NzYxIDIgMTAuNSAySDEuNVpNNi41IDVIOC41VjZINi41VjhINS41VjZIMy41VjVINS41VjNINi41VjVaIiBmaWxsPSIjNjY2NjY2Ii8+Cjwvc3ZnPgo=) - https://lucide.dev/icons/message-add
+ * @see https://lucide.dev/guide/packages/lucide-svelte - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Svelte component
+ * 
+ */
+</script>
+
+<Icon name="message-add" {...props} iconNode={iconNode}>
+  {@render props.children?.()}
+</Icon>

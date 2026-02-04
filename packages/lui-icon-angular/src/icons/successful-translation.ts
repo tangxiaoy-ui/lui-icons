@@ -1,0 +1,19 @@
+import { LucideIconData } from './types';
+
+/**
+ * @component @name SuccessfulTranslation
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfMTY0Ml84MDM3KSI+CjxwYXRoIGQ9Ik0xMCAwQzExLjEwNDYgMCAxMiAwLjg5NTQzIDEyIDJWNi44NDc2NkwxMSA2VjJDMTEgMS40ODcxNiAxMC42MTM1IDEuMDY0NiAxMC4xMTYyIDEuMDA2ODRMMTAgMUgyQzEuNDg3MTYgMSAxLjA2NDYgMS4zODY0NSAxLjAwNjg0IDEuODgzNzlMMSAyVjEwQzEgMTAuNTEyOCAxLjM4NjQ1IDEwLjkzNTQgMS44ODM3OSAxMC45OTMyTDIgMTFINi4xNzU3OEw3LjE0NjQ4IDEySDJDMC44OTU0MyAxMiAwIDExLjEwNDYgMCAxMFYyQzAgMC44OTU0MyAwLjg5NTQzIDAgMiAwSDEwWk0xMS44ODM4IDguMzIwMzFMOS42OTYyOSAxMC45NDI0QzkuNjkwNTggMTAuOTQ4NCA5LjY4MzE2IDEwLjk1NjIgOS42NzI4NSAxMC45NjY4QzkuMzEyNDEgMTEuMzI2NyA4Ljc0NTYgMTEuMzU0NSA4LjM1MzUyIDExLjA0OThMOC4yNTg3OSAxMC45NjY4TDcuMTQ2NDggOS44NTM1Mkw3Ljg1MzUyIDkuMTQ2NDhMOC45NjU4MiAxMC4yNTk4TDExLjExNTIgNy42Nzk2OUwxMS44ODM4IDguMzIwMzFaTTUuNTcwMzEgMi43MDcwM0M1Ljc0NDI0IDIuMzU3ODUgNi4yMzQyNCAyLjMzNSA2LjQ1MDIgMi42Mzc3TDYuNDkyMTkgMi43MDcwM0w4LjYxODE2IDYuOTgyNDJMNy44OTY0OCA3LjgxNDQ1TDcuNTY1NDMgNy4xNDk0MUg0LjQ5NjA5TDMuNTAzOTEgOS4xNDU1MUMzLjM5MzIyIDkuMzY3NzQgMy4xMzQ0OSA5LjQ3NDE2IDIuODk4NDQgOS40MDYyNUwyLjgyMDMxIDkuMzc2OTVDMi41OTE2OSA5LjI2OTQzIDIuNDgyOTUgOS4wMTgyMSAyLjU1MjczIDguNzg5MDZMMi41ODIwMyA4LjcxMjg5TDUuNTcwMzEgMi43MDcwM1pNNC45OTMxNiA2LjE0OTQxSDcuMDY3MzhMNi4wMzEyNSA0LjA2NTQzTDQuOTkzMTYgNi4xNDk0MVoiIGZpbGw9IiM2NjY2NjYiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xNjQyXzgwMzciPgo8cmVjdCB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIGZpbGw9IndoaXRlIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPC9zdmc+Cg==) - https://lucide.dev/icons/successful-translation
+ * @see https://lucide.dev/guide/packages/lucide-vue-next - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Vue component
+ *
+ */
+const SuccessfulTranslation: LucideIconData = [
+  ['g', { 'clip-path': 'url(#clip0_1642_8037)', key: '14c2dw' }],
+  ['defs', { key: '9ahrjx' }],
+]; //eslint-disable-line no-shadow-restricted-names
+
+export default SuccessfulTranslation;

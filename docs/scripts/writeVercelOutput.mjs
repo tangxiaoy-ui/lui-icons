@@ -1,7 +1,7 @@
 import path from 'path';
 import fs from 'fs';
-import { getIconMetaData } from '@lucide/build-icons';
-import { getCurrentDirPath } from '@lucide/helpers';
+import { getIconMetaData } from '@lui-icon/build-icons';
+import { getCurrentDirPath } from '@lui-icon/helpers';
 
 const currentDir = process.cwd();
 const scriptDir = getCurrentDirPath(import.meta.url);

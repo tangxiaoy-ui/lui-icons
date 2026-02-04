@@ -1,0 +1,45 @@
+<script lang="ts">
+/**
+ * @license lui-icon-svelte-legacy v0.0.1 - ISC
+ *
+ * ISC License
+ * 
+ * Copyright (c) 2024, Tubiao Contributors
+ * 
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ * 
+ */
+
+import Icon from '../Icon.svelte';
+import type { IconNode, IconProps } from '../types.js';
+
+type $$Props = IconProps;
+
+const iconNode: IconNode = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M1 0H11C11.5523 0 12 0.447715 12 1V1.79289C12 2.05811 11.8946 2.31246 11.7071 2.5L8.14645 6.06066C8.05268 6.15443 8 6.28161 8 6.41421V11.1263C8 11.5129 7.6866 11.8263 7.3 11.8263C7.1618 11.8263 7.0267 11.7854 6.91171 11.7087L4.31171 9.9754C4.11697 9.84557 4 9.62701 4 9.39296V6.41421C4 6.28161 3.94732 6.15443 3.85355 6.06066L0.292893 2.5C0.105357 2.31246 0 2.05811 0 1.79289V1C0 0.447715 0.447715 0 1 0ZM11 1H1V1.79289L4.56066 5.35355C4.84196 5.63486 5 6.01639 5 6.41421V9.232L7 10.565V6.41421C7 6.06612 7.121 5.7305 7.3397 5.46358L7.43934 5.35355L11 1.79289V1Z","fill":"#666666"}]];
+
+/**
+ * @component @name Funnel
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEgMEgxMUMxMS41NTIzIDAgMTIgMC40NDc3MTUgMTIgMVYxLjc5Mjg5QzEyIDIuMDU4MTEgMTEuODk0NiAyLjMxMjQ2IDExLjcwNzEgMi41TDguMTQ2NDUgNi4wNjA2NkM4LjA1MjY4IDYuMTU0NDMgOCA2LjI4MTYxIDggNi40MTQyMVYxMS4xMjYzQzggMTEuNTEyOSA3LjY4NjYgMTEuODI2MyA3LjMgMTEuODI2M0M3LjE2MTggMTEuODI2MyA3LjAyNjcgMTEuNzg1NCA2LjkxMTcxIDExLjcwODdMNC4zMTE3MSA5Ljk3NTRDNC4xMTY5NyA5Ljg0NTU3IDQgOS42MjcwMSA0IDkuMzkyOTZWNi40MTQyMUM0IDYuMjgxNjEgMy45NDczMiA2LjE1NDQzIDMuODUzNTUgNi4wNjA2NkwwLjI5Mjg5MyAyLjVDMC4xMDUzNTcgMi4zMTI0NiAwIDIuMDU4MTEgMCAxLjc5Mjg5VjFDMCAwLjQ0NzcxNSAwLjQ0NzcxNSAwIDEgMFpNMTEgMUgxVjEuNzkyODlMNC41NjA2NiA1LjM1MzU1QzQuODQxOTYgNS42MzQ4NiA1IDYuMDE2MzkgNSA2LjQxNDIxVjkuMjMyTDcgMTAuNTY1VjYuNDE0MjFDNyA2LjA2NjEyIDcuMTIxIDUuNzMwNSA3LjMzOTcgNS40NjM1OEw3LjQzOTM0IDUuMzUzNTVMMTEgMS43OTI4OVYxWiIgZmlsbD0iIzY2NjY2NiIvPgo8L3N2Zz4K) - https://lucide.dev/icons/funnel
+ * @see https://lucide.dev/guide/packages/lucide-svelte - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Svelte component
+ * 
+ */
+</script>
+
+<Icon name="funnel" {...$$props} iconNode={iconNode}>
+  <slot/>
+</Icon>

@@ -1,0 +1,10 @@
+import * as icons from './icons/lui-icon-icons';
+export * from './lib/lui-icon-angular.component';
+export * from './lib/lui-icon-angular.module';
+export * from './lib/lui-icon-icon.config';
+export * from './lib/lui-icon-icon.provider';
+export * from './icons/lui-icon-icons';
+export * from './icons/types';
+export * from './aliases';
+export { icons };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sS0FBSyxLQUFLLE1BQU0sd0JBQXdCLENBQUM7QUFFaEQsY0FBYyxrQ0FBa0MsQ0FBQztBQUNqRCxjQUFjLCtCQUErQixDQUFDO0FBQzlDLGNBQWMsNEJBQTRCLENBQUM7QUFDM0MsY0FBYyw4QkFBOEIsQ0FBQztBQUM3QyxjQUFjLHdCQUF3QixDQUFDO0FBQ3ZDLGNBQWMsZUFBZSxDQUFDO0FBQzlCLGNBQWMsV0FBVyxDQUFDO0FBQzFCLE9BQU8sRUFBRSxLQUFLLEVBQUUsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAqIGFzIGljb25zIGZyb20gJy4vaWNvbnMvbHVpLWljb24taWNvbnMnO1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9sdWktaWNvbi1hbmd1bGFyLmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9sdWktaWNvbi1hbmd1bGFyLm1vZHVsZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9sdWktaWNvbi1pY29uLmNvbmZpZyc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9sdWktaWNvbi1pY29uLnByb3ZpZGVyJztcbmV4cG9ydCAqIGZyb20gJy4vaWNvbnMvbHVpLWljb24taWNvbnMnO1xuZXhwb3J0ICogZnJvbSAnLi9pY29ucy90eXBlcyc7XG5leHBvcnQgKiBmcm9tICcuL2FsaWFzZXMnO1xuZXhwb3J0IHsgaWNvbnMgfTtcbiJdfQ==

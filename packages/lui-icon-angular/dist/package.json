@@ -1,0 +1,63 @@
+{
+  "name": "lui-icon-angular",
+  "description": "A LUI-icon icon library package for Angular applications.",
+  "version": "0.0.1",
+  "author": "SMAH1",
+  "license": "ISC",
+  "homepage": "https://lucide.dev",
+  "bugs": "https://github.com/lui-icon-icons/lucide/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lui-icon-icons/lucide.git",
+    "directory": "packages/lui-icon-angular"
+  },
+  "publishConfig": {
+    "directory": "dist"
+  },
+  "keywords": [
+    "LUI-icon",
+    "Angular",
+    "Feather",
+    "Icons",
+    "Icon",
+    "SVG",
+    "Feather Icons",
+    "Fontawesome",
+    "Font Awesome"
+  ],
+  "peerDependencies": {
+    "@angular/common": "13.x - 21.x",
+    "@angular/core": "13.x - 21.x"
+  },
+  "module": "fesm2015/lui-icon-angular.mjs",
+  "es2020": "fesm2020/lui-icon-angular.mjs",
+  "esm2020": "esm2020/lui-icon-angular.mjs",
+  "fesm2020": "fesm2020/lui-icon-angular.mjs",
+  "fesm2015": "fesm2015/lui-icon-angular.mjs",
+  "typings": "lui-icon-angular.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./lui-icon-angular.d.ts",
+      "esm2020": "./esm2020/lui-icon-angular.mjs",
+      "es2020": "./fesm2020/lui-icon-angular.mjs",
+      "es2015": "./fesm2015/lui-icon-angular.mjs",
+      "node": "./fesm2015/lui-icon-angular.mjs",
+      "default": "./fesm2020/lui-icon-angular.mjs"
+    },
+    "./src/icons": {
+      "types": "./src/icons/lui-icon-angular-src-icons.d.ts",
+      "esm2020": "./esm2020/src/icons/lui-icon-angular-src-icons.mjs",
+      "es2020": "./fesm2020/lui-icon-angular-src-icons.mjs",
+      "es2015": "./fesm2015/lui-icon-angular-src-icons.mjs",
+      "node": "./fesm2015/lui-icon-angular-src-icons.mjs",
+      "default": "./fesm2020/lui-icon-angular-src-icons.mjs"
+    }
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}

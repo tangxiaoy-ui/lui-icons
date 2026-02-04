@@ -1,0 +1,14 @@
+import { LucideIconData } from './types';
+/**
+ * @component @name MessageAdd
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTAuNSAxQzExLjMyODQgMSAxMiAxLjY3MTU3IDEyIDIuNVY4LjVDMTIgOS4zMjg0MyAxMS4zMjg0IDEwIDEwLjUgMTBINC43MDYwNUwzLjE5NTMxIDExLjUxMTdDMi45NDkzMiAxMS43NTc3IDIuNTY1NTMgMTEuNzgyNyAyLjI5MTk5IDExLjU4NTlMMi4yMDUwOCAxMS41MTE3QzIuMDc0MDEgMTEuMzgwNiAyLjAwMDExIDExLjIwMyAyIDExLjAxNzZWMTBIMS41QzAuNzIwMzI3IDEwIDAuMDc5NTUyMSA5LjQwNTE1IDAuMDA2ODM1OTQgOC42NDQ1M0wwIDguNVYyLjVDMCAxLjY3MTU3IDAuNjcxNTczIDEgMS41IDFIMTAuNVpNMS41IDJDMS4yMjM4NiAyIDEgMi4yMjM4NiAxIDIuNVY4LjVDMSA4Ljc3NjE0IDEuMjIzODYgOSAxLjUgOUgyLjI5OThDMi42ODY0IDkgMyA5LjMxMzYgMyA5LjcwMDJWMTAuMjkyTDQuMDg3ODkgOS4yMDUwOEM0LjE5MjkgOS4xMDAwNyA0LjMyNzgzIDkuMDMxODcgNC40NzI2NiA5LjAwODc5TDQuNTgzMDEgOUgxMC41QzEwLjc3NjEgOSAxMSA4Ljc3NjE0IDExIDguNVYyLjVDMTEgMi4yMjM4NiAxMC43NzYxIDIgMTAuNSAySDEuNVpNNi41IDVIOC41VjZINi41VjhINS41VjZIMy41VjVINS41VjNINi41VjVaIiBmaWxsPSIjNjY2NjY2Ii8+Cjwvc3ZnPgo=) - https://lucide.dev/icons/message-add
+ * @see https://lucide.dev/guide/packages/lucide-vue-next - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Vue component
+ *
+ */
+declare const MessageAdd: LucideIconData;
+export default MessageAdd;

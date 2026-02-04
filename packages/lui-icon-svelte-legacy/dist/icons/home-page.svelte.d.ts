@@ -1,0 +1,48 @@
+/**
+ * @license lui-icon-svelte-legacy v0.0.1 - ISC
+ *
+ * ISC License
+ * 
+ * Copyright (c) 2024, Tubiao Contributors
+ * 
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ * 
+ */
+import { SvelteComponentTyped } from "svelte";
+import type { IconProps } from '../types.js';
+declare const __propDef: {
+    props: IconProps;
+    events: {
+        [evt: string]: CustomEvent<any>;
+    };
+    slots: {
+        default: {};
+    };
+};
+export type HomePageProps = typeof __propDef.props;
+export type HomePageEvents = typeof __propDef.events;
+export type HomePageSlots = typeof __propDef.slots;
+/**
+ * @component @name HomePage
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNS4xOTQzNCAwLjQxOTkyNkM1LjY4NTY4IDAuMTA3MjU4IDYuMzE0MzIgMC4xMDcyNTggNi44MDU2NiAwLjQxOTkyNkwxMS4zMDU3IDMuMjgzMjFDMTEuNzM4MiAzLjU1ODQ4IDExLjk5OTkgNC4wMzYxNCAxMiA0LjU0ODgzVjEwLjVDMTIgMTEuMzI4NCAxMS4zMjg0IDEyIDEwLjUgMTJIMS41QzAuNjcxNTczIDEyIDAgMTEuMzI4NCAwIDEwLjVWNC41NDg4M0MwLjAwMDEyODIzNyA0LjAzNjE0IDAuMjYxNzg3IDMuNTU4NDggMC42OTQzMzYgMy4yODMyMUw1LjE5NDM0IDAuNDE5OTI2Wk02LjI2ODU1IDEuMjYzNjhDNi4xMDQ3OCAxLjE1OTQ2IDUuODk1MjIgMS4xNTk0NiA1LjczMTQ1IDEuMjYzNjhMMS4yMzE0NSA0LjEyNjk2QzEuMDg3MzMgNC4yMTg2NyAxLjAwMDEzIDQuMzc4MDMgMSA0LjU0ODgzVjEwLjVDMSAxMC43NzYxIDEuMjIzODYgMTEgMS41IDExSDRWNy43NUM0LjAwMDA3IDcuMzcwMzcgNC4yODI0IDcuMDU2NSA0LjY0ODQ0IDcuMDA2ODRMNC43NSA3SDcuMjVDNy42Mjk3IDcgNy45NDM1IDcuMjgyMzcgNy45OTMxNiA3LjY0ODQ0TDggNy43NVYxMUgxMC41QzEwLjc3NjEgMTEgMTEgMTAuNzc2MSAxMSAxMC41VjQuNTQ4ODNDMTAuOTk5OSA0LjM3ODAzIDEwLjkxMjcgNC4yMTg2NyAxMC43Njg2IDQuMTI2OTZMNi4yNjg1NSAxLjI2MzY4Wk01IDExSDdWOEg1VjExWiIgZmlsbD0iIzY2NjY2NiIvPgo8L3N2Zz4K) - https://lucide.dev/icons/home-page
+ * @see https://lucide.dev/guide/packages/lucide-svelte - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Svelte component
+ *
+ */
+export default class HomePage extends SvelteComponentTyped<HomePageProps, HomePageEvents, HomePageSlots> {
+}
+export {};

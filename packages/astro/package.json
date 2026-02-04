@@ -1,8 +1,8 @@
 {
-  "name": "@lucide/astro",
+  "name": "@lui-icon/astro",
   "version": "0.470.0",
   "author": "Moustapha Kebe",
-  "description": "A Lucide icon library package for Astro applications.",
+  "description": "A LUI-icon library package for Astro applications.",
   "license": "ISC",
   "homepage": "https://lucide.dev",
   "bugs": "https://github.com/lucide-icons/lucide/issues",
@@ -13,7 +13,7 @@
     "directory": "packages/astro"
   },
   "keywords": [
-    "Lucide",
+    "LUI-icon",
     "Astro",
     "Feather",
     "Icons",
@@ -29,10 +29,10 @@
   ],
   "exports": {
     ".": {
-      "import": "./src/lucide-astro.ts"
+      "import": "./src/lui-icon-astro.ts"
     },
     "./icons": {
-      "import": "./src/lucide-astro.ts"
+      "import": "./src/lui-icon-astro.ts"
     },
     "./icons/*": {
       "import": "./src/icons/*.ts"
@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@astrojs/ts-plugin": "^1.10.4",
-    "@lucide/build-icons": "workspace:*",
+    "@lui-icon/build-icons": "workspace:*",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.8.0",
     "jest-serializer-html": "^7.1.0",

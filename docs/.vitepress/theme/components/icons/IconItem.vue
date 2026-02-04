@@ -1,17 +1,17 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import createLucideIcon from 'lucide-vue-next/src/createLucideIcon';
+import createLUIIcon from 'lui-icon-vue-next/src/createLUIIcon';
 import { useMediaQuery } from '@vueuse/core';
 import { useRouter } from 'vitepress';
 import getSVGIcon from '../../utils/getSVGIcon';
 import useConfetti from '../../composables/useConfetti';
 import Tooltip from '../base/Tooltip.vue';
-import { diamond }  from '../../../data/iconNodes'
+import { diamond } from '../../../data/iconNodes';
 
-const downloadText = 'Download!'
-const copiedText = 'Copied!'
+const downloadText = 'Download!';
+const copiedText = 'Copied!';
 
-export type IconNode = [elementName: string, attrs: Record<string, string>][]
+export type IconNode = [elementName: string, attrs: Record<string, string>][];
 
 const props = defineProps<{
   name: string;
@@ -19,60 +19,79 @@ const props = defineProps<{
   active: boolean;
   externalLibrary?: string;
   customizable?: boolean;
-  overlayMode?: boolean
-  hideIcon?: boolean
-}>()
+  overlayMode?: boolean;
+  hideIcon?: boolean;
+  showDescription?: boolean;
+  categories?: string[];
+  tags?: string[];
+}>();
 
-const emit = defineEmits(['setActiveIcon'])
+const emit = defineEmits(['setActiveIcon']);
 
-const { go } = useRouter()
+const { go } = useRouter();
 const showOverlay = useMediaQuery('(min-width: 860px)');
-const { animate, confetti, confettiText } = useConfetti()
-
+const { animate, confetti, confettiText } = useConfetti();
 
 const icon = computed(() => {
-  if (!props.name || !props.iconNode) return null
-  return createLucideIcon(props.name, props.iconNode)
-})
+  if (!props.name || !props.iconNode) return null;
+  return createLUIIcon(props.name, props.iconNode);
+});
 
-const href = computed(() => props.externalLibrary ? `/icons/${props.externalLibrary}/${props.name}` : `/icons/${props.name}`)
+const href = computed(() =>
+  props.externalLibrary ? `/icons/${props.externalLibrary}/${props.name}` : `/icons/${props.name}`,
+);
 
 async function navigateToIcon(event) {
   if (event.shiftKey) {
-    event.preventDefault()
+    event.preventDefault();
     const svgString = getSVGIcon(event.target.firstChild, {
       class: `lucide lucide-${props.name}`,
-    })
+    });
 
-    await navigator.clipboard.writeText(svgString)
+    await navigator.clipboard.writeText(svgString);
 
-    confettiText.value = copiedText
-    confetti()
-    return
+    confettiText.value = copiedText;
+    confetti();
+    return;
   }
 
-  if(props.overlayMode && showOverlay.value) {
-    event.preventDefault()
+  if (props.overlayMode && showOverlay.value) {
+    event.preventDefault();
 
-    window.history.pushState({}, '', props.externalLibrary ? `/icons/${props.externalLibrary}/${props.name}` : `/icons/${props.name}`)
-    emit('setActiveIcon', props.externalLibrary ? `${props.externalLibrary}:${props.name}`: props.name)
+    window.history.pushState(
+      {},
+      '',
+      props.externalLibrary
+        ? `/icons/${props.externalLibrary}/${props.name}`
+        : `/icons/${props.name}`,
+    );
+    emit(
+      'setActiveIcon',
+      props.externalLibrary ? `${props.externalLibrary}:${props.name}` : props.name,
+    );
   } else {
-    event.preventDefault()
-    go(props.externalLibrary ? `/icons/${props.externalLibrary}/${props.name}` : `/icons/${props.name}`)
+    event.preventDefault();
+    go(
+      props.externalLibrary
+        ? `/icons/${props.externalLibrary}/${props.name}`
+        : `/icons/${props.name}`,
+    );
   }
 }
 
-const DiamondIcon = createLucideIcon('Diamond', diamond as any)
+const DiamondIcon = createLUIIcon('Diamond', diamond as any);
 </script>
 
 <template>
-  <Tooltip :title="name">
+  <Tooltip
+    :title="name"
+    :disabled="showDescription"
+  >
     <a
       class="icon-button confetti-button vp-raw"
       @click="navigateToIcon"
-      :class="{ active, animate }"
+      :class="{ active, animate, 'with-description': showDescription }"
       :aria-label="name"
-
       :data-confetti-text="confettiText"
       ref="ref"
     >
@@ -91,7 +110,32 @@ const DiamondIcon = createLucideIcon('Diamond', diamond as any)
         class="floating-diamond"
         aria-hidden="true"
       >
-        <DiamondIcon fill="currentColor" :size="8"/>
+        <DiamondIcon
+          fill="currentColor"
+          :size="8"
+        />
+      </div>
+      <div
+        v-if="showDescription"
+        class="icon-info"
+      >
+        <span class="icon-name">{{ name }}</span>
+        <div class="icon-desc">
+          <div
+            v-if="categories && categories.length"
+            class="desc-item"
+            :title="`Category: ${categories.join(', ')}`"
+          >
+            <strong>Category:</strong> {{ categories.join(', ') }}
+          </div>
+          <div
+            v-if="tags && tags.length"
+            class="desc-item"
+            :title="`Tags: ${tags.join(', ')}`"
+          >
+            <strong>Tags:</strong> {{ tags.join(', ') }}
+          </div>
+        </div>
       </div>
     </a>
   </Tooltip>
@@ -108,7 +152,10 @@ const DiamondIcon = createLucideIcon('Diamond', diamond as any)
   font-weight: 600;
   border-radius: 4px;
   white-space: nowrap;
-  transition: color 0.25s, border-color 0.25s, background-color 0.25s;
+  transition:
+    color 0.25s,
+    border-color 0.25s,
+    background-color 0.25s;
   border-radius: 6px;
   background-color: var(--vp-c-bg-alt);
   display: inline-flex;
@@ -135,7 +182,10 @@ const DiamondIcon = createLucideIcon('Diamond', diamond as any)
 }
 
 .icon-button:active {
-  transition: color 0.1s, border-color 0.1s, background-color 0.1s;
+  transition:
+    color 0.1s,
+    border-color 0.1s,
+    background-color 0.1s;
 }
 
 .icon-button.medium {
@@ -159,9 +209,9 @@ const DiamondIcon = createLucideIcon('Diamond', diamond as any)
 }
 
 .icon-button:active {
-    border-color: var(--vp-button-alt-active-border);
-    color: var(--vp-button-alt-active-text);
-    background-color: var(--vp-button-alt-active-bg);
+  border-color: var(--vp-button-alt-active-border);
+  color: var(--vp-button-alt-active-text);
+  background-color: var(--vp-button-alt-active-bg);
 }
 
 .icon-button.active {
@@ -173,16 +223,71 @@ const DiamondIcon = createLucideIcon('Diamond', diamond as any)
   pointer-events: none;
 }
 .lucide-icon.customizable {
-  will-change: width, height, stroke-width, stroke;
-  color: var(--customize-color, currentColor);
-  stroke-width: var(--customize-strokeWidth, 2);
-  width: calc(var(--customize-size, 24) * 1px);
-  height: calc(var(--customize-size, 24) * 1px);
+  will-change: width, height;
+  width: calc(var(--customize-size, 12) * 1px);
+  height: calc(var(--customize-size, 12) * 1px);
   max-width: 3rem;
   max-height: 3rem;
 }
 
-html.absolute-stroke-width .lucide-icon.customizable {
-  stroke-width: calc(var(--customize-strokeWidth, 2) * 24 / var(--customize-size, 24));
+/* Override fill color for fill-based icons */
+.lucide-icon.customizable :deep(path),
+.lucide-icon.customizable :deep(circle),
+.lucide-icon.customizable :deep(rect),
+.lucide-icon.customizable :deep(polygon),
+.lucide-icon.customizable :deep(ellipse) {
+  fill: var(--customize-color, currentColor);
+}
+
+/* With description mode */
+.icon-button.with-description {
+  width: 100%; /* Force full width in grid cell */
+  height: 100%; /* Fill height */
+  min-width: 56px;
+  flex-direction: column;
+  padding: 8px;
+  gap: 4px;
+}
+
+.icon-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+  overflow: hidden; /* Prevent overflow */
+}
+
+.icon-name {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--vp-c-text-2);
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 1.2;
+}
+
+.icon-desc {
+  font-size: 10px;
+  color: var(--vp-c-text-3);
+  text-align: left;
+  width: 100%;
+  border-top: 1px solid var(--vp-c-divider);
+  padding-top: 4px;
+  margin-top: 2px;
+}
+
+.desc-item {
+  margin-bottom: 2px;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.desc-item strong {
+  font-weight: 600;
+  color: var(--vp-c-text-2);
 }
 </style>

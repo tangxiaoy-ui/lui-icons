@@ -1,0 +1,14 @@
+import { LucideIconData } from './types';
+/**
+ * @component @name TowardsDown
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNi41IDkuNzkyOTdMOS4xNDY0OCA3LjE0NjQ4TDkuODUzNTIgNy44NTM1Mkw2LjcwNzAzIDExQzYuMzQ2NTUgMTEuMzYwNCA1Ljc3ODk5IDExLjM4OCA1LjM4NjcyIDExLjA4M0w1LjI5Mjk3IDExTDIuMTQ2NDggNy44NTM1MkwyLjg1MzUyIDcuMTQ2NDhMNS41IDkuNzkyOTdWMUg2LjVWOS43OTI5N1oiIGZpbGw9IiM2NjY2NjYiLz4KPC9zdmc+Cg==) - https://lucide.dev/icons/towards-down
+ * @see https://lucide.dev/guide/packages/lucide-vue-next - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Vue component
+ *
+ */
+declare const TowardsDown: LucideIconData;
+export default TowardsDown;

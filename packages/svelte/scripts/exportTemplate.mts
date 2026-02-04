@@ -1,19 +1,13 @@
-import base64SVG from '@lucide/build-icons/utils/base64SVG';
+import base64SVG from '@lui-icon/build-icons/utils/base64SVG';
 import { getJSBanner } from './license.mts';
-import defineExportTemplate from '@lucide/build-icons/utils/defineExportTemplate';
+import defineExportTemplate from '@lui-icon/build-icons/utils/defineExportTemplate';
 
-export default defineExportTemplate(async ({
-  iconName,
-  children,
-  componentName,
-  getSvg,
-  deprecated,
-  deprecationReason,
-}) => {
-  const svgContents = await getSvg();
-  const svgBase64 = base64SVG(svgContents);
+export default defineExportTemplate(
+  async ({ iconName, children, componentName, getSvg, deprecated, deprecationReason }) => {
+    const svgContents = await getSvg();
+    const svgBase64 = base64SVG(svgContents);
 
-  return `\
+    return `\
 <script lang="ts">
 ${getJSBanner()}
 import Icon from '../Icon.svelte';
@@ -40,4 +34,5 @@ const iconNode: IconNode = ${JSON.stringify(children)};
   {@render props.children?.()}
 </Icon>
 `;
-});
+  },
+);

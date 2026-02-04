@@ -1,0 +1,14 @@
+import { LucideIconData } from './types';
+/**
+ * @component @name Funnel
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEgMEgxMUMxMS41NTIzIDAgMTIgMC40NDc3MTUgMTIgMVYxLjc5Mjg5QzEyIDIuMDU4MTEgMTEuODk0NiAyLjMxMjQ2IDExLjcwNzEgMi41TDguMTQ2NDUgNi4wNjA2NkM4LjA1MjY4IDYuMTU0NDMgOCA2LjI4MTYxIDggNi40MTQyMVYxMS4xMjYzQzggMTEuNTEyOSA3LjY4NjYgMTEuODI2MyA3LjMgMTEuODI2M0M3LjE2MTggMTEuODI2MyA3LjAyNjcgMTEuNzg1NCA2LjkxMTcxIDExLjcwODdMNC4zMTE3MSA5Ljk3NTRDNC4xMTY5NyA5Ljg0NTU3IDQgOS42MjcwMSA0IDkuMzkyOTZWNi40MTQyMUM0IDYuMjgxNjEgMy45NDczMiA2LjE1NDQzIDMuODUzNTUgNi4wNjA2NkwwLjI5Mjg5MyAyLjVDMC4xMDUzNTcgMi4zMTI0NiAwIDIuMDU4MTEgMCAxLjc5Mjg5VjFDMCAwLjQ0NzcxNSAwLjQ0NzcxNSAwIDEgMFpNMTEgMUgxVjEuNzkyODlMNC41NjA2NiA1LjM1MzU1QzQuODQxOTYgNS42MzQ4NiA1IDYuMDE2MzkgNSA2LjQxNDIxVjkuMjMyTDcgMTAuNTY1VjYuNDE0MjFDNyA2LjA2NjEyIDcuMTIxIDUuNzMwNSA3LjMzOTcgNS40NjM1OEw3LjQzOTM0IDUuMzUzNTVMMTEgMS43OTI4OVYxWiIgZmlsbD0iIzY2NjY2NiIvPgo8L3N2Zz4K) - https://lucide.dev/icons/funnel
+ * @see https://lucide.dev/guide/packages/lucide-vue-next - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Vue component
+ *
+ */
+declare const Funnel: LucideIconData;
+export default Funnel;

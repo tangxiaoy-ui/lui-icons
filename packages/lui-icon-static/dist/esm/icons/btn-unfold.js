@@ -1,0 +1,17 @@
+/**
+ * @license lui-icon-static v0.0.1 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+
+const BtnUnfold = `
+<svg
+  class="lucide lucide-btn-unfold" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.5 0H8.5C10.433 0 12 1.567 12 3.5V8.5C12 10.433 10.433 12 8.5 12H3.5C1.567 12 0 10.433 0 8.5V3.5C0 1.567 1.567 0 3.5 0ZM8.5 1H3.5C2.11929 1 1 2.11929 1 3.5V8.5C1 9.88071 2.11929 11 3.5 11H8.5C9.88071 11 11 9.88071 11 8.5V3.5C11 2.11929 9.88071 1 8.5 1Z" fill="#666666"/>
+<path d="M6.5 3.17157V5.499L8.82842 5.5V6.5L6.5 6.499V8.82843H5.5V6.499L3.17157 6.5V5.5L5.5 5.499V3.17157H6.5Z" fill="#666666"/>
+</svg>
+`;
+
+export { BtnUnfold as default };
+//# sourceMappingURL=btn-unfold.js.map

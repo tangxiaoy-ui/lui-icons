@@ -1,9 +1,9 @@
 import { describe, it, expect, afterEach } from 'vitest';
 import { render, cleanup } from '@testing-library/svelte';
-import { Smile, Pen, Edit2 } from '../src/lucide-svelte.js';
+import { Smile, Pen, Edit2 } from '../src/lui-icon-svelte.js';
 import TestSlots from './TestSlots.svelte';
 
-describe('Using lucide icon components', () => {
+describe('Using lui-icon icon components', () => {
   afterEach(() => cleanup());
   it('should render an component', () => {
     const { container } = render(Smile);
@@ -35,8 +35,8 @@ describe('Using lucide icon components', () => {
     expect(icon).toBeInTheDocument();
     expect(icon).toMatchSnapshot();
     expect(icon).toHaveClass(testClass);
-    expect(icon).toHaveClass('lucide');
-    expect(icon).toHaveClass('lucide-smile');
+    expect(icon).toHaveClass('lui-icon');
+    expect(icon).toHaveClass('lui-icon-smile');
   });
 
   it('should add a style attribute to the element', () => {

@@ -1,0 +1,48 @@
+/**
+ * @license lui-icon-svelte-legacy v0.0.1 - ISC
+ *
+ * ISC License
+ * 
+ * Copyright (c) 2024, Tubiao Contributors
+ * 
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ * 
+ */
+import { SvelteComponentTyped } from "svelte";
+import type { IconProps } from '../types.js';
+declare const __propDef: {
+    props: IconProps;
+    events: {
+        [evt: string]: CustomEvent<any>;
+    };
+    slots: {
+        default: {};
+    };
+};
+export type UserExecutorProps = typeof __propDef.props;
+export type UserExecutorEvents = typeof __propDef.events;
+export type UserExecutorSlots = typeof __propDef.slots;
+/**
+ * @component @name UserExecutor
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNS45OTk5OSAwQzguMjA5MTMgMCA5Ljk5OTk5IDEuNzkwODYgOS45OTk5OSA0QzkuOTk5OTkgNC4zMjA4NiA5Ljk2MTgzIDQuNjM2OSA5Ljg4NzY5IDQuOTQzMzZMOS44MjYxNiA1LjE3MTg4TDguODY5MTMgNC44Nzg5MUM4Ljk1NTQzIDQuNTk2NzkgOC45OTk5OSA0LjMwMTY3IDguOTk5OTkgNEM4Ljk5OTk5IDIuMzQzMTUgNy42NTY4NSAxIDUuOTk5OTkgMUM0LjM0MzE5IDEuMDAwMDYgMi45OTk5OSAyLjM0MzE4IDIuOTk5OTkgNEMyLjk5OTk5IDUuNTk3NjggNC4yNDk0IDYuOTAzODcgNS44MjQyMSA2Ljk5NTEyTDUuOTk5OTkgN1Y4SDMuNTYxNTJDMi42MzcxOSA4LjAwMDA2IDEuODI0MTkgOC41OTIwNiAxLjUzMzE5IDkuNDU2MDVMMS40ODUzNCA5LjYyMTA5TDEuMjk1ODkgMTAuMzc4OUMxLjIyOTA0IDEwLjY0NjYgMS4zOTE1MyAxMC45MTgyIDEuNjU5MTcgMTAuOTg1NEwxLjcxOTcyIDEwLjk5NjFMMS43ODEyNCAxMUg1Ljk5OTk5VjEySDEuNzgxMjRDMS42NTg2IDEyIDEuNTM1OTYgMTEuOTg0OCAxLjQxNjk4IDExLjk1NTFDMC42NjA3NTcgMTEuNzY2IDAuMTgzMTEyIDExLjAzMzcgMC4yOTY4NjcgMTAuMjc4M0wwLjMyNTE4NyAxMC4xMzU3TDAuNTE0NjQgOS4zNzg5MUMwLjgzMzc0OCA4LjEwMjQ3IDEuOTA5MDUgNy4xNzMzMyAzLjE5MDQyIDcuMDIxNDhMMy4zNjIzIDcuMDA1ODZMMy4yMzgyNyA2Ljg5MzU1QzIuNTIwMjcgNi4yMDgwMSAyLjA1Njg5IDUuMjU3NDEgMi4wMDQ4NyA0LjE5OTIyTDEuOTk5OTkgNEMxLjk5OTk5IDEuNzkwOSAzLjc5MDkgNS44MTI5NWUtMDUgNS45OTk5OSAwWk0xMS44NTM1IDcuODUzNTJMOC43MDcwMiAxMUM4LjM0NjYgMTEuMzYwMyA3Ljc3OTk0IDExLjM4NzggNy4zODc2OSAxMS4wODNMNy4yOTI5NiAxMUw1LjY0NjQ4IDkuMzUzNTJMNi4zNTM1MSA4LjY0NjQ4TDcuOTk5OTkgMTAuMjkzTDExLjE0NjUgNy4xNDY0OEwxMS44NTM1IDcuODUzNTJaTTQuNzIxNjcgOC4yODUxNkM0Ljg4NDggOC41NTAwMiA1LjEyNjIxIDguNzU4MjUgNS40MTAxNSA4Ljg3OTg4TDUuNTU1NjYgOC45MzM1OUw1LjI1OTc2IDkuODg4NjdDNC43NDUwNyA5LjcyOTI5IDQuMjk3OTcgOS40MDY1MyAzLjk4MjQxIDguOTc1NTlMMy44NzAxMSA4LjgwODU5TDQuNzIxNjcgOC4yODUxNloiIGZpbGw9IiM2NjY2NjYiLz4KPC9zdmc+Cg==) - https://lucide.dev/icons/user-executor
+ * @see https://lucide.dev/guide/packages/lucide-svelte - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Svelte component
+ *
+ */
+export default class UserExecutor extends SvelteComponentTyped<UserExecutorProps, UserExecutorEvents, UserExecutorSlots> {
+}
+export {};

@@ -1,0 +1,14 @@
+import { LucideIconData } from './types';
+/**
+ * @component @name Trajectory
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMiAwLjVDMi4zNjk5NyAwLjUgMi42OTIyNyAwLjcwMTMzNSAyLjg2NTIzIDFIOC4yNUM5Ljc2ODc4IDEgMTEgMi4yMzEyMiAxMSAzLjc1QzExIDUuMjEyMzggOS44NTg1NCA2LjQwODMyIDguNDE3OTcgNi40OTUxMkw4LjI1IDYuNUgzLjc1QzIuNzgzNSA2LjUgMiA3LjI4MzUgMiA4LjI1QzIgOS4xNjgxNiAyLjcwNzEgOS45MjExMiAzLjYwNjQ1IDkuOTk0MTRMMy43NSAxMEg5LjEzNDc3QzkuMzA3NzMgOS43MDEzMyA5LjYzMDAzIDkuNSAxMCA5LjVDMTAuNTUyMyA5LjUgMTEgOS45NDc3MiAxMSAxMC41QzExIDExLjA1MjMgMTAuNTUyMyAxMS41IDEwIDExLjVDOS42MzAwMyAxMS41IDkuMzA3NzMgMTEuMjk4NyA5LjEzNDc3IDExSDMuNzVDMi4yMzEyMiAxMSAxIDkuNzY4NzggMSA4LjI1QzEgNi43ODc2MiAyLjE0MTQ2IDUuNTkxNjggMy41ODIwMyA1LjUwNDg4TDMuNzUgNS41SDguMjVDOS4yMTY1IDUuNSAxMCA0LjcxNjUgMTAgMy43NUMxMCAyLjgzMTg0IDkuMjkyOSAyLjA3ODg4IDguMzkzNTUgMi4wMDU4Nkw4LjI1IDJIMi44NjUyM0MyLjY5MjI3IDIuMjk4NjcgMi4zNjk5NyAyLjUgMiAyLjVDMS40NDc3MiAyLjUgMSAyLjA1MjI4IDEgMS41QzEgMC45NDc3MTUgMS40NDc3MiAwLjUgMiAwLjVaIiBmaWxsPSIjNjY2NjY2Ii8+Cjwvc3ZnPgo=) - https://lucide.dev/icons/trajectory
+ * @see https://lucide.dev/guide/packages/lucide-vue-next - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Vue component
+ *
+ */
+declare const Trajectory: LucideIconData;
+export default Trajectory;

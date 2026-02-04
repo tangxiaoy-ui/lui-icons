@@ -1,5 +1,5 @@
 {
-  "name": "@lucide/outline-svg",
+  "name": "@lui-icon/outline-svg",
   "description": "A internal used package to outline SVGs.",
   "private": true,
   "version": "2.0.0",

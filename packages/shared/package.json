@@ -1,8 +1,8 @@
 {
-  "name": "@lucide/shared",
+  "name": "@lui-icon/shared",
   "version": "1.0.0",
   "private": true,
-  "description": "",
+  "description": "A collection of shared internal utilities for LUI-icon.",
   "main": "src/index.ts",
   "types": "src/index.ts",
   "type": "module",

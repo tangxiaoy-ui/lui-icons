@@ -40,44 +40,44 @@
 ⚛️ react package:
   - changed-files:
       - any-glob-to-any-file:
-          - 'packages/lucide-react/*'
+          - 'packages/lui-icon-react/*'
 
 # For changes in the lucide React Native package
 ⚛️ react native package:
   - changed-files:
       - any-glob-to-any-file:
-          - 'packages/lucide-react-native/*'
+          - 'packages/lui-icon-react-native/*'
 
 # For changes in the lucide vue packages
 💎 vue package:
   - changed-files:
       - any-glob-to-any-file:
-          - 'packages/lucide-vue/*'
-          - 'packages/lucide-vue-next/*'
+          - 'packages/lui-icon-vue/*'
+          - 'packages/lui-icon-vue-next/*'
 
 # For changes in the lucide angular package
 🅰️ angular package:
   - changed-files:
       - any-glob-to-any-file:
-          - 'packages/lucide-angular/*'
+          - 'packages/lui-icon-angular/*'
 
 # For changes in the lucide preact package
 ⚛️ preact package:
   - changed-files:
       - any-glob-to-any-file:
-          - 'packages/lucide-preact/*'
+          - 'packages/lui-icon-preact/*'
 
 # For changes in the lucide svelte package
 🧣 svelte package:
   - changed-files:
       - any-glob-to-any-file:
-          - 'packages/lucide-svelte/*'
+          - 'packages/lui-icon-svelte/*'
 
 # For changes in the lucide solid package
 🪝 solid package:
   - changed-files:
       - any-glob-to-any-file:
-          - 'packages/lucide-solid/*'
+          - 'packages/lui-icon-solid/*'
 
 # For changes in the lucide astro package
 🚀 astro package:
@@ -89,10 +89,10 @@
 🪨 static package:
   - changed-files:
       - any-glob-to-any-file:
-          - 'packages/lucide-static/*'
+          - 'packages/lui-icon-static/*'
 
 # For changes in the lucide flutter package
 🏹 flutter package:
   - changed-files:
       - any-glob-to-any-file:
-          - 'packages/lucide-flutter/*'
+          - 'packages/lui-icon-flutter/*'

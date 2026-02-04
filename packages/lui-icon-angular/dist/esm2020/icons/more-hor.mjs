@@ -1,0 +1,25 @@
+/**
+ * @component @name MoreHor
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTMgNVY3SDFWNUgzWk03IDVWN0g1VjVIN1pNMTEgN1Y1SDlWN0gxMVoiIGZpbGw9IiM2NjY2NjYiLz4KPC9zdmc+Cg==) - https://lucide.dev/icons/more-hor
+ * @see https://lucide.dev/guide/packages/lucide-vue-next - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Vue component
+ *
+ */
+const MoreHor = [
+    [
+        'path',
+        {
+            'fill-rule': 'evenodd',
+            'clip-rule': 'evenodd',
+            d: 'M3 5V7H1V5H3ZM7 5V7H5V5H7ZM11 7V5H9V7H11Z',
+            fill: '#666666',
+            key: '5ee4g6',
+        },
+    ],
+]; //eslint-disable-line no-shadow-restricted-names
+export default MoreHor;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibW9yZS1ob3IuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvaWNvbnMvbW9yZS1ob3IudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7Ozs7Ozs7Ozs7R0FVRztBQUNILE1BQU0sT0FBTyxHQUFtQjtJQUM5QjtRQUNFLE1BQU07UUFDTjtZQUNFLFdBQVcsRUFBRSxTQUFTO1lBQ3RCLFdBQVcsRUFBRSxTQUFTO1lBQ3RCLENBQUMsRUFBRSwyQ0FBMkM7WUFDOUMsSUFBSSxFQUFFLFNBQVM7WUFDZixHQUFHLEVBQUUsUUFBUTtTQUNkO0tBQ0Y7Q0FDRixDQUFDLENBQUMsZ0RBQWdEO0FBRW5ELGVBQWUsT0FBTyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTHVjaWRlSWNvbkRhdGEgfSBmcm9tICcuL3R5cGVzJztcblxuLyoqXG4gKiBAY29tcG9uZW50IEBuYW1lIE1vcmVIb3JcbiAqIEBkZXNjcmlwdGlvbiBMdWNpZGUgU1ZHIGljb24gY29tcG9uZW50LCByZW5kZXJzIFNWRyBFbGVtZW50IHdpdGggY2hpbGRyZW4uXG4gKlxuICogQHByZXZpZXcgIVtpbWddKGRhdGE6aW1hZ2Uvc3ZnK3htbDtiYXNlNjQsUEhOMlp5QjNhV1IwYUQwaU1USWlJR2hsYVdkb2REMGlNVElpSUhacFpYZENiM2c5SWpBZ01DQXhNaUF4TWlJZ1ptbHNiRDBpYm05dVpTSWdlRzFzYm5NOUltaDBkSEE2THk5M2QzY3Vkek11YjNKbkx6SXdNREF2YzNabklqNDhjR0YwYUNCbWFXeHNMWEoxYkdVOUltVjJaVzV2WkdRaUlHTnNhWEF0Y25Wc1pUMGlaWFpsYm05a1pDSWdaRDBpVFRNZ05WWTNTREZXTlVneldrMDNJRFZXTjBnMVZqVklOMXBOTVRFZ04xWTFTRGxXTjBneE1Wb2lJR1pwYkd3OUlpTTJOalkyTmpZaUx6NEtQQzl6ZG1jK0NnPT0pIC0gaHR0cHM6Ly9sdWNpZGUuZGV2L2ljb25zL21vcmUtaG9yXG4gKiBAc2VlIGh0dHBzOi8vbHVjaWRlLmRldi9ndWlkZS9wYWNrYWdlcy9sdWNpZGUtdnVlLW5leHQgLSBEb2N1bWVudGF0aW9uXG4gKlxuICogQHBhcmFtIHtPYmplY3R9IHByb3BzIC0gTHVjaWRlIGljb25zIHByb3BzIGFuZCBhbnkgdmFsaWQgU1ZHIGF0dHJpYnV0ZVxuICogQHJldHVybnMge0Z1bmN0aW9uYWxDb21wb25lbnR9IFZ1ZSBjb21wb25lbnRcbiAqXG4gKi9cbmNvbnN0IE1vcmVIb3I6IEx1Y2lkZUljb25EYXRhID0gW1xuICBbXG4gICAgJ3BhdGgnLFxuICAgIHtcbiAgICAgICdmaWxsLXJ1bGUnOiAnZXZlbm9kZCcsXG4gICAgICAnY2xpcC1ydWxlJzogJ2V2ZW5vZGQnLFxuICAgICAgZDogJ00zIDVWN0gxVjVIM1pNNyA1VjdINVY1SDdaTTExIDdWNUg5VjdIMTFaJyxcbiAgICAgIGZpbGw6ICcjNjY2NjY2JyxcbiAgICAgIGtleTogJzVlZTRnNicsXG4gICAgfSxcbiAgXSxcbl07IC8vZXNsaW50LWRpc2FibGUtbGluZSBuby1zaGFkb3ctcmVzdHJpY3RlZC1uYW1lc1xuXG5leHBvcnQgZGVmYXVsdCBNb3JlSG9yO1xuIl19

@@ -13,16 +13,16 @@ body:
       description: Which Lucide project do you wish this feature were added to? You may select more than one.
       options:
         - label: lucide
-        - label: lucide-angular
-        - label: lucide-flutter
-        - label: lucide-preact
-        - label: lucide-react
-        - label: lucide-react-native
-        - label: lucide-solid
-        - label: lucide-svelte
-        - label: lucide-vue
-        - label: lucide-vue-next
-        - label: lucide-astro
+        - label: lui-icon-angular
+        - label: lui-icon-flutter
+        - label: lui-icon-preact
+        - label: lui-icon-react
+        - label: lui-icon-react-native
+        - label: lui-icon-solid
+        - label: lui-icon-svelte
+        - label: lui-icon-vue
+        - label: lui-icon-vue-next
+        - label: lui-icon-astro
         - label: Figma plugin
         - label: all JS packages
         - label: site

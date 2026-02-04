@@ -18,15 +18,17 @@ import IconsSidebar from './IconsSidebar.vue';
 
 const ICON_SIZE = 56;
 const ICON_GRID_GAP = 8;
+const DESC_ICON_SIZE = 160;
+const DESC_GRID_GAP = 16;
+const DESC_ROW_HEIGHT = 120; // Estimated height for description mode
 
 const props = defineProps<{
-    icons: IconEntity[];
-  }>();
+  icons: IconEntity[];
+}>();
 
 // Customization State
 const selectedCategory = ref('all');
 const customizeColor = ref('#000000');
-const customizeStrokeWidth = ref(2);
 const customizeSize = ref(24);
 const showDescription = ref(false);
 
@@ -41,18 +43,28 @@ const { width: containerWidth } = useElementSize(overviewEl);
 // CSS Vars for customization
 const cssVars = computed(() => ({
   '--customize-color': customizeColor.value,
-  '--customize-strokeWidth': customizeStrokeWidth.value,
   '--customize-size': customizeSize.value,
 }));
 
+const currentMode = computed(() => {
+  return showDescription.value
+    ? { size: DESC_ICON_SIZE, gap: DESC_GRID_GAP }
+    : { size: ICON_SIZE, gap: ICON_GRID_GAP };
+});
+
 const columnSize = computed(() => {
-  return Math.floor(containerWidth.value / (ICON_SIZE + ICON_GRID_GAP));
+  const { size, gap } = currentMode.value;
+  if (containerWidth.value === 0) return 10;
+  // Calculate columns: (width + gap) / (size + gap)
+  const cols = Math.floor((containerWidth.value + gap) / (size + gap));
+  return Math.max(1, cols);
 });
 
 const initialGridItems = computed(() => {
   if (containerWidth.value === 0) return 120;
-  const itemsPerRow = columnSize.value || 10;
-  const visibleRows = Math.ceil(window.innerHeight / (ICON_SIZE + ICON_GRID_GAP));
+  const itemsPerRow = columnSize.value;
+  const rowHeight = showDescription.value ? DESC_ROW_HEIGHT : ICON_SIZE + ICON_GRID_GAP;
+  const visibleRows = Math.ceil(window.innerHeight / rowHeight);
   return Math.min(itemsPerRow * (visibleRows + 2), 200);
 });
 
@@ -75,9 +87,9 @@ const mappedIcons = computed(() => {
 // Calculate categories count based on ALL icons
 const categoriesCount = computed(() => {
   const counts: Record<string, number> = {};
-  mappedIcons.value.forEach(icon => {
+  mappedIcons.value.forEach((icon) => {
     if (icon.categories) {
-      icon.categories.forEach(cat => {
+      icon.categories.forEach((cat) => {
         counts[cat] = (counts[cat] || 0) + 1;
       });
     }
@@ -90,7 +102,7 @@ const categoryFilteredIcons = computed(() => {
   if (selectedCategory.value === 'all') {
     return mappedIcons.value;
   }
-  return mappedIcons.value.filter(icon => {
+  return mappedIcons.value.filter((icon) => {
     return icon.categories && icon.categories.includes(selectedCategory.value);
   });
 });
@@ -118,7 +130,7 @@ const chunkedIcons = computed(() => {
 });
 
 const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(chunkedIcons, {
-  itemHeight: ICON_SIZE + ICON_GRID_GAP,
+  itemHeight: () => (showDescription.value ? DESC_ROW_HEIGHT : ICON_SIZE + ICON_GRID_GAP),
   overscan: 10,
 });
 
@@ -130,7 +142,7 @@ onMounted(() => {
   if (route.data?.relativePath && window.location.search.includes('focus')) {
     searchInput.value?.focus();
   }
-  
+
   // Ensure data is fetched if not present (though our useFetchCategories uses local json now)
   if (tags.value == null) fetchTags();
   if (categories.value == null) fetchCategories();
@@ -163,21 +175,22 @@ function handleCloseDrawer() {
 function handleReset() {
   selectedCategory.value = 'all';
   customizeColor.value = '#000000';
-  customizeStrokeWidth.value = 2;
   customizeSize.value = 24;
   showDescription.value = false;
 }
 </script>
 
 <template>
-  <div class="overview-wrapper" :style="cssVars">
+  <div
+    class="overview-wrapper"
+    :style="cssVars"
+  >
     <!-- Sidebar -->
-    <IconsSidebar 
+    <IconsSidebar
       :categories="categoriesCount"
       :totalIcons="mappedIcons.length"
       v-model:selectedCategory="selectedCategory"
       v-model:customizeColor="customizeColor"
-      v-model:customizeStrokeWidth="customizeStrokeWidth"
       v-model:customizeSize="customizeSize"
       v-model:showDescription="showDescription"
       @reset="handleReset"
@@ -185,7 +198,10 @@ function handleReset() {
     />
 
     <div class="main-content">
-      <div ref="overviewEl" class="overview-container">
+      <div
+        ref="overviewEl"
+        class="overview-container"
+      >
         <!-- Debug Info (Hidden in Production) -->
         <!-- <div style="color: red; font-weight: bold;">Debug: {{ icons?.length }} icons loaded</div> -->
 
@@ -207,9 +223,12 @@ function handleReset() {
           @clear="searchQuery = ''"
         />
 
-        <div v-else-if="list.length === 0 && !searchPlaceholder.isNoResults" class="loading-state">
-           <!-- Empty state or loading -->
-           <div v-if="icons?.length === 0">No icons loaded. Please check data source.</div>
+        <div
+          v-else-if="list.length === 0 && !searchPlaceholder.isNoResults"
+          class="loading-state"
+        >
+          <!-- Empty state or loading -->
+          <div v-if="icons?.length === 0">No icons loaded. Please check data source.</div>
         </div>
 
         <div
@@ -224,7 +243,8 @@ function handleReset() {
             :icons="iconsRow"
             :activeIcon="activeIconName"
             @setActiveIcon="setActiveIconName"
-            :customizable="true" 
+            :customizable="true"
+            :showDescription="showDescription"
           />
         </div>
       </div>

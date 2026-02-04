@@ -1,0 +1,14 @@
+import { LucideIconData } from './types';
+/**
+ * @component @name Folder
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEuNSAxSDQuMDg1NzlDNC40ODM2MSAxIDQuODY1MTQgMS4xNTgwNCA1LjE0NjQ1IDEuNDM5MzRMNi41NjA2NiAyLjg1MzU1QzYuNjU0NDMgMi45NDczMiA2Ljc4MTYxIDMgNi45MTQyMSAzSDEwLjVDMTEuMzI4NCAzIDEyIDMuNjcxNTcgMTIgNC41VjkuNUMxMiAxMC4zMjg0IDExLjMyODQgMTEgMTAuNSAxMUgxLjVDMC42NzE1NzMgMTEgMCAxMC4zMjg0IDAgOS41VjIuNUMwIDEuNjcxNTcgMC42NzE1NzMgMSAxLjUgMVpNNC4wODU3OSAySDEuNUMxLjIyMzg2IDIgMSAyLjIyMzg2IDEgMi41VjkuNUMxIDkuNzc2MTQgMS4yMjM4NiAxMCAxLjUgMTBIMTAuNUMxMC43NzYxIDEwIDExIDkuNzc2MTQgMTEgOS41VjQuNUMxMSA0LjIyMzg2IDEwLjc3NjEgNCAxMC41IDRINi45MTQyMUM2LjUxNjM5IDQgNi4xMzQ4NiAzLjg0MTk2IDUuODUzNTUgMy41NjA2Nkw0LjQzOTM0IDIuMTQ2NDVDNC4zNDU1NyAyLjA1MjY4IDQuMjE4MzkgMiA0LjA4NTc5IDJaIiBmaWxsPSIjNjY2NjY2Ii8+CjxwYXRoIGQ9Ik0xMSAxVjJIN1YxSDExWiIgZmlsbD0iIzY2NjY2NiIvPgo8L3N2Zz4K) - https://lucide.dev/icons/folder
+ * @see https://lucide.dev/guide/packages/lucide-vue-next - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Vue component
+ *
+ */
+declare const Folder: LucideIconData;
+export default Folder;

@@ -1,0 +1,39 @@
+<script lang="ts">/**
+ * @license @lui-icon/svelte v0.1.0 - ISC
+ *
+ * ISC License
+ *
+ * Copyright (c) 2024, Tubiao Contributors
+ *
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ *
+ */
+import Icon from '../Icon.svelte';
+let props = $props();
+const iconNode = [["path", { "d": "M7.5 0C8.27967 0 8.92045 0.594849 8.99316 1.35547L9 1.5V2H12V3H11V10.5C11 11.2797 10.4052 11.9204 9.64453 11.9932L9.5 12H2.5C1.72033 12 1.07955 11.4052 1.00684 10.6445L1 10.5V3H0V2H3V1.5C3 0.720327 3.59485 0.0795522 4.35547 0.00683594L4.5 0H7.5ZM2 10.5C2 10.7455 2.17691 10.9499 2.41016 10.9922L2.5 11H9.5C9.74546 11 9.94985 10.8231 9.99219 10.5898L10 10.5V3H2V10.5ZM4.5 1C4.25454 1 4.05015 1.17691 4.00781 1.41016L4 1.5V2H8V1.5C8 1.25454 7.82309 1.05015 7.58984 1.00781L7.5 1H4.5Z", "fill": "#666666" }], ["path", { "d": "M5 5V9H4V5H5Z", "fill": "#666666" }], ["path", { "d": "M8 5V9H7V5H8Z", "fill": "#666666" }]];
+/**
+ * @component @name Delete
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNy41IDBDOC4yNzk2NyAwIDguOTIwNDUgMC41OTQ4NDkgOC45OTMxNiAxLjM1NTQ3TDkgMS41VjJIMTJWM0gxMVYxMC41QzExIDExLjI3OTcgMTAuNDA1MiAxMS45MjA0IDkuNjQ0NTMgMTEuOTkzMkw5LjUgMTJIMi41QzEuNzIwMzMgMTIgMS4wNzk1NSAxMS40MDUyIDEuMDA2ODQgMTAuNjQ0NUwxIDEwLjVWM0gwVjJIM1YxLjVDMyAwLjcyMDMyNyAzLjU5NDg1IDAuMDc5NTUyMiA0LjM1NTQ3IDAuMDA2ODM1OTRMNC41IDBINy41Wk0yIDEwLjVDMiAxMC43NDU1IDIuMTc2OTEgMTAuOTQ5OSAyLjQxMDE2IDEwLjk5MjJMMi41IDExSDkuNUM5Ljc0NTQ2IDExIDkuOTQ5ODUgMTAuODIzMSA5Ljk5MjE5IDEwLjU4OThMMTAgMTAuNVYzSDJWMTAuNVpNNC41IDFDNC4yNTQ1NCAxIDQuMDUwMTUgMS4xNzY5MSA0LjAwNzgxIDEuNDEwMTZMNCAxLjVWMkg4VjEuNUM4IDEuMjU0NTQgNy44MjMwOSAxLjA1MDE1IDcuNTg5ODQgMS4wMDc4MUw3LjUgMUg0LjVaIiBmaWxsPSIjNjY2NjY2Ii8+CjxwYXRoIGQ9Ik01IDVWOUg0VjVINVoiIGZpbGw9IiM2NjY2NjYiLz4KPHBhdGggZD0iTTggNVY5SDdWNUg4WiIgZmlsbD0iIzY2NjY2NiIvPgo8L3N2Zz4K) - https://lucide.dev/icons/delete
+ * @see https://lucide.dev/guide/packages/lucide-svelte - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Svelte component
+ *
+ */
+</script>
+
+<Icon name="delete" {...props} iconNode={iconNode}>
+  {@render props.children?.()}
+</Icon>

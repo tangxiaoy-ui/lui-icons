@@ -1,5 +1,5 @@
 import path from 'path';
-import { readSvgDirectory } from '@lucide/helpers';
+import { readSvgDirectory } from '@lui-icon/helpers';
 import { type IconMetadata } from '../types.ts';
 
 async function getIconMetaData(iconDirectory: string): Promise<Record<string, IconMetadata>> {

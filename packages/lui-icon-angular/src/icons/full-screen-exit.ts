@@ -1,0 +1,25 @@
+import { LucideIconData } from './types';
+
+/**
+ * @component @name FullScreenExit
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNCA3QzQuNTEyODQgNyA0LjkzNTQgNy4zODY0NSA0Ljk5MzE2IDcuODgzNzlMNSA4VjExSDRWOC43MDcwM0wwLjg1MzUxNiAxMS44NTM1TDAuMTQ2NDg0IDExLjE0NjVMMy4yOTI5NyA4SDFWN0g0Wk0xMSA4SDguNzA3MDNMMTEuODUzNSAxMS4xNDY1TDExLjE0NjUgMTEuODUzNUw4IDguNzA3MDNWMTFIN1Y4QzcgNy40ODcxNiA3LjM4NjQ1IDcuMDY0NiA3Ljg4Mzc5IDcuMDA2ODRMOCA3SDExVjhaTTQgMy4yOTI5N1YxSDVWNEM1IDQuNTEyODQgNC42MTM1NSA0LjkzNTQgNC4xMTYyMSA0Ljk5MzE2TDQgNUgxVjRIMy4yOTI5N0wwLjE0NjQ4NCAwLjg1MzUxNkwwLjg1MzUxNiAwLjE0NjQ4NEw0IDMuMjkyOTdaTTExLjg1MzUgMC44NTM1MTZMOC43MDcwMyA0SDExVjVIOEM3LjQ4NzE2IDUgNy4wNjQ2IDQuNjEzNTUgNy4wMDY4NCA0LjExNjIxTDcgNFYxSDhWMy4yOTI5N0wxMS4xNDY1IDAuMTQ2NDg0TDExLjg1MzUgMC44NTM1MTZaIiBmaWxsPSIjNjY2NjY2Ii8+Cjwvc3ZnPgo=) - https://lucide.dev/icons/full-screen-exit
+ * @see https://lucide.dev/guide/packages/lucide-vue-next - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Vue component
+ *
+ */
+const FullScreenExit: LucideIconData = [
+  [
+    'path',
+    {
+      d: 'M4 7C4.51284 7 4.9354 7.38645 4.99316 7.88379L5 8V11H4V8.70703L0.853516 11.8535L0.146484 11.1465L3.29297 8H1V7H4ZM11 8H8.70703L11.8535 11.1465L11.1465 11.8535L8 8.70703V11H7V8C7 7.48716 7.38645 7.0646 7.88379 7.00684L8 7H11V8ZM4 3.29297V1H5V4C5 4.51284 4.61355 4.9354 4.11621 4.99316L4 5H1V4H3.29297L0.146484 0.853516L0.853516 0.146484L4 3.29297ZM11.8535 0.853516L8.70703 4H11V5H8C7.48716 5 7.0646 4.61355 7.00684 4.11621L7 4V1H8V3.29297L11.1465 0.146484L11.8535 0.853516Z',
+      fill: '#666666',
+      key: 'xskmz6',
+    },
+  ],
+]; //eslint-disable-line no-shadow-restricted-names
+
+export default FullScreenExit;

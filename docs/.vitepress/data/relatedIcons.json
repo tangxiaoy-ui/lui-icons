@@ -1,0 +1,676 @@
+{
+  "annotate-cc": [
+    "annotate-sign"
+  ],
+  "annotate-sign": [
+    "annotate-cc",
+    "sign-cross",
+    "sign-equal",
+    "sign-exclamatory",
+    "sign-minus",
+    "sign-plus",
+    "sign-pound",
+    "sign-tick"
+  ],
+  "arrow-double-left": [
+    "arrow-double-right",
+    "arrow-left",
+    "arrow-down",
+    "arrow-right",
+    "arrow-up",
+    "left-open",
+    "left-packup",
+    "string-type-double",
+    "towards-left"
+  ],
+  "arrow-double-right": [
+    "arrow-double-left",
+    "arrow-right",
+    "arrow-down",
+    "arrow-left",
+    "arrow-up",
+    "direction-right-up",
+    "string-type-double",
+    "towards-right"
+  ],
+  "arrow-down": [
+    "arrow-double-left",
+    "arrow-double-right",
+    "arrow-left",
+    "arrow-right",
+    "arrow-up",
+    "sort-filter-down",
+    "towards-down"
+  ],
+  "arrow-left": [
+    "arrow-double-left",
+    "arrow-double-right",
+    "arrow-down",
+    "arrow-right",
+    "arrow-up",
+    "left-open",
+    "left-packup",
+    "towards-left"
+  ],
+  "arrow-right": [
+    "arrow-double-right",
+    "arrow-double-left",
+    "arrow-down",
+    "arrow-left",
+    "arrow-up",
+    "direction-right-up",
+    "towards-right"
+  ],
+  "arrow-up": [
+    "arrow-double-left",
+    "arrow-double-right",
+    "arrow-down",
+    "arrow-left",
+    "arrow-right"
+  ],
+  "batch-add": [
+    "batch-delete",
+    "btn-add",
+    "file-add",
+    "message-add"
+  ],
+  "batch-delete": [
+    "batch-add",
+    "btn-delete",
+    "delete"
+  ],
+  "book-mark": [],
+  "btn-add": [
+    "batch-add",
+    "btn-change",
+    "btn-delete",
+    "btn-fold",
+    "btn-more",
+    "btn-play",
+    "btn-unfold",
+    "file-add",
+    "message-add"
+  ],
+  "btn-change": [
+    "btn-add",
+    "btn-delete",
+    "btn-fold",
+    "btn-more",
+    "btn-play",
+    "btn-unfold",
+    "change"
+  ],
+  "btn-delete": [
+    "batch-delete",
+    "btn-add",
+    "btn-change",
+    "btn-fold",
+    "btn-more",
+    "btn-play",
+    "btn-unfold",
+    "delete"
+  ],
+  "btn-fold": [
+    "btn-add",
+    "btn-change",
+    "btn-delete",
+    "btn-more",
+    "btn-play",
+    "btn-unfold"
+  ],
+  "btn-more": [
+    "btn-add",
+    "btn-change",
+    "btn-delete",
+    "btn-fold",
+    "btn-play",
+    "btn-unfold",
+    "more-hor",
+    "more-ver"
+  ],
+  "btn-play": [
+    "btn-add",
+    "btn-change",
+    "btn-delete",
+    "btn-fold",
+    "btn-more",
+    "btn-unfold",
+    "play"
+  ],
+  "btn-unfold": [
+    "btn-add",
+    "btn-change",
+    "btn-delete",
+    "btn-fold",
+    "btn-more",
+    "btn-play"
+  ],
+  "bug": [],
+  "calendar": [],
+  "change": [
+    "btn-change"
+  ],
+  "chart-histogram": [],
+  "checkin": [],
+  "cloud": [],
+  "collection": [],
+  "confirm": [],
+  "copy": [],
+  "cross": [
+    "sign-cross"
+  ],
+  "data-export": [
+    "data-import",
+    "data-permission",
+    "data-switch",
+    "data"
+  ],
+  "data-import": [
+    "data-export",
+    "data-permission",
+    "data-switch",
+    "data",
+    "import"
+  ],
+  "data-permission": [
+    "data-export",
+    "data-import",
+    "data-switch",
+    "data"
+  ],
+  "data-switch": [
+    "data-export",
+    "data-import",
+    "data-permission",
+    "data"
+  ],
+  "data": [
+    "data-export",
+    "data-import",
+    "data-permission",
+    "data-switch"
+  ],
+  "date-time": [
+    "time"
+  ],
+  "delete": [
+    "batch-delete",
+    "btn-delete"
+  ],
+  "dialogue": [],
+  "diamond": [],
+  "direction-right-up": [
+    "arrow-double-right",
+    "arrow-right",
+    "towards-right"
+  ],
+  "download": [],
+  "earth": [],
+  "earthset": [],
+  "edit": [],
+  "emoticon-discouraged": [
+    "emoticon"
+  ],
+  "emoticon": [
+    "emoticon-discouraged"
+  ],
+  "entrust": [],
+  "erase": [],
+  "exchange-ud": [
+    "exchange-udinverted-order",
+    "exchange-udorder"
+  ],
+  "exchange-udinverted-order": [
+    "exchange-ud",
+    "exchange-udorder",
+    "sort-inverted-order",
+    "sort-order"
+  ],
+  "exchange-udorder": [
+    "exchange-ud",
+    "exchange-udinverted-order"
+  ],
+  "exclamatory-triangle": [
+    "exclamatory",
+    "sign-exclamatory"
+  ],
+  "exclamatory": [
+    "exclamatory-triangle",
+    "sign-exclamatory"
+  ],
+  "experiment": [],
+  "extport": [],
+  "file-add": [
+    "batch-add",
+    "btn-add",
+    "file-pending",
+    "file-processed",
+    "file",
+    "message-add"
+  ],
+  "file-pending": [
+    "file-add",
+    "file-processed",
+    "file"
+  ],
+  "file-processed": [
+    "file-add",
+    "file-pending",
+    "file"
+  ],
+  "file": [
+    "file-add",
+    "file-pending",
+    "file-processed"
+  ],
+  "fire": [],
+  "fixed-position": [],
+  "folder-open": [
+    "folder",
+    "left-open"
+  ],
+  "folder": [
+    "folder-open"
+  ],
+  "full-screen-exit": [
+    "full-screen",
+    "half-screen-exit",
+    "half-screen"
+  ],
+  "full-screen": [
+    "full-screen-exit",
+    "half-screen-exit",
+    "half-screen"
+  ],
+  "funnel": [],
+  "half-screen-exit": [
+    "full-screen-exit",
+    "half-screen",
+    "full-screen"
+  ],
+  "half-screen": [
+    "half-screen-exit",
+    "full-screen-exit",
+    "full-screen"
+  ],
+  "heart": [],
+  "hide-passowrd": [
+    "hide"
+  ],
+  "hide": [
+    "hide-passowrd"
+  ],
+  "home-page": [
+    "page-code",
+    "page"
+  ],
+  "import": [
+    "data-import"
+  ],
+  "information": [],
+  "input": [],
+  "keys": [],
+  "label": [],
+  "lampbulb": [],
+  "left-open": [
+    "arrow-double-left",
+    "arrow-left",
+    "folder-open",
+    "left-packup",
+    "towards-left"
+  ],
+  "left-packup": [
+    "arrow-double-left",
+    "arrow-left",
+    "left-open",
+    "towards-left"
+  ],
+  "level-children": [
+    "level-parent",
+    "level-same"
+  ],
+  "level-parent": [
+    "level-children",
+    "level-same"
+  ],
+  "level-same": [
+    "level-children",
+    "level-parent"
+  ],
+  "like": [],
+  "loading": [],
+  "lock": [],
+  "logo-dingding": [
+    "logo-feishu",
+    "logo-k-k",
+    "logo-q-q",
+    "logo-wechat"
+  ],
+  "logo-feishu": [
+    "logo-dingding",
+    "logo-k-k",
+    "logo-q-q",
+    "logo-wechat"
+  ],
+  "logo-k-k": [
+    "logo-dingding",
+    "logo-feishu",
+    "logo-q-q",
+    "logo-wechat"
+  ],
+  "logo-q-q": [
+    "logo-dingding",
+    "logo-feishu",
+    "logo-k-k",
+    "logo-wechat"
+  ],
+  "logo-wechat": [
+    "logo-dingding",
+    "logo-feishu",
+    "logo-k-k",
+    "logo-q-q"
+  ],
+  "logout": [],
+  "meeting-room": [],
+  "menu-list-select": [
+    "menu-list",
+    "user-c-c-list"
+  ],
+  "menu-list": [
+    "menu-list-select",
+    "user-c-c-list"
+  ],
+  "message-add": [
+    "batch-add",
+    "btn-add",
+    "file-add",
+    "message"
+  ],
+  "message": [
+    "message-add"
+  ],
+  "more-hor": [
+    "btn-more",
+    "more-ver"
+  ],
+  "more-ver": [
+    "btn-more",
+    "more-hor"
+  ],
+  "none": [],
+  "output": [],
+  "page-code": [
+    "home-page",
+    "page"
+  ],
+  "page": [
+    "home-page",
+    "page-code"
+  ],
+  "palette": [],
+  "parameter-setting": [
+    "setting"
+  ],
+  "paste": [],
+  "pause": [],
+  "pc": [],
+  "picture": [],
+  "place": [],
+  "play": [
+    "btn-play"
+  ],
+  "pound": [
+    "sign-pound"
+  ],
+  "process": [],
+  "question": [],
+  "quote-small": [
+    "quote"
+  ],
+  "quote": [
+    "quote-small"
+  ],
+  "refresh": [],
+  "release": [],
+  "restoredefault": [],
+  "ruler": [],
+  "save": [],
+  "seal": [],
+  "search": [],
+  "setting": [
+    "parameter-setting"
+  ],
+  "short": [],
+  "shutdown": [],
+  "sign-cross": [
+    "annotate-sign",
+    "cross",
+    "sign-equal",
+    "sign-exclamatory",
+    "sign-minus",
+    "sign-plus",
+    "sign-pound",
+    "sign-tick"
+  ],
+  "sign-equal": [
+    "annotate-sign",
+    "sign-cross",
+    "sign-exclamatory",
+    "sign-minus",
+    "sign-plus",
+    "sign-pound",
+    "sign-tick"
+  ],
+  "sign-exclamatory": [
+    "annotate-sign",
+    "exclamatory-triangle",
+    "exclamatory",
+    "sign-cross",
+    "sign-equal",
+    "sign-minus",
+    "sign-plus",
+    "sign-pound",
+    "sign-tick"
+  ],
+  "sign-minus": [
+    "annotate-sign",
+    "sign-cross",
+    "sign-equal",
+    "sign-exclamatory",
+    "sign-plus",
+    "sign-pound",
+    "sign-tick"
+  ],
+  "sign-plus": [
+    "annotate-sign",
+    "sign-cross",
+    "sign-equal",
+    "sign-exclamatory",
+    "sign-minus",
+    "sign-pound",
+    "sign-tick"
+  ],
+  "sign-pound": [
+    "annotate-sign",
+    "pound",
+    "sign-cross",
+    "sign-equal",
+    "sign-exclamatory",
+    "sign-minus",
+    "sign-plus",
+    "sign-tick"
+  ],
+  "sign-tick": [
+    "annotate-sign",
+    "sign-cross",
+    "sign-equal",
+    "sign-exclamatory",
+    "sign-minus",
+    "sign-plus",
+    "sign-pound",
+    "tick-unselected",
+    "tick"
+  ],
+  "signin": [],
+  "sort-drag": [
+    "sort-filter-down",
+    "sort-filter-up",
+    "sort-inverted-order",
+    "sort-order",
+    "sort"
+  ],
+  "sort-filter-down": [
+    "sort-filter-up",
+    "arrow-down",
+    "sort-drag",
+    "sort-inverted-order",
+    "sort-order",
+    "sort",
+    "towards-down"
+  ],
+  "sort-filter-up": [
+    "sort-filter-down",
+    "sort-drag",
+    "sort-inverted-order",
+    "sort-order",
+    "sort"
+  ],
+  "sort-inverted-order": [
+    "sort-order",
+    "exchange-udinverted-order",
+    "sort-drag",
+    "sort-filter-down",
+    "sort-filter-up",
+    "sort"
+  ],
+  "sort-order": [
+    "sort-inverted-order",
+    "exchange-udinverted-order",
+    "sort-drag",
+    "sort-filter-down",
+    "sort-filter-up",
+    "sort"
+  ],
+  "sort": [
+    "sort-drag",
+    "sort-filter-down",
+    "sort-filter-up",
+    "sort-inverted-order",
+    "sort-order"
+  ],
+  "stop": [],
+  "string-type-big-deciaml": [
+    "string-type-blob",
+    "string-type-double",
+    "string-type-float",
+    "string-type-long"
+  ],
+  "string-type-blob": [
+    "string-type-big-deciaml",
+    "string-type-double",
+    "string-type-float",
+    "string-type-long"
+  ],
+  "string-type-double": [
+    "string-type-big-deciaml",
+    "string-type-blob",
+    "string-type-float",
+    "string-type-long",
+    "arrow-double-left",
+    "arrow-double-right"
+  ],
+  "string-type-float": [
+    "string-type-big-deciaml",
+    "string-type-blob",
+    "string-type-double",
+    "string-type-long"
+  ],
+  "string-type-long": [
+    "string-type-big-deciaml",
+    "string-type-blob",
+    "string-type-double",
+    "string-type-float"
+  ],
+  "successful-translation": [
+    "translation-ok",
+    "translation"
+  ],
+  "tick-unselected": [
+    "sign-tick",
+    "tick"
+  ],
+  "tick": [
+    "sign-tick",
+    "tick-unselected"
+  ],
+  "time": [
+    "date-time"
+  ],
+  "timing": [],
+  "tool": [],
+  "towards-down": [
+    "arrow-down",
+    "sort-filter-down",
+    "towards-left",
+    "towards-right",
+    "towards-up"
+  ],
+  "towards-left": [
+    "arrow-double-left",
+    "arrow-left",
+    "left-open",
+    "left-packup",
+    "towards-down",
+    "towards-right",
+    "towards-up"
+  ],
+  "towards-right": [
+    "arrow-double-right",
+    "arrow-right",
+    "direction-right-up",
+    "towards-down",
+    "towards-left",
+    "towards-up"
+  ],
+  "towards-up": [
+    "towards-down",
+    "towards-left",
+    "towards-right"
+  ],
+  "trajectory": [],
+  "translation-ok": [
+    "successful-translation",
+    "translation"
+  ],
+  "translation": [
+    "successful-translation",
+    "translation-ok"
+  ],
+  "unlike": [],
+  "unlock": [],
+  "upload": [],
+  "use": [],
+  "user-c-c-list": [
+    "menu-list-select",
+    "menu-list",
+    "user-executor",
+    "user-group",
+    "user"
+  ],
+  "user-executor": [
+    "user-c-c-list",
+    "user-group",
+    "user"
+  ],
+  "user-group": [
+    "user-c-c-list",
+    "user-executor",
+    "user"
+  ],
+  "user": [
+    "user-c-c-list",
+    "user-executor",
+    "user-group"
+  ],
+  "view": []
+}

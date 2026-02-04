@@ -1,0 +1,16 @@
+/**
+ * @license lui-icon-static v0.0.1 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+
+const ArrowUp = `
+<svg
+  class="lucide lucide-arrow-up" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.63768 7.64197L4.93057 4.34908C5.47974 3.7999 6.34881 3.76558 6.93797 4.24611L7.05189 4.34908L10.3448 7.64197L9.63768 8.34908L6.34478 5.05618C6.17122 4.88262 5.90179 4.86333 5.70692 4.99833L5.63768 5.05618L2.34478 8.34908L1.63768 7.64197Z" fill="#666666"/>
+</svg>
+`;
+
+export { ArrowUp as default };
+//# sourceMappingURL=arrow-up.js.map

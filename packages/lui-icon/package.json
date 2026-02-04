@@ -1,0 +1,58 @@
+{
+  "name": "lui-icon",
+  "description": "A LUI-icon library package for web and javascript applications.",
+  "version": "0.0.1",
+  "license": "ISC",
+  "homepage": "https://lucide.dev",
+  "bugs": "https://github.com/lui-icon/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lui-icon.git",
+    "directory": "packages/lui-icon"
+  },
+  "keywords": [
+    "LUI-icon",
+    "HTML",
+    "Feather",
+    "Icons",
+    "Icon",
+    "SVG",
+    "Feather Icons",
+    "Fontawesome",
+    "Font Awesome"
+  ],
+  "amdName": "lui-icon",
+  "source": "src/lui-icon.js",
+  "main": "dist/cjs/lui-icon.js",
+  "main:umd": "dist/umd/lui-icon.js",
+  "module": "dist/esm/lui-icon.js",
+  "unpkg": "dist/umd/lui-icon.min.js",
+  "typings": "dist/lui-icon.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "pnpm clean && pnpm copy:license && pnpm build:icons && pnpm build:bundle",
+    "copy:license": "cp ../../LICENSE ./LICENSE",
+    "clean": "rm -rf dist && rm -rf stats && rm -rf ./src/icons/*.ts",
+    "build:icons": "build-icons --output=./src --templateSrc=./scripts/exportTemplate.mts --iconFileExtension=.ts --withAliases --aliasNamesOnly --aliasesFileExtension=.ts --exportFileName=index.ts",
+    "build:bundle": "rollup -c rollup.config.mjs",
+    "test": "pnpm build:icons && vitest run",
+    "test:watch": "vitest watch",
+    "version": "pnpm version --git-tag-version=false"
+  },
+  "devDependencies": {
+    "@lui-icon/build-icons": "workspace:*",
+    "@lui-icon/shared": "workspace:*",
+    "@lui-icon/rollup-plugins": "workspace:*",
+    "@rollup/plugin-replace": "^6.0.2",
+    "@testing-library/jest-dom": "^6.8.0",
+    "jest-serializer-html": "^7.1.0",
+    "rollup": "^4.53.3",
+    "rollup-plugin-dts": "^6.2.3",
+    "typescript": "^5.8.3",
+    "vite": "^7.2.4",
+    "vitest": "^4.0.12"
+  }
+}

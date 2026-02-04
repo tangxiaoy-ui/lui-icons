@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import { toPascalCase } from '@lucide/shared';
+import { toPascalCase } from '@lui-icon/shared';
 import ButtonMenu from '../base/ButtonMenu.vue';
 import { useIconStyleContext } from '../../composables/useIconStyle';
 import useConfetti from '../../composables/useConfetti';

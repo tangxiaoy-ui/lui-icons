@@ -24,7 +24,7 @@ permissions:
 
 jobs:
   pre-release:
-    if: github.repository == 'lucide-icons/lucide' && contains('["ericfennis", "karsa-mistmere", "jguddas"]', github.actor)
+    if: github.repository == 'lui-icon-icons/lucide' && contains('["ericfennis", "karsa-mistmere", "jguddas"]', github.actor)
     runs-on: ubuntu-latest
     outputs:
       VERSION: ${{ steps.get_version.outputs.VERSION }}
@@ -39,7 +39,7 @@ jobs:
           VERSION_REF: ${{ inputs.version || github.event.inputs.version || github.ref }}
 
   release:
-    if: github.repository == 'lucide-icons/lucide'
+    if: github.repository == 'lui-icon-icons/lucide'
     runs-on: ubuntu-latest
     needs: pre-release
     permissions:
@@ -51,15 +51,15 @@ jobs:
         package:
           [
             'lucide',
-            'lucide-react',
-            'lucide-react-native',
-            'lucide-vue-next',
-            'lucide-angular',
-            'lucide-preact',
-            'lucide-solid',
-            'lucide-svelte',
-            '@lucide/astro',
-            '@lucide/svelte',
+            'lui-icon-react',
+            'lui-icon-react-native',
+            'lui-icon-vue-next',
+            'lui-icon-angular',
+            'lui-icon-preact',
+            'lui-icon-solid',
+            'lui-icon-svelte',
+            '@lui-icon/astro',
+            '@lui-icon/svelte',
           ]
     steps:
       - uses: actions/checkout@v6
@@ -86,10 +86,10 @@ jobs:
         env:
           NPM_CONFIG_PROVENANCE: true
 
-  lucide-static:
-    if: github.repository == 'lucide-icons/lucide'
+  lui-icon-static:
+    if: github.repository == 'lui-icon-icons/lucide'
     runs-on: ubuntu-latest
-    needs: [pre-release, lucide-font]
+    needs: [pre-release, lui-icon-font]
     permissions:
       id-token: write # Required for OIDC
       contents: read
@@ -107,21 +107,21 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Set new version
-        run: pnpm --filter lucide-static version --new-version ${{ needs.pre-release.outputs.VERSION }} --no-git-tag-version
+        run: pnpm --filter lui-icon-static version --new-version ${{ needs.pre-release.outputs.VERSION }} --no-git-tag-version
 
       - name: Move Font
-        run: cp -r lucide-font packages/lucide-static/font
+        run: cp -r lui-icon-font packages/lui-icon-static/font
 
       - name: Build
-        run: pnpm --filter lucide-static build
+        run: pnpm --filter lui-icon-static build
 
       - name: Publish
-        run: pnpm --filter lucide-static publish --no-git-checks
+        run: pnpm --filter lui-icon-static publish --no-git-checks
         env:
           NPM_CONFIG_PROVENANCE: true
 
-  lucide-font:
-    if: github.repository == 'lucide-icons/lucide'
+  lui-icon-font:
+    if: github.repository == 'lui-icon-icons/lucide'
     runs-on: ubuntu-latest
     needs: pre-release
     steps:
@@ -138,19 +138,19 @@ jobs:
       - name: Outline svg Icons
         run: pnpm build:outline-icons
 
-      - name: Create font in ./lucide-font
+      - name: Create font in ./lui-icon-font
         run: pnpm build:font
 
       - name: 'Upload to Artifacts'
         uses: actions/upload-artifact@v4
         with:
-          name: lucide-font
-          path: lucide-font
+          name: lui-icon-font
+          path: lui-icon-font
 
   post-release:
-    if: github.repository == 'lucide-icons/lucide'
+    if: github.repository == 'lui-icon-icons/lucide'
     runs-on: ubuntu-latest
-    needs: [pre-release, lucide-font]
+    needs: [pre-release, lui-icon-font]
     permissions:
       id-token: write # Required for OIDC
       contents: write
@@ -159,13 +159,13 @@ jobs:
       - uses: actions/download-artifact@v4
       - name: Zip font and icons
         run: |
-          zip -r lucide-font-${{ needs.pre-release.outputs.VERSION }}.zip lucide-font
-          zip -r lucide-icons-${{ needs.pre-release.outputs.VERSION }}.zip icons
+          zip -r lui-icon-font-${{ needs.pre-release.outputs.VERSION }}.zip lui-icon-font
+          zip -r lui-icon-icons-${{ needs.pre-release.outputs.VERSION }}.zip icons
 
       - name: Release zip and fonts
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ needs.pre-release.outputs.VERSION }}
           files: |
-            lucide-font-${{ needs.pre-release.outputs.VERSION }}.zip
-            lucide-icons-${{ needs.pre-release.outputs.VERSION }}.zip
+            lui-icon-font-${{ needs.pre-release.outputs.VERSION }}.zip
+            lui-icon-icons-${{ needs.pre-release.outputs.VERSION }}.zip

@@ -3,13 +3,13 @@ import svgtofont from 'svgtofont';
 import getArgumentOptions from 'minimist';
 import path from 'path';
 
-const fontName = 'lucide';
+const fontName = 'lui-icon';
 const classNamePrefix = 'icon';
 const startUnicode = 57400;
 
 const inputDir = path.join(process.cwd(), '../../', 'outlined');
 const cliArguments = getArgumentOptions(process.argv.slice(2));
-const { outputDir = 'lucide-font' } = cliArguments;
+const { outputDir = 'lui-icon-font' } = cliArguments;
 const targetDir = path.join(process.cwd(), '../../', outputDir);
 const releaseMetaDataDir = path.join(process.cwd(), '../../', 'docs/.vitepress/data');
 const releaseMetaDataPath = path.resolve(releaseMetaDataDir, 'releaseMetaData.json');
@@ -108,14 +108,14 @@ async function init() {
       },
       generateInfoData: true,
       website: {
-        title: 'Lucide',
+        title: 'LUI-icon',
         logo: undefined,
         meta: {
-          description: 'Lucide icons as TTF/EOT/WOFF/WOFF2/SVG.',
-          keywords: 'Lucide,TTF,EOT,WOFF,WOFF2,SVG',
+          description: 'LUI-icon icons as TTF/EOT/WOFF/WOFF2/SVG.',
+          keywords: 'LUI-icon,TTF,EOT,WOFF,WOFF2,SVG',
         },
         corners: {
-          url: 'https://github.com/lucide-icons/lucide',
+          url: 'https://github.com/lui-icon',
           width: 62, // default: 60
           height: 62, // default: 60
           bgColor: '#dc3545', // default: '#151513'
@@ -123,11 +123,11 @@ async function init() {
         links: [
           {
             title: 'GitHub',
-            url: 'https://github.com/lucide-icons/lucide',
+            url: 'https://github.com/lui-icon',
           },
           {
             title: 'Feedback',
-            url: 'https://github.com/lucide-icons/lucide/issues',
+            url: 'https://github.com/lui-icon/issues',
           },
           {
             title: 'Font Class',

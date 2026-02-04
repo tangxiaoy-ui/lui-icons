@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { IconEntity } from '../../types';
 import { computed } from 'vue';
-import createLucideIcon from 'lucide-vue-next/src/createLucideIcon.ts';
+import createLUIIcon from 'lui-icon-vue-next/src/createLUIIcon.ts';
 import Calendar from '../../../data/iconDetails/calendar.ts';
 import Clock from '../../../data/iconDetails/clock.ts';
 import Bug from '../../../data/iconDetails/bug.ts';
@@ -29,28 +29,28 @@ const props = defineProps<{
 
 const iconComponent = computed(() => {
   if (!props.name || !props.iconNode) return null;
-  return createLucideIcon(props.name, props.iconNode);
+  return createLUIIcon(props.name, props.iconNode);
 });
 
-const CalendarIcon = createLucideIcon('calendar', Calendar.iconNode);
-const ClockIcon = createLucideIcon('clock', Clock.iconNode);
-const BugIcon = createLucideIcon('bug', Bug.iconNode);
-const RocketIcon = createLucideIcon('rocket', Rocket.iconNode);
-const AlertTriangleIcon = createLucideIcon('alert-triangle', TriangleAlert.iconNode);
-const ScissorsIcon = createLucideIcon('scissors', Scissors.iconNode);
-const CopyIcon = createLucideIcon('copy', Copy.iconNode);
-const SaveIcon = createLucideIcon('save', Save.iconNode);
-const ClipboardIcon = createLucideIcon('clipboard', Clipboard.iconNode);
-const PartyPopperIcon = createLucideIcon('party-popper', PartyPopper.iconNode);
-const HeartIcon = createLucideIcon('heart', Heart.iconNode);
-const ThumbsUpIcon = createLucideIcon('thumbs-up', ThumbsUp.iconNode);
-const ThumbsDownIcon = createLucideIcon('thumbs-down', ThumbsDown.iconNode);
-const MessageCircleIcon = createLucideIcon('message-circle', MessageCircle.iconNode);
-const FolderIcon = createLucideIcon('folder.ts', Folder.iconNode);
-const FilesIcon = createLucideIcon('files.ts', Files.iconNode);
-const PlusIcon = createLucideIcon('plus.ts', Plus.iconNode);
-const FileIcon = createLucideIcon('file.ts', File.iconNode);
-const FileTextIcon = createLucideIcon('file-text.ts', FileText.iconNode);
+const CalendarIcon = createLUIIcon('calendar', Calendar.iconNode);
+const ClockIcon = createLUIIcon('clock', Clock.iconNode);
+const BugIcon = createLUIIcon('bug', Bug.iconNode);
+const RocketIcon = createLUIIcon('rocket', Rocket.iconNode);
+const AlertTriangleIcon = createLUIIcon('alert-triangle', TriangleAlert.iconNode);
+const ScissorsIcon = createLUIIcon('scissors', Scissors.iconNode);
+const CopyIcon = createLUIIcon('copy', Copy.iconNode);
+const SaveIcon = createLUIIcon('save', Save.iconNode);
+const ClipboardIcon = createLUIIcon('clipboard', Clipboard.iconNode);
+const PartyPopperIcon = createLUIIcon('party-popper', PartyPopper.iconNode);
+const HeartIcon = createLUIIcon('heart', Heart.iconNode);
+const ThumbsUpIcon = createLUIIcon('thumbs-up', ThumbsUp.iconNode);
+const ThumbsDownIcon = createLUIIcon('thumbs-down', ThumbsDown.iconNode);
+const MessageCircleIcon = createLUIIcon('message-circle', MessageCircle.iconNode);
+const FolderIcon = createLUIIcon('folder.ts', Folder.iconNode);
+const FilesIcon = createLUIIcon('files.ts', Files.iconNode);
+const PlusIcon = createLUIIcon('plus.ts', Plus.iconNode);
+const FileIcon = createLUIIcon('file.ts', File.iconNode);
+const FileTextIcon = createLUIIcon('file-text.ts', FileText.iconNode);
 
 const prettyName = props.name
   .split('-')

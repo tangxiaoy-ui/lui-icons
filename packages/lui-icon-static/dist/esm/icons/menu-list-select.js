@@ -1,0 +1,16 @@
+/**
+ * @license lui-icon-static v0.0.1 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+
+const MenuListSelect = `
+<svg
+  class="lucide lucide-menu-list-select" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.8838 8.32031L9.69727 10.9424C9.69149 10.9485 9.68435 10.956 9.67383 10.9668C9.31338 11.3272 8.74579 11.3547 8.35352 11.0498L8.25879 10.9668L7.14648 9.85352L7.85352 9.14648L8.9668 10.2598L11.1162 7.67969L11.8838 8.32031ZM6 10H1V9H6V10ZM11 6H1V5H11V6ZM11 2H1V1H11V2Z" fill="#666666"/>
+</svg>
+`;
+
+export { MenuListSelect as default };
+//# sourceMappingURL=menu-list-select.js.map

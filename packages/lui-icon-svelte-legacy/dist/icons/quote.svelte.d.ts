@@ -1,0 +1,48 @@
+/**
+ * @license lui-icon-svelte-legacy v0.0.1 - ISC
+ *
+ * ISC License
+ * 
+ * Copyright (c) 2024, Tubiao Contributors
+ * 
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ * 
+ */
+import { SvelteComponentTyped } from "svelte";
+import type { IconProps } from '../types.js';
+declare const __propDef: {
+    props: IconProps;
+    events: {
+        [evt: string]: CustomEvent<any>;
+    };
+    slots: {
+        default: {};
+    };
+};
+export type QuoteProps = typeof __propDef.props;
+export type QuoteEvents = typeof __propDef.events;
+export type QuoteSlots = typeof __propDef.slots;
+/**
+ * @component @name Quote
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNy41IDBDOC4yNzk3IDAgOC45MjA0NSAwLjU5NDg4OCA4Ljk5MzEzIDEuMzU1NTRMOSAxLjVWNy41QzkgOC4yNzk3IDguNDA1MTEgOC45MjA0NSA3LjY0NDQ2IDguOTkzMTNMNy41IDlINVY4SDcuNUM3Ljc0NTQ2IDggNy45NDk2MSA3LjgyMzEyIDcuOTkxOTQgNy41ODk4OEw4IDcuNVYxLjVDOCAxLjI1NDU0IDcuODIzMTIgMS4wNTAzOSA3LjU4OTg4IDEuMDA4MDZMNy41IDFIMS41QzEuMjU0NTQgMSAxLjA1MDM5IDEuMTc2ODggMS4wMDgwNiAxLjQxMDEyTDEgMS41VjcuNUMxIDcuNzQ1NDYgMS4xNzY4OCA3Ljk0OTYxIDEuNDEwMTIgNy45OTE5NEwxLjUgOEgyVjlIMS41QzAuNzIwMzA0IDkgMC4wNzk1NTEzIDguNDA1MTEgMC4wMDY4NjY1OCA3LjY0NDQ2TDAgNy41VjEuNUMwIDAuNzIwMzA0IDAuNTk0ODg4IDAuMDc5NTUxMyAxLjM1NTU0IDAuMDA2ODY2NThMMS41IDBINy41WiIgZmlsbD0iIzY2NjY2NiIvPgo8cGF0aCBkPSJNNyAzVjRINC41QzQuMjU0NTQgNCA0LjA1MDM5IDQuMTc2ODggNC4wMDgwNiA0LjQxMDEyTDQgNC41VjEwLjVDNCAxMC43NDU1IDQuMTc2ODggMTAuOTQ5NiA0LjQxMDEyIDEwLjk5MTlMNC41IDExSDEwLjVDMTAuNzQ1NSAxMSAxMC45NDk2IDEwLjgyMzEgMTAuOTkxOSAxMC41ODk5TDExIDEwLjVWNC41QzExIDQuMjU0NTQgMTAuODIzMSA0LjA1MDM5IDEwLjU4OTkgNC4wMDgwNkwxMC41IDRIMTBWM0gxMC41QzExLjI3OTcgMyAxMS45MjA0IDMuNTk0ODkgMTEuOTkzMSA0LjM1NTU0TDEyIDQuNVYxMC41QzEyIDExLjI3OTcgMTEuNDA1MSAxMS45MjA0IDEwLjY0NDUgMTEuOTkzMUwxMC41IDEySDQuNUMzLjcyMDMgMTIgMy4wNzk1NSAxMS40MDUxIDMuMDA2ODcgMTAuNjQ0NUwzIDEwLjVWNC41QzMgMy43MjAzIDMuNTk0ODkgMy4wNzk1NSA0LjM1NTU0IDMuMDA2ODdMNC41IDNIN1oiIGZpbGw9IiM2NjY2NjYiLz4KPC9zdmc+Cg==) - https://lucide.dev/icons/quote
+ * @see https://lucide.dev/guide/packages/lucide-svelte - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Svelte component
+ *
+ */
+export default class Quote extends SvelteComponentTyped<QuoteProps, QuoteEvents, QuoteSlots> {
+}
+export {};

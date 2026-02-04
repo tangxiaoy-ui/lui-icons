@@ -2,9 +2,9 @@ import { fileURLToPath, URL } from 'node:url';
 import { defineConfig } from 'vitepress';
 import sidebar from './sidebar';
 
-const title = 'Lucide';
-const socialTitle = 'Lucide Icons';
-const description = 'Beautiful & consistent icon toolkit made by the community.';
+const title = 'LUI-icon';
+const socialTitle = 'Tubiao Icons';
+const description = 'Custom icon library for your projects.';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -21,12 +21,6 @@ export default defineConfig({
           find: /^.*\/VPIconAlignLeft\.vue$/,
           replacement: fileURLToPath(
             new URL('./theme/components/overrides/VPIconAlignLeft.vue', import.meta.url),
-          ),
-        },
-        {
-          find: /^.*\/VPFooter\.vue$/,
-          replacement: fileURLToPath(
-            new URL('./theme/components/overrides/VPFooter.vue', import.meta.url),
           ),
         },
         {
@@ -153,33 +147,8 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: {
-      light: '/logo.light.svg',
-      dark: '/logo.dark.svg',
-    },
-    nav: [
-      { text: 'Icons', link: '/icons' },
-      { text: 'Guide', link: '/guide/' },
-      { text: 'Packages', link: '/packages' },
-      { text: 'Showcase', link: '/showcase' },
-      { text: 'License', link: '/license' },
-    ],
+    nav: [{ text: 'Icons', link: '/icons' }],
     sidebar,
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/lucide-icons/lucide' },
-      { icon: 'discord', link: 'https://discord.gg/EH6nSts' },
-    ],
-    footer: {
-      message: 'Released under the ISC License.',
-      copyright: `Copyright © ${new Date().getFullYear()} Lucide Contributors`,
-    },
-    editLink: {
-      pattern: 'https://github.com/lucide-icons/lucide/edit/main/docs/:path',
-    },
-    carbonAds: {
-      code: 'CWYIC53U',
-      placement: 'lucidedev',
-    },
   },
   sitemap: {
     hostname: 'https://lucide.dev/',

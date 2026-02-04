@@ -1,0 +1,1662 @@
+{
+  "annotate-cc": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "annotate-sign": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "arrow-double-left": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "arrow-double-right": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "arrow-down": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "arrow-left": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "arrow-right": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "arrow-up": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "batch-add": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "batch-delete": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "book-mark": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "btn-add": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "btn-change": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "btn-delete": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "btn-fold": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "btn-more": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "btn-play": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "btn-unfold": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "bug": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "calendar": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "change": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "chart-histogram": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "checkin": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "cloud": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "collection": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "confirm": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "copy": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "cross": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "data-export": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "data-import": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "data-permission": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "data-switch": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "data": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "date-time": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "delete": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "dialogue": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "diamond": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "direction-right-up": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "download": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "earth": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "earthset": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "edit": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "emoticon-discouraged": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "emoticon": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "entrust": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "erase": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "exchange-ud": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "exchange-udinverted-order": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "exchange-udorder": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "exclamatory-triangle": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "exclamatory": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "experiment": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "extport": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "file-add": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "file-pending": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "file-processed": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "file": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "fire": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "fixed-position": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "folder-open": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "folder": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "full-screen-exit": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "full-screen": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "funnel": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "half-screen-exit": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "half-screen": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "heart": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "hide-passowrd": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "hide": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "home-page": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "import": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "information": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "input": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "keys": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "label": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "lampbulb": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "left-open": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "left-packup": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "level-children": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "level-parent": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "level-same": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "like": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "loading": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "lock": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "logo-dingding": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "logo-feishu": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "logo-k-k": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "logo-q-q": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "logo-wechat": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "logout": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "meeting-room": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "menu-list-select": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "menu-list": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "message-add": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "message": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "more-hor": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "more-ver": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "none": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "output": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "page-code": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "page": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "palette": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "parameter-setting": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "paste": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "pause": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "pc": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "picture": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "place": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "play": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "pound": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "process": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "question": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "quote-small": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "quote": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "refresh": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "release": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "restoredefault": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "ruler": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "save": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "seal": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "search": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "setting": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "short": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "shutdown": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "sign-cross": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "sign-equal": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "sign-exclamatory": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "sign-minus": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "sign-plus": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "sign-pound": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "sign-tick": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "signin": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "sort-drag": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "sort-filter-down": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "sort-filter-up": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "sort-inverted-order": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "sort-order": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "sort": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "stop": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "string-type-big-deciaml": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "string-type-blob": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "string-type-double": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "string-type-float": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "string-type-long": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "successful-translation": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "tick-unselected": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "tick": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "time": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "timing": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "tool": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "towards-down": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "towards-left": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "towards-right": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "towards-up": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "trajectory": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "translation-ok": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "translation": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "unlike": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "unlock": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "upload": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "use": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "user-c-c-list": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "user-executor": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "user-group": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "user": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  },
+  "view": {
+    "createdRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    },
+    "changedRelease": {
+      "version": "0.0.0",
+      "date": "2020-06-08T16:39:52+0100"
+    }
+  }
+}

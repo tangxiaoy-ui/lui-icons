@@ -1,0 +1,14 @@
+import { LucideIconData } from './types';
+/**
+ * @component @name BtnPlay
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTAgNkMwIDIuNjg2MjkgMi42ODYyOSAwIDYgMEM5LjMxMzcxIDAgMTIgMi42ODYyOSAxMiA2QzEyIDkuMzEzNzEgOS4zMTM3MSAxMiA2IDEyQzIuNjg2MjkgMTIgMCA5LjMxMzcxIDAgNlpNMTEgNkMxMSAzLjIzODU4IDguNzYxNDIgMSA2IDFDMy4yMzg1OCAxIDEgMy4yMzg1OCAxIDZDMSA4Ljc2MTQyIDMuMjM4NTggMTEgNiAxMUM4Ljc2MTQyIDExIDExIDguNzYxNDIgMTEgNloiIGZpbGw9IiM2NjY2NjYiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00IDMuNDY3MTNDNCAzLjMxOTA2IDQuMDQzODMgMy4xNzQzIDQuMTI1OTYgMy4wNTExTDQuMTk0MjEgMi45NjM0QzQuNDM5MzkgMi42OTIxOSA0Ljg1MjcxIDIuNjM0MjEgNS4xNjYwMyAyLjg0MzA5TDguOTY1MzMgNS4zNzU5NkM5LjA0NzcyIDUuNDMwODkgOS4xMTg0MiA1LjUwMTU4IDkuMTczMzQgNS41ODM5N0M5LjQwMzExIDUuOTI4NjIgOS4zMDk5OCA2LjM5NDI3IDguOTY1MzMgNi42MjQwNEw1LjE2NjAzIDkuMTU2OTFDNS4wNDI4MiA5LjIzOTA0IDQuODk4MDcgOS4yODI4NyA0Ljc1IDkuMjgyODdDNC4zMzU3OSA5LjI4Mjg3IDQgOC45NDcwOCA0IDguNTMyODdWMy40NjcxM1pNOC4wOTcgNkw1IDMuOTM0VjguMDY1TDguMDk3IDZaIiBmaWxsPSIjNjY2NjY2Ii8+Cjwvc3ZnPgo=) - https://lucide.dev/icons/btn-play
+ * @see https://lucide.dev/guide/packages/lucide-vue-next - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Vue component
+ *
+ */
+declare const BtnPlay: LucideIconData;
+export default BtnPlay;

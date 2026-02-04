@@ -1,0 +1,16 @@
+/**
+ * @license lui-icon-static v0.0.1 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+
+const SignExclamatory = `
+<svg
+  class="lucide lucide-sign-exclamatory" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.5 11H5.5V9.5H6.5V11ZM6.5 8H5.5V1H6.5V8Z" fill="#666666"/>
+</svg>
+`;
+
+export { SignExclamatory as default };
+//# sourceMappingURL=sign-exclamatory.js.map

@@ -1,0 +1,25 @@
+/**
+ * @component @name SignEqual
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDVWNEgxVjVIMTFaTTExIDhWN0gxVjhIMTFaIiBmaWxsPSIjNjY2NjY2Ii8+Cjwvc3ZnPgo=) - https://lucide.dev/icons/sign-equal
+ * @see https://lucide.dev/guide/packages/lucide-vue-next - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Vue component
+ *
+ */
+const SignEqual = [
+    [
+        'path',
+        {
+            'fill-rule': 'evenodd',
+            'clip-rule': 'evenodd',
+            d: 'M11 5V4H1V5H11ZM11 8V7H1V8H11Z',
+            fill: '#666666',
+            key: 'ajc7bu',
+        },
+    ],
+]; //eslint-disable-line no-shadow-restricted-names
+export default SignEqual;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2lnbi1lcXVhbC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9pY29ucy9zaWduLWVxdWFsLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBOzs7Ozs7Ozs7O0dBVUc7QUFDSCxNQUFNLFNBQVMsR0FBbUI7SUFDaEM7UUFDRSxNQUFNO1FBQ047WUFDRSxXQUFXLEVBQUUsU0FBUztZQUN0QixXQUFXLEVBQUUsU0FBUztZQUN0QixDQUFDLEVBQUUsZ0NBQWdDO1lBQ25DLElBQUksRUFBRSxTQUFTO1lBQ2YsR0FBRyxFQUFFLFFBQVE7U0FDZDtLQUNGO0NBQ0YsQ0FBQyxDQUFDLGdEQUFnRDtBQUVuRCxlQUFlLFNBQVMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEx1Y2lkZUljb25EYXRhIH0gZnJvbSAnLi90eXBlcyc7XG5cbi8qKlxuICogQGNvbXBvbmVudCBAbmFtZSBTaWduRXF1YWxcbiAqIEBkZXNjcmlwdGlvbiBMdWNpZGUgU1ZHIGljb24gY29tcG9uZW50LCByZW5kZXJzIFNWRyBFbGVtZW50IHdpdGggY2hpbGRyZW4uXG4gKlxuICogQHByZXZpZXcgIVtpbWddKGRhdGE6aW1hZ2Uvc3ZnK3htbDtiYXNlNjQsUEhOMlp5QjNhV1IwYUQwaU1USWlJR2hsYVdkb2REMGlNVElpSUhacFpYZENiM2c5SWpBZ01DQXhNaUF4TWlJZ1ptbHNiRDBpYm05dVpTSWdlRzFzYm5NOUltaDBkSEE2THk5M2QzY3Vkek11YjNKbkx6SXdNREF2YzNabklqNDhjR0YwYUNCbWFXeHNMWEoxYkdVOUltVjJaVzV2WkdRaUlHTnNhWEF0Y25Wc1pUMGlaWFpsYm05a1pDSWdaRDBpVFRFeElEVldORWd4VmpWSU1URmFUVEV4SURoV04wZ3hWamhJTVRGYUlpQm1hV3hzUFNJak5qWTJOalkySWk4K0Nqd3ZjM1puUGdvPSkgLSBodHRwczovL2x1Y2lkZS5kZXYvaWNvbnMvc2lnbi1lcXVhbFxuICogQHNlZSBodHRwczovL2x1Y2lkZS5kZXYvZ3VpZGUvcGFja2FnZXMvbHVjaWRlLXZ1ZS1uZXh0IC0gRG9jdW1lbnRhdGlvblxuICpcbiAqIEBwYXJhbSB7T2JqZWN0fSBwcm9wcyAtIEx1Y2lkZSBpY29ucyBwcm9wcyBhbmQgYW55IHZhbGlkIFNWRyBhdHRyaWJ1dGVcbiAqIEByZXR1cm5zIHtGdW5jdGlvbmFsQ29tcG9uZW50fSBWdWUgY29tcG9uZW50XG4gKlxuICovXG5jb25zdCBTaWduRXF1YWw6IEx1Y2lkZUljb25EYXRhID0gW1xuICBbXG4gICAgJ3BhdGgnLFxuICAgIHtcbiAgICAgICdmaWxsLXJ1bGUnOiAnZXZlbm9kZCcsXG4gICAgICAnY2xpcC1ydWxlJzogJ2V2ZW5vZGQnLFxuICAgICAgZDogJ00xMSA1VjRIMVY1SDExWk0xMSA4VjdIMVY4SDExWicsXG4gICAgICBmaWxsOiAnIzY2NjY2NicsXG4gICAgICBrZXk6ICdhamM3YnUnLFxuICAgIH0sXG4gIF0sXG5dOyAvL2VzbGludC1kaXNhYmxlLWxpbmUgbm8tc2hhZG93LXJlc3RyaWN0ZWQtbmFtZXNcblxuZXhwb3J0IGRlZmF1bHQgU2lnbkVxdWFsO1xuIl19

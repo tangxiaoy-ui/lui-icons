@@ -1,0 +1,14 @@
+import { LucideIconData } from './types';
+/**
+ * @component @name EmoticonDiscouraged
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNiAwQzkuMzEzNzEgMCAxMiAyLjY4NjI5IDEyIDZDMTIgOS4zMTM3MSA5LjMxMzcxIDEyIDYgMTJDMi42ODYyOSAxMiAwIDkuMzEzNzEgMCA2QzAgMi42ODYyOSAyLjY4NjI5IDAgNiAwWk02IDFDMy4yMzg1OCAxIDEgMy4yMzg1OCAxIDZDMSA4Ljc2MTQyIDMuMjM4NTggMTEgNiAxMUM4Ljc2MTQyIDExIDExIDguNzYxNDIgMTEgNkMxMSAzLjIzODU4IDguNzYxNDIgMSA2IDFaTTYgNy4xNjUwNEM3LjAwOTQxIDcuMTY1MDQgNy45NTA3OSA3LjU5NjE0IDguNjEwMzUgOC4zMzM5OEw3Ljg2NDI2IDlMNy43MzE0NSA4Ljg2MTMzQzcuMjcwNzIgOC40MTg2OSA2LjY1NjExIDguMTY1MDQgNiA4LjE2NTA0QzUuMjgzOCA4LjE2NTA1IDQuNjE2OTMgOC40Njc0OSA0LjE0NTUxIDguOTg4MjhMMy40MDQzIDguMzE3MzhMMy41NDk4IDguMTY2MDJDNC4xOTczNiA3LjUzMDg5IDUuMDY5ODcgNy4xNjUwNSA2IDcuMTY1MDRaTTUgNS41SDMuNVY0SDVWNS41Wk04LjUgNS41SDdWNEg4LjVWNS41WiIgZmlsbD0iIzY2NjY2NiIvPgo8L3N2Zz4K) - https://lucide.dev/icons/emoticon-discouraged
+ * @see https://lucide.dev/guide/packages/lucide-vue-next - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Vue component
+ *
+ */
+declare const EmoticonDiscouraged: LucideIconData;
+export default EmoticonDiscouraged;

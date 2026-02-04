@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import getArgumentOptions from 'minimist';
 
-import { readSvgDirectory } from '@lucide/helpers';
+import { readSvgDirectory } from '@lui-icon/helpers';
 import renderIconsObject from './render/renderIconsObject.ts';
 import generateIconFiles from './building/generateIconFiles.ts';
 import generateExportsFile from './building/generateExportsFile.ts';

@@ -1,3 +1,3 @@
-# @lucide/shared
+# @lui-icon/shared
 
-A collection of shared internal utilities for Lucide.
+A collection of shared internal utilities for LUI-icon.

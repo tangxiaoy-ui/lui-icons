@@ -1,0 +1,19 @@
+import createLucideIcon from '../createLucideIcon';
+
+/**
+ * @component @name TranslationOk
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfMTY0Ml84MDM2KSI+CjxwYXRoIGQ9Ik0xMCAwQzExLjEwNDYgMCAxMiAwLjg5NTQzIDEyIDJWMTBDMTIgMTEuMTA0NiAxMS4xMDQ2IDEyIDEwIDEySDJDMC44OTU0MyAxMiAwIDExLjEwNDYgMCAxMFYyQzAgMC44OTU0MyAwLjg5NTQzIDAgMiAwSDEwWk0yIDFDMS40ODcxNiAxIDEuMDY0NiAxLjM4NjQ1IDEuMDA2ODQgMS44ODM3OUwxIDJWMTBDMSAxMC41MTI4IDEuMzg2NDUgMTAuOTM1NCAxLjg4Mzc5IDEwLjk5MzJMMiAxMUgxMEMxMC41MTI4IDExIDEwLjkzNTQgMTAuNjEzNSAxMC45OTMyIDEwLjExNjJMMTEgMTBWMkMxMSAxLjQ4NzE2IDEwLjYxMzUgMS4wNjQ2IDEwLjExNjIgMS4wMDY4NEwxMCAxSDJaTTUuNTcxMjkgMi43MDcwM0M1Ljc0NTMxIDIuMzU4MDEgNi4yMzQzIDIuMzM0OTkgNi40NTAyIDIuNjM3N0w2LjQ5MjE5IDIuNzA3MDNMOS40ODA0NyA4LjcxMjg5QzkuNjAzNDQgOC45NjAwNSA5LjQ5NjY3IDkuMjU3NTIgOS4yNDIxOSA5LjM3Njk1QzkuMDEzMzggOS40ODQyMiA4Ljc0MzEyIDkuNDExMjggOC42MDE1NiA5LjIxNTgyTDguNTU4NTkgOS4xNDU1MUw3LjU2NTQzIDcuMTQ5NDFINC40OTcwN0wzLjUwMzkxIDkuMTQ1NTFDMy4zOTMyMyA5LjM2NzkzIDMuMTM0NjIgOS40NzQzMSAyLjg5ODQ0IDkuNDA2MjVMMi44MjEyOSA5LjM3Njk1QzIuNTkyNCA5LjI2OTUzIDIuNDgyOTEgOS4wMTgzNSAyLjU1MjczIDguNzg5MDZMMi41ODMwMSA4LjcxMjg5TDUuNTcxMjkgMi43MDcwM1pNNC45OTMxNiA2LjE0OTQxSDcuMDY3MzhMNi4wMzEyNSA0LjA2NTQzTDQuOTkzMTYgNi4xNDk0MVoiIGZpbGw9IiM2NjY2NjYiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xNjQyXzgwMzYiPgo8cmVjdCB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIGZpbGw9IndoaXRlIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPC9zdmc+Cg==) - https://lucide.dev/icons/translation-ok
+ * @see https://lucide.dev/guide/packages/lucide-react-native - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {JSX.Element} JSX Element
+ *
+ */
+const TranslationOk = createLucideIcon('TranslationOk', [
+  ['g', { 'clip-path': 'url(#clip0_1642_8036)', key: 'hmur8h' }],
+  ['defs', { key: '9ahrjx' }],
+]);
+
+export default TranslationOk;

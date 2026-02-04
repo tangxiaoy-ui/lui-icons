@@ -1,9 +1,9 @@
 import { describe, it, expect } from 'vitest';
-import { Pen, Edit2, Grid, Droplet, Smile, Rocket } from '../src/lucide-astro';
+import { Pen, Edit2, Grid, Droplet, Smile, Rocket } from '../src/lui-icon-astro';
 import defaultAttributes from '../src/defaultAttributes';
 import { createAstroHTMLString, render } from './utils';
 
-describe('Using lucide icon components', () => {
+describe('Using lui-icon icon components', () => {
   it('should render a component', async () => {
     const { container } = await render(Grid);
     expect(container.innerHTML).toMatchSnapshot();
@@ -120,7 +120,7 @@ describe('Using lucide icon components', () => {
     const SVGElement = container.firstElementChild;
 
     expect(SVGElement).toHaveClass('my-icon');
-    expect(SVGElement).toHaveClass('lucide');
+    expect(SVGElement).toHaveClass('lui-icon');
     expect(SVGElement).toHaveClass('lucide-droplet');
 
     expect(container.innerHTML).toMatchSnapshot();

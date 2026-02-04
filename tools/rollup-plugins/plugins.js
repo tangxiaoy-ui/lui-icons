@@ -22,7 +22,7 @@ const plugins = ({
       : null,
     nodeResolve({
       extensions: ['.js', '.ts', '.jsx', '.tsx'],
-      resolveOnly: [/^@lucide\/.*$/],
+      resolveOnly: [/^@lui-icon\/.*$/],
     }),
     license({
       banner: `@license ${pkg.name} v${pkg.version} - ${pkg.license}

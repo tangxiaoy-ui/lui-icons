@@ -1,41 +1,65 @@
 <script setup lang="ts">
-import type { IconEntity } from '../../types'
-import { computed, ref } from 'vue'
-import createLucideIcon from 'lucide-vue-next/src/createLucideIcon';
+import type { IconEntity } from '../../types';
+import { computed, ref } from 'vue';
+import createLUIIcon from 'lui-icon-vue-next/src/createLUIIcon';
 import { useIconStyleContext } from '../../composables/useIconStyle';
 
 const props = defineProps<{
-  name: IconEntity['name']
-  iconNode: IconEntity['iconNode']
-  customizable?: boolean
-}>()
+  name: IconEntity['name'];
+  iconNode: IconEntity['iconNode'];
+  customizable?: boolean;
+}>();
 
-const { size, color, strokeWidth, absoluteStrokeWidth } = useIconStyleContext()
-const previewIcon = ref()
+const { size, color, strokeWidth, absoluteStrokeWidth } = useIconStyleContext();
+const previewIcon = ref();
 
-const gridLines = computed(() => Array.from({ length:(size.value - 1) }))
+const gridLines = computed(() => Array.from({ length: 23 }));
 
 const iconComponent = computed(() => {
-  if (!props.name || !props.iconNode) return null
-  return createLucideIcon(props.name, props.iconNode)
-})
+  if (!props.name || !props.iconNode) return null;
+  return createLUIIcon(props.name, props.iconNode);
+});
 </script>
 
 <template>
   <div class="icon-container">
-    <component
-      ref="previewIcon"
-      :is="iconComponent"
-      :size="size"
-      :color="color"
-      :strokeWidth="absoluteStrokeWidth ? Number(strokeWidth) * 24 / Number(size) : strokeWidth"
-    />
-    <svg class="icon-grid" :viewBox="`0 0 ${size} ${size}`" fill="none" stroke-width="0.1" xmlns="http://www.w3.org/2000/svg">
-      <g :key="`grid-${i}`" v-for="(_, i) in gridLines">
-        <line :key="`horizontal-${i}`" :x1="0" :y1="i + 1" :x2="size" :y2="i + 1" />
-        <line :key="`vertical-${i}`" :x1="i + 1" y1="0" :x2="i + 1" :y2="size" />
-      </g>
-    </svg>
+    <div class="icon-wrapper">
+      <component
+        ref="previewIcon"
+        :is="iconComponent"
+        :size="size"
+        :color="color"
+        :strokeWidth="strokeWidth"
+        :absoluteStrokeWidth="absoluteStrokeWidth"
+      />
+      <svg
+        class="icon-grid"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke-width="0.1"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          :key="`grid-${i}`"
+          v-for="(_, i) in gridLines"
+        >
+          <line
+            :key="`horizontal-${i}`"
+            :x1="0"
+            :y1="i + 1"
+            :x2="24"
+            :y2="i + 1"
+          />
+          <line
+            :key="`vertical-${i}`"
+            :x1="i + 1"
+            y1="0"
+            :x2="i + 1"
+            :y2="24"
+          />
+        </g>
+      </svg>
+    </div>
   </div>
 </template>
 
@@ -47,6 +71,7 @@ const iconComponent = computed(() => {
   top: 0;
   left: 0;
   stroke: var(--vp-c-divider);
+  pointer-events: none;
 }
 .icon-container {
   height: 100%;
@@ -54,14 +79,33 @@ const iconComponent = computed(() => {
   position: relative;
   background: var(--vp-c-bg-alt);
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
-.icon-container > :deep(svg:not(.icon-grid)) {
+
+.icon-wrapper {
+  position: relative;
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-container > .icon-wrapper > :deep(svg:not(.icon-grid)) {
+  width: 100% !important;
+  height: 100% !important;
   position: relative;
   z-index: 1;
   color: var(--vp-c-neutral);
   opacity: 0.8;
+  display: block;
+}
+
+.icon-container > .icon-wrapper > :deep(svg:not(.icon-grid) *) {
+  vector-effect: non-scaling-stroke;
 }
 
 .icon-component.customizable {

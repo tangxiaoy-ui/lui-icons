@@ -1,3 +1,3 @@
-# @lucide/build-font
+# @lui-icon/build-font
 
-A internal used package to build the font.
+A internal used package to build the LUI-icon font.

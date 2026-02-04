@@ -1,0 +1,25 @@
+import createLucideIcon from '../createLucideIcon';
+
+/**
+ * @component @name HalfScreenExit
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNCA3QzQuNTEyODQgNyA0LjkzNTQgNy4zODY0NSA0Ljk5MzE2IDcuODgzNzlMNSA4VjExSDRWOEgxVjdINFpNOCA0SDExVjVIOEM3LjQ4NzE2IDUgNy4wNjQ2IDQuNjEzNTUgNy4wMDY4NCA0LjExNjIxTDcgNFYxSDhWNFoiIGZpbGw9IiM2NjY2NjYiLz4KPC9zdmc+Cg==) - https://lucide.dev/icons/half-screen-exit
+ * @see https://lucide.dev/guide/packages/lucide-preact - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {JSX.Element} JSX Element
+ *
+ */
+const HalfScreenExit = createLucideIcon('half-screen-exit', [
+  [
+    'path',
+    {
+      d: 'M4 7C4.51284 7 4.9354 7.38645 4.99316 7.88379L5 8V11H4V8H1V7H4ZM8 4H11V5H8C7.48716 5 7.0646 4.61355 7.00684 4.11621L7 4V1H8V4Z',
+      fill: '#666666',
+      key: '1k2t5y',
+    },
+  ],
+]);
+
+export default HalfScreenExit;

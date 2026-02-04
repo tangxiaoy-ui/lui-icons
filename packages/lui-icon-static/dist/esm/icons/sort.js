@@ -1,0 +1,17 @@
+/**
+ * @license lui-icon-static v0.0.1 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+
+const Sort = `
+<svg
+  class="lucide lucide-sort" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.64645 7.64645L9.35355 8.35355L6.70711 11C6.34662 11.3605 5.77939 11.3882 5.3871 11.0832L5.29289 11L2.64645 8.35355L3.35355 7.64645L6 10.2929L8.64645 7.64645Z" fill="#666666"/>
+<path d="M5.29289 1C5.65338 0.639517 6.22061 0.611787 6.6129 0.916812L6.70711 1L9.35355 3.64645L8.64645 4.35355L6 1.70711L3.35355 4.35355L2.64645 3.64645L5.29289 1Z" fill="#666666"/>
+</svg>
+`;
+
+export { Sort as default };
+//# sourceMappingURL=sort.js.map

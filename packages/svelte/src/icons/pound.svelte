@@ -1,0 +1,45 @@
+<script lang="ts">
+/**
+ * @license @lui-icon/svelte v0.1.0 - ISC
+ *
+ * ISC License
+ * 
+ * Copyright (c) 2024, Tubiao Contributors
+ * 
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ * 
+ */
+
+import Icon from '../Icon.svelte';
+import type { IconNode, IconProps } from '../types.js';
+
+let props: IconProps = $props();
+
+const iconNode: IconNode = [["path",{"d":"M6 0C9.31371 0 12 2.68629 12 6C12 9.31371 9.31371 12 6 12C2.68629 12 0 9.31371 0 6C0 2.68629 2.68629 0 6 0ZM6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11C8.76142 11 11 8.76142 11 6C11 3.23858 8.76142 1 6 1ZM8.49512 2.57031L8.29102 4H9V5H8.14844L7.8623 7H8.5V8H7.71973L7.49512 9.57031L6.50488 9.42969L6.70898 8H4.71973L4.49512 9.57031L3.50488 9.42969L3.70898 8H3V7H3.85156L4.1377 5H3.5V4H4.28027L4.50488 2.42969L5.49512 2.57031L5.29102 4H7.28027L7.50488 2.42969L8.49512 2.57031ZM4.8623 7H6.85156L7.1377 5H5.14844L4.8623 7Z","fill":"#666666"}]];
+
+/**
+ * @component @name Pound
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNiAwQzkuMzEzNzEgMCAxMiAyLjY4NjI5IDEyIDZDMTIgOS4zMTM3MSA5LjMxMzcxIDEyIDYgMTJDMi42ODYyOSAxMiAwIDkuMzEzNzEgMCA2QzAgMi42ODYyOSAyLjY4NjI5IDAgNiAwWk02IDFDMy4yMzg1OCAxIDEgMy4yMzg1OCAxIDZDMSA4Ljc2MTQyIDMuMjM4NTggMTEgNiAxMUM4Ljc2MTQyIDExIDExIDguNzYxNDIgMTEgNkMxMSAzLjIzODU4IDguNzYxNDIgMSA2IDFaTTguNDk1MTIgMi41NzAzMUw4LjI5MTAyIDRIOVY1SDguMTQ4NDRMNy44NjIzIDdIOC41VjhINy43MTk3M0w3LjQ5NTEyIDkuNTcwMzFMNi41MDQ4OCA5LjQyOTY5TDYuNzA4OTggOEg0LjcxOTczTDQuNDk1MTIgOS41NzAzMUwzLjUwNDg4IDkuNDI5NjlMMy43MDg5OCA4SDNWN0gzLjg1MTU2TDQuMTM3NyA1SDMuNVY0SDQuMjgwMjdMNC41MDQ4OCAyLjQyOTY5TDUuNDk1MTIgMi41NzAzMUw1LjI5MTAyIDRINy4yODAyN0w3LjUwNDg4IDIuNDI5NjlMOC40OTUxMiAyLjU3MDMxWk00Ljg2MjMgN0g2Ljg1MTU2TDcuMTM3NyA1SDUuMTQ4NDRMNC44NjIzIDdaIiBmaWxsPSIjNjY2NjY2Ii8+Cjwvc3ZnPgo=) - https://lucide.dev/icons/pound
+ * @see https://lucide.dev/guide/packages/lucide-svelte - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Svelte component
+ * 
+ */
+</script>
+
+<Icon name="pound" {...props} iconNode={iconNode}>
+  {@render props.children?.()}
+</Icon>

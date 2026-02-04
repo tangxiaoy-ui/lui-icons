@@ -1,0 +1,14 @@
+import { LucideIconData } from './types';
+/**
+ * @component @name Question
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNiAwQzkuMzEzNzEgMCAxMiAyLjY4NjI5IDEyIDZDMTIgOS4zMTM3MSA5LjMxMzcxIDEyIDYgMTJDMi42ODYyOSAxMiAwIDkuMzEzNzEgMCA2QzAgMi42ODYyOSAyLjY4NjI5IDAgNiAwWk02IDFDMy4yMzg1OCAxIDEgMy4yMzg1OCAxIDZDMSA4Ljc2MTQyIDMuMjM4NTggMTEgNiAxMUM4Ljc2MTQyIDExIDExIDguNzYxNDIgMTEgNkMxMSAzLjIzODU4IDguNzYxNDIgMSA2IDFaTTYuNSA5LjVINS41VjhINi41VjkuNVpNNiAyLjVDNy4wNzkzMSAyLjUwMDAxIDcuOTUzODYgMy4zNzQ4NCA3Ljk1NDEgNC40NTQxQzcuOTU0MSA1LjMzNzI5IDcuMzY4NjkgNi4wODM5NSA2LjU2NDQ1IDYuMzI2MTdMNi41IDYuMzQxOFY3LjVINS41VjUuNDA5MThINkM2LjUyNzE3IDUuNDA5MTcgNi45NTQxIDQuOTgxMjggNi45NTQxIDQuNDU0MUM2Ljk1Mzg2IDMuOTI3MTMgNi41MjcwMyAzLjUwMDAxIDYgMy41QzUuNTEwNjIgMy41IDUuMTA3MDkgMy44NjgyNSA1LjA1MTc2IDQuMzQyNzdMNS4wNDU5IDQuNDU0MUg0LjA0NTlDNC4wNDYxNCAzLjM3NDg0IDQuOTIwNjggMi41IDYgMi41WiIgZmlsbD0iIzY2NjY2NiIvPgo8L3N2Zz4K) - https://lucide.dev/icons/question
+ * @see https://lucide.dev/guide/packages/lucide-vue-next - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Vue component
+ *
+ */
+declare const Question: LucideIconData;
+export default Question;

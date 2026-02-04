@@ -1,0 +1,48 @@
+/**
+ * @license lui-icon-svelte-legacy v0.0.1 - ISC
+ *
+ * ISC License
+ * 
+ * Copyright (c) 2024, Tubiao Contributors
+ * 
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ * 
+ */
+import { SvelteComponentTyped } from "svelte";
+import type { IconProps } from '../types.js';
+declare const __propDef: {
+    props: IconProps;
+    events: {
+        [evt: string]: CustomEvent<any>;
+    };
+    slots: {
+        default: {};
+    };
+};
+export type UnlikeProps = typeof __propDef.props;
+export type UnlikeEvents = typeof __propDef.events;
+export type UnlikeSlots = typeof __propDef.slots;
+/**
+ * @component @name Unlike
+ * @description Lucide SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTAuNTAyIDBDMTEuMzMwNCAwIDEyLjAwMiAwLjY3MTU3MyAxMi4wMDIgMS41VjYuNUMxMi4wMDIgNy4zMjg0MyAxMS4zMzA0IDggMTAuNTAyIDhIOS43MjA3TDkuNTc5MSA4LjE1MzMyQzkuMjEzNzEgOC41NjQzMyA4Ljg5NzAyIDguOTg1MzUgOC42Mjk4OCA5LjQxNjk5TDguNDM5NDUgOS43NDMxNkM4LjIzMDIgMTAuMTE5OCA4LjA3MzYyIDEwLjQ4MzkgNy45NzA3IDEwLjgzNTlDNy43NjkxOCAxMS41MjU1IDcuMTM3MzQgMTEuOTk5OSA2LjQxODk1IDEyQzUuNjEwMDcgMTIgNC45NTQwOSAxMS4zNDQgNC45NTQxIDEwLjUzODFMNC45NTk5NiAxMC4yMjE3QzQuOTY3NyAxMC4wMTM0IDQuOTgyNzggOS44MTAyOCA1LjAwNDg4IDkuNjExMzNDNS4wNTU4NCA5LjE1MjgyIDUuMTY2MzIgOC42MTY0MSA1LjMzNDk2IDhIMi42MjAxMkMxLjIzOTQxIDggMC4xMjAxMTcgNi44ODA3MSAwLjEyMDExNyA1LjVDMC4xMjAxMTcgNS4yOTA5MiAwLjE0NjM5OCA1LjA4MjQ0IDAuMTk4MjQyIDQuODc5ODhMMC45NjU4MiAxLjg3OTg4QzEuMjQ5MDMgMC43NzM3MzYgMi4yNDU4NyA3LjE5Mzg1ZS0wNSAzLjM4NzcgMEgxMC41MDJaTTMuMzg3NyAxQzIuNzAyNjIgMS4wMDAwNyAyLjEwNDQ4IDEuNDY0MjUgMS45MzQ1NyAyLjEyNzkzTDEuMTY2OTkgNS4xMjc5M0MxLjEzNTg5IDUuMjQ5NDYgMS4xMjAxMiA1LjM3NDU1IDEuMTIwMTIgNS41QzEuMTIwMTIgNi4zMjg0MyAxLjc5MTY5IDcgMi42MjAxMiA3SDUuMzM2OTFDNS40MjQ4NSA3LjAwMDE3IDUuNTEyOCA3LjAxMjEgNS41OTc2NiA3LjAzNTE2QzYuMTMwMzcgNy4xODAxNyA2LjQ0NDk4IDcuNzI5NTEgNi4yOTk4IDguMjYyN0M2LjE0MzgyIDguODMyODEgNi4wNDM2NSA5LjMyMDE0IDUuOTk5MDIgOS43MjE2OEM1Ljk2OTg5IDkuOTgzODcgNS45NTQ4OCAxMC4yNTUzIDUuOTU0MSAxMC41MzAzTDUuOTYxOTEgMTAuNjE1MkM2LjAwMTQgMTAuODM1NyA2LjE5MDk4IDExIDYuNDE4OTUgMTFDNi42OTMxIDEwLjk5OTkgNi45MzQ4MSAxMC44MTg4IDcuMDExNzIgMTAuNTU1N0M3LjEzNjI5IDEwLjEyOTUgNy4zMjAyNyA5LjY5NjM2IDcuNTY0NDUgOS4yNTY4NEM3Ljk0MTIxIDguNTc4NjggOC40MjA4NSA3LjkyODQ2IDkgNy4zMDQ2OVYxSDMuMzg3N1pNMTAgN0gxMC41MDJDMTAuNzc4MSA3IDExLjAwMiA2Ljc3NjE0IDExLjAwMiA2LjVWMS41QzExLjAwMiAxLjIyMzg2IDEwLjc3ODEgMSAxMC41MDIgMUgxMFY3WiIgZmlsbD0iIzY2NjY2NiIvPgo8L3N2Zz4K) - https://lucide.dev/icons/unlike
+ * @see https://lucide.dev/guide/packages/lucide-svelte - Documentation
+ *
+ * @param {Object} props - Lucide icons props and any valid SVG attribute
+ * @returns {FunctionalComponent} Svelte component
+ *
+ */
+export default class Unlike extends SvelteComponentTyped<UnlikeProps, UnlikeEvents, UnlikeSlots> {
+}
+export {};
